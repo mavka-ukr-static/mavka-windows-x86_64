@@ -1,0 +1,7772 @@
+; ModuleID = '/home/runner/work/mavka/mavka/мавка/мавка.ц'
+source_filename = "/home/runner/work/mavka/mavka/\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0/\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0.\D1\86"
+
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D0\BD\D0\A0\D0\BE\D0\B7\D0\BC\D1\96\D1\80\D1\96\D0\B2\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D1\96\D0\B2\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B8" = type { i64, i64, i64, i64, i64, i64, ptr, ptr, i64 }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0" = type { %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.7", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.8", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.9", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.10", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", i64, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr, ptr, ptr, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80.11", ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2" = type { %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8" }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8" = type { ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" = type { ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80" = type { ptr, i64, i64, i64, ptr, i64 }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.7" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.8" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.9" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.10" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80.11" = type { i64, ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.3" = type { i64, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = type { i64, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87" = type { %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr, %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" = type { ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" = type { i64, i64, i64 }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = type { ptr, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\94\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83" = type { ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = type { ptr, i64 }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97" = type { ptr, ptr, ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83" = type { ptr, i64, ptr, i64, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = type { ptr, i64, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\86\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\97\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = type { ptr, i64, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = type { ptr, i64 }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" = type { ptr, i64, ptr, double }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83" = type { ptr, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83" = type { ptr, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" = type { i64, ptr, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" = type { ptr, ptr }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F" = type { ptr, i64, i64 }
+%"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97" = type { ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97" = type { ptr, i64, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr, ptr, ptr, ptr }
+%"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80" = type { i64, ptr, ptr }
+
+@0 = private constant [30 x i8] c"\D0\9F\D0\A0\D0\98\D0\A7\D0\98\D0\9D\D0\90 \D0\A1\D0\9C\D0\95\D0\A0\D0\A2\D0\86: \00"
+@1 = private constant [12 x i8] c"./\D0\BF\D0\B0\D0\BA\D0\B8/\00"
+@2 = private constant [2 x i8] c"/\00"
+@3 = private constant [2 x i8] c"/\00"
+@4 = private constant [4 x i8] c".\D0\BC\00"
+@5 = private constant [50 x i8] c"\D0\9D\D0\B5 \D0\B2\D0\B4\D0\B0\D0\BB\D0\BE\D1\81\D1\8F \D0\BF\D1\80\D0\BE\D1\87\D0\B8\D1\82\D0\B0\D1\82\D0\B8 \D1\84\D0\B0\D0\B9\D0\BB \22\00"
+@6 = private constant [2 x i8] c"\22\00"
+@7 = private constant [52 x i8] c"\D0\9D\D0\B5 \D0\B2\D0\B4\D0\B0\D0\BB\D0\BE\D1\81\D1\8F \D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8 \D0\BA\D0\BE\D0\BF\D1\96\D1\8E \D0\AE8\00"
+@8 = private constant [53 x i8] c"\D0\9D\D0\B5 \D0\B2\D0\B4\D0\B0\D0\BB\D0\BE\D1\81\D1\8F \D0\B7\D0\BD\D0\B0\D0\B9\D1\82\D0\B8 \D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C \D0\B1\D1\96\D0\B1\00"
+@9 = private constant [1 x i8] zeroinitializer
+@10 = private constant [8 x i8] c"\D0\94\D0\9C://\00"
+@11 = private constant [8 x i8] c"\D0\94\D0\9C://\00"
+@12 = private constant [52 x i8] c"\D0\9D\D0\B5 \D0\B2\D0\B4\D0\B0\D0\BB\D0\BE\D1\81\D1\8F \D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8 \D0\BA\D0\BE\D0\BF\D1\96\D1\8E \D0\AE8\00"
+@13 = private constant [52 x i8] c"\D0\9D\D0\B5 \D0\B2\D0\B4\D0\B0\D0\BB\D0\BE\D1\81\D1\8F \D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8 \D0\BA\D0\BE\D0\BF\D1\96\D1\8E \D0\AE8\00"
+@14 = private constant [8 x i8] c"\D0\94\D0\9C://\00"
+@15 = private constant [25 x i8] c"\D0\94\D1\96\D0\B0\D0\BB\D0\BE\D0\B3 \D0\9C\D0\B0\D0\B2\D0\BA\D0\B8 \00"
+@16 = private constant [2 x i8] c".\00"
+@17 = private constant [2 x i8] c".\00"
+@18 = private constant [2 x i8] c"\0A\00"
+@19 = private constant [56 x i8] c"\D0\9D\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE \D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8 \D0\AE32 \D0\B2 \D0\AE8\00"
+@20 = private constant [74 x i8] c"\D0\9D\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE \D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8 \D0\BA\D0\BE\D0\BF\D1\96\D1\8E \D1\88\D0\BB\D1\8F\D1\85\D1\83 \D0\B4\D0\BE \D1\84\D0\B0\D0\B9\D0\BB\D1\83\00"
+
+declare dso_local i1 @"\D0\9A\D0\94::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_\D0\9A\D0\94_\D0\B7_\D0\AE32"(i32, ptr)
+
+declare dso_local i8 @"\D0\9A\D0\94::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_\D0\AE_\D0\B7_\D0\9A\D0\94"(i8, ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9A\D0\94::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\B7_\D0\AE8"(ptr, i64, ptr)
+
+declare dso_local i64 @"\D0\9A\D0\94::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\B2_\D0\AE8"(ptr, i64, ptr)
+
+declare dso_local i8 @"\D0\9A\D0\94::\D0\B4\D1\96\D0\B7\D0\BD\D0\B0\D1\82\D0\B8\D1\81\D1\8C_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB\D0\B0_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(i8)
+
+declare dso_local %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D0\BD\D0\A0\D0\BE\D0\B7\D0\BC\D1\96\D1\80\D1\96\D0\B2\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D1\96\D0\B2\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B8" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B3\D1\82\D0\B8_\D0\A1\D0\A0\D0\9D\D0\9C"(ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D1\96\D0\B4\D0\BD\D0\BE\D0\B2\D0\B8\D1\82\D0\B8_\D0\A1\D0\A0\D0\9D\D0\9C"(ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D0\BD\D0\A0\D0\BE\D0\B7\D0\BC\D1\96\D1\80\D1\96\D0\B2\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D1\96\D0\B2\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B8")
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\9A\D0\94"(ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE32"(ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D1\96\D0\B2\D0\BD\D1\8F\D1\82\D0\B8_\D0\9A\D0\94"(ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D1\96\D0\B2\D0\BD\D1\8F\D1\82\D0\B8_\D0\AE8"(ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D1\96\D0\B2\D0\BD\D1\8F\D1\82\D0\B8_\D0\AE32"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE8"(ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\B464_\D0\B2_\D0\AE8"(ptr, double, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\BF64_\D0\B2_\D1\8E8"(ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\BF64"(ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BF64"(ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\B464"(ptr, double)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\B464"(ptr, double)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D1\8E8_\D1\80\D1\96\D0\B2\D0\BD\D1\96"(ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr, ptr, i64, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\9A\D0\94"(ptr, ptr, i64, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\AE8"(ptr, ptr, i64, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\AE32"(ptr, ptr, i64, ptr)
+
+declare dso_local i8 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B4\D1\96\D0\B7\D0\BD\D0\B0\D1\82\D0\B8\D1\81\D1\8C_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB\D0\B0_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(i8)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE8_\D0\B2_\D0\AE32"(ptr, ptr, i64, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE32_\D0\B2_\D0\AE8"(ptr, ptr, i64, ptr)
+
+define internal double @"\D0\9C\D0\B0\D0\9C\D0\B0::fmod"(double %0, double %1) {
+alloca:
+  %return1 = alloca double, align 8
+  %a = alloca double, align 8
+  %b = alloca double, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store double %0, ptr %a, align 8
+  store double %1, ptr %b, align 8
+  %load2 = load double, ptr %a, align 8
+  %load3 = load double, ptr %a, align 8
+  %load4 = load double, ptr %b, align 8
+  %inst = fdiv double %load3, %load4
+  %load5 = load double, ptr %b, align 8
+  %inst2 = fmul double %inst, %load5
+  %inst3 = fsub double %load2, %inst2
+  store double %inst3, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1 = load double, ptr %return1, align 8
+  ret double %load1
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load6 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load6, i32 0, i32 1
+  %inst1 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 2
+  %load7 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load8 = load ptr, ptr %inst1, align 8
+  %load9 = load ptr, ptr %"\D0\9C", align 8
+  call void %load8(ptr %load9, ptr %load7)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BF\D0\BE\D0\B2\D1\96\D0\B4\D0\BE\D0\BC\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\BF\D0\BE\D0\B2\D1\96\D0\B4\D0\BE\D0\BC\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load10 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %load10, ptr @0)
+  %load11 = load ptr, ptr %"\D0\9C", align 8
+  %load12 = load ptr, ptr %"\D0\BF\D0\BE\D0\B2\D1\96\D0\B4\D0\BE\D0\BC\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE8"(ptr %load11, ptr %load12)
+  %load13 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load13, i32 0, i32 39
+  %load14 = load ptr, ptr %inst, align 8
+  %load15 = load ptr, ptr %"\D0\9C", align 8
+  call void %load14(ptr %load15, i32 1)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\BB\D0\B0\D1\88\D1\82\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D1\83"(ptr, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0")
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D0\BE\D0\B7\D0\BB\D0\B0\D1\88\D1\82\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D1\83"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr, ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4_\D0\B2_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D1\96"(ptr, ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\81\D1\82\D0\B0\D0\BD\D1\82\D1\83"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B7\D1\8F\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C"(ptr, ptr, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6")
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B7\D1\8F\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\B7\D0\B0_\D1\88\D0\BB\D1\8F\D1\85\D0\BE\D0\BC"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B7\D1\8F\D1\82\D0\B8_\D0\B1\D1\96\D0\B1"(ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6")
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D1\82\D0\B8\D0\BC\D1\87\D0\B0\D1\81\D0\BE\D0\B2\D0\B5_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B0\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D1\82\D0\B8\D0\BC\D1\87\D0\B0\D1\81\D0\BE\D0\B2\D0\B5_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B3\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B6\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D1\96"(ptr, ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B7_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B0"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BD\D0\B0\D0\B9\D1\82\D0\B8_\D0\B2_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BD\D0\B0\D0\B9\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\B2_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\B7_\D0\AE8"(ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8_\D0\B7_\D1\8E8"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\9F\D1\83\D1\81\D1\82\D0\BE"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\A2\D0\B0\D0\BA"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\9D\D1\96"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\9A\D0\BE\D0\BD\D1\81\D1\82\D0\B0\D0\BD\D1\82\D1\83"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8\D0\94\D1\96\D1\8E"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8\D0\9C\D0\BE\D0\B4\D1\83\D0\BB\D1\8C"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8\D0\A1\D0\BF\D0\B8\D1\81\D0\BE\D0\BA"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\92\D0\A1\D0\BF\D0\B8\D1\81\D0\BE\D0\BA"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8\D0\A1\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\92\D0\A1\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\AF"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B0\D0\BF\D0\B8\D1\81\D0\B0\D1\82\D0\B8\D0\9C\D0\B5\D1\82\D0\BE\D0\B4"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B2\D0\B5\D1\80\D0\BD\D1\83\D1\82\D0\B8\D1\81\D1\8C"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8\D0\97\D0\9D\D0\B0\D0\B7\D0\B2\D0\B0\D0\BC\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9E\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\92\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8\D0\92\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8\D0\92\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8\D0\92\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C\D0\97\D0\9D\D0\B0\D0\B7\D0\B2\D0\B0\D0\BC\D0\B8"(ptr, ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9E\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9E\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\9F\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8\D0\97\D0\B7\D0\BE\D0\B2\D0\BD\D1\96"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8\D0\97\D0\9F\D1\80\D0\B5\D0\B4\D0\BA\D0\B0"(ptr, ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8\D0\97\D0\9F\D1\80\D0\B5\D0\B4\D0\BA\D0\B0\D0\97\D0\9D\D0\B0\D0\B7\D0\B2\D0\B0\D0\BC\D0\B8"(ptr, ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8\D0\92\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9E\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\9E\D1\81\D1\82\D0\B0\D1\87\D1\83\D0\94\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9E\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\9D\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D1\83\D0\A7\D0\B0\D1\81\D1\82\D0\BA\D1\83\D0\94\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8\D0\94\D0\BE\D0\A1\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8\D0\92\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8\D0\92\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8\D0\92\D0\BF\D1\80\D0\B0\D0\B2\D0\BE\D0\97\D1\96\D0\97\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5\D0\86"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5\D0\90\D0\91\D0\9E"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5\D0\92\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5\D0\90\D0\91\D0\9E"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5\D0\9D\D0\95"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9C\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\91\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9D\D0\B5\D0\91\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9D\D0\B5\D0\9C\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A0\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9D\D0\B5\D0\A0\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9C\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9D\D0\B5\D0\9C\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\84"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9D\D0\B5\D0\84"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A7\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8\D0\9F\D0\BE\D0\BF\D0\B5\D1\80\D0\B5\D0\B4\D0\BD\D1\94"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D1\87\D0\B0\D1\82\D0\B8\D0\A1\D0\BF\D1\80\D0\BE\D0\B1\D1\83"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D1\87\D0\B0\D1\82\D0\B8\D0\A1\D0\BF\D1\80\D0\BE\D0\B1\D1\83\D0\97\D0\9D\D0\B0\D0\B7\D0\B2\D0\BE\D1\8E"(ptr, ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\B5\D1\80\D0\B5\D0\B1\D1\80\D0\B0\D1\82\D0\B8\D0\94\D0\B0\D0\BB\D1\96"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\BF\D0\B0\D1\81\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B0\D0\BA\D1\96\D0\BD\D1\87\D0\B8\D1\82\D0\B8\D0\A1\D0\BF\D1\80\D0\BE\D0\B1\D1\83"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B7\D1\8F\D1\82\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D0\B0\D1\82\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D0\90\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2\D0\97\D0\9D\D0\B0\D0\B7\D0\B2\D0\B0\D0\BC\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B0\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83\D0\B2\D0\B0\D1\82\D0\B8\D0\90\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\97\D0\9D\D0\B0\D0\B7\D0\B2\D0\BE\D1\8E"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9F\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D0\9F\D0\B0\D1\80\D0\B0\D0\BC\D0\B5\D1\82\D1\80\D1\96\D0\B2"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B0\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83\D0\B2\D0\B0\D1\82\D0\B8\D0\9F\D0\B0\D1\80\D0\B0\D0\BC\D0\B5\D1\82\D1\80"(ptr, ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A2\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\9A\D0\BE\D0\B4"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D0\B8\D1\82\D0\B8\D0\9D\D0\B0\D0\B7\D0\B2\D1\83"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A2\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8\D0\9D\D0\B0\D0\B7\D0\B2\D1\83"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D1\80\D0\B8\D0\B1\D0\BD\D1\83\D1\82\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D1\80\D0\B8\D0\B1\D0\BD\D1\83\D1\82\D0\B8\D0\AF\D0\BA\D1\89\D0\BE\D0\9D\D1\96"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D1\80\D0\B8\D0\B1\D0\BD\D1\83\D1\82\D0\B8\D0\AF\D0\BA\D1\89\D0\BE\D0\9D\D1\96\D0\97\D0\B0\D0\BB\D0\B8\D1\88\D0\B8\D0\B2\D1\88\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D1\80\D0\B8\D0\B1\D0\BD\D1\83\D1\82\D0\B8\D0\AF\D0\BA\D1\89\D0\BE\D0\A2\D0\B0\D0\BA"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\A1\D1\82\D1\80\D0\B8\D0\B1\D0\BD\D1\83\D1\82\D0\B8\D0\AF\D0\BA\D1\89\D0\BE\D0\A2\D0\B0\D0\BA\D0\97\D0\B0\D0\BB\D0\B8\D1\88\D0\B8\D0\B2\D1\88\D0\B8"(ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D1\83\D0\B1\D0\BB\D1\8E\D0\B2\D0\B0\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\94\D1\83\D0\B1\D0\BB\D1\8E\D0\B2\D0\B0\D1\82\D0\B8\D0\9F\D0\BE\D0\BF\D0\B5\D1\80\D0\B5\D0\B4\D0\BD\D1\94"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\97\D0\B0\D0\B1\D1\80\D0\B0\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\92\D0\B5\D1\80\D0\BD\D1\83\D1\82\D0\B8"(ptr, ptr, i64)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4_\D0\B4\D0\BE_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97"(ptr, ptr, ptr, ptr, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.3")
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr, double)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE"(ptr, i1)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr, i64)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D1\83_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D1\83_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94"(ptr, ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D1\80\D0\B0\D0\B6\D0\B0\D1\94\D1\82\D1\8C\D1\81\D1\8F_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\B8\D0\BC_\D1\82\D0\B0\D0\BA"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B4\D0\BE\D1\81\D1\82\D1\83\D0\BF\D0\BD\D0\B8\D0\B9_\D0\B4\D0\BB\D1\8F_\D0\BD\D0\B0\D1\81\D0\BB\D1\96\D0\B4\D1\83\D0\B2\D0\B0\D0\BD\D0\BD\D1\8F"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\B4\D1\96\D1\94\D1\8E"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\8E_\D0\B4\D1\96\D1\94\D1\8E"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D0\BE\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D0\BE\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D0\B5\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D0\BE\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\BE\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\B8\D0\BC"(ptr, ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\B1\D0\B0\D0\B9\D1\82\D0\B0\D0\BC\D0\B8"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D0\B0\D1\82\D0\B8_\D0\B2_\D0\B1\D0\B0\D0\B9\D1\82\D0\B8"(ptr, ptr, ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\8F\D0\BA_\D0\AE8"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr, ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr, ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D1\83\D0\B2\D0\B0\D1\82\D0\B8"(ptr)
+
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8_\D1\80\D1\96\D0\B2\D0\BD\D1\96"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\B7\D0\B2\D1\83"(ptr, i64, ptr)
+
+declare dso_local %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\B1\D0\B0\D0\B7\D1\83_\D0\BD\D0\B0\D0\B7\D0\B2"(ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\BD\D0\B0\D0\B7\D0\B2\D1\83_\D0\B7_\D1\8E8"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BD\D0\B0\D0\B9\D1\82\D0\B8_\D0\B0\D0\B1\D0\BE_\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\B9_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\BD\D0\B0\D0\B7\D0\B2\D1\83_\D0\B7_\D1\8E8"(ptr, ptr, ptr)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\B4\D0\BE_\D0\BA\D0\BE\D0\B4\D1\83"(ptr, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\B4\D0\BE_\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\BE\D0\BC"(ptr, i64, i64, i64)
+
+declare dso_local i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D1\83_\D0\B4\D0\BE_\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D0\B4\D0\B2\D0\BE\D0\BC\D0\B0_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0\D0\BC\D0\B8"(ptr, i64, i64, i64, i64)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BD\D0\B0\D0\B9\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D0\B8"(ptr, i64)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr)
+
+declare dso_local %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D1\83\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80"(ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8"(ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D1\80\D0\B0\D0\BC\D0\B5\D1\82\D1\80\D0\B8"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4\D0\B8"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D0\BF\D0\B0\D1\80\D0\B0\D0\BC\D0\B5\D1\82\D1\80\D1\96\D0\B2"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D1\96\D1\97"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\BE\D0\B3\D0\BE"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\81\D0\BA\D0\BB\D0\B0\D0\B4\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr, ptr)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr, ptr, i64)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F_\D0\B7_\D0\B2\D0\BA\D0\B0\D0\B7\D1\96\D0\B2\D0\BA\D0\B8_\D0\B0\D0\B1\D0\BE_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr, ptr, i64)
+
+declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\B2\D1\96\D1\80\D0\BD\D0\B8\D0\B9_\D1\82\D0\B8\D0\BF_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0"(ptr, ptr, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.3", ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C_\D0\B7_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C_\D0\B2_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C_\D0\B7_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8_\D0\B4\D0\BE_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8_\D0\B2\D1\96\D0\B4_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B2\D1\96\D0\B4_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B2\D1\96\D0\B4_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\BA\D1\83_\D0\BD\D0\B0_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\BA\D1\83_\D0\BD\D0\B0_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\BA\D1\83_\D1\87\D0\B8_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B4\D0\BB\D1\8F_\D0\BF\D1\83\D1\81\D1\82\D0\BE"(ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8E_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0"(ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BF\D1\80\D0\BE\D0\BF\D1\83\D1\89\D0\B5\D0\BD\D0\BE_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr)
+
+define internal i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B8_\D1\80\D1\96\D0\B2\D0\BD\D1\96"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\821" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\822" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96" = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\821", align 8
+  store ptr %1, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\822", align 8
+  store ptr %2, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  %load17 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store ptr %load17, ptr %"\D0\9C", align 8
+  %load18 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\821", align 8
+  %load19 = load ptr, ptr %"\D0\9C", align 8
+  %load20 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\822", align 8
+  %inst = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr %load18, ptr %load19, ptr %load20)
+  store i1 %inst, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load16 = load i1, ptr %return1, align 1
+  ret i1 %load16
+}
+
+define internal %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %0) {
+alloca:
+  %return1 = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %"\D0\9C" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  %load24 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %load24)
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load21 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %return1, align 8
+  ret %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load21
+}
+
+define internal %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %0) {
+alloca:
+  %return1 = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", i32 0, i32 0
+  store i64 0, ptr %inst, align 4
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", i32 0, i32 1
+  store ptr null, ptr %inst2, align 8
+  %load23 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load23, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load22 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %return1, align 8
+  ret %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load22
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B1\D1\83\D1\84\D0\B5\D1\80" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\85" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  store ptr %2, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 0, ptr %"\D1\85", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit
+  ret void
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load25 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load26 = load i64, ptr %"\D1\85", align 4
+  %inst = getelementptr i8, ptr %load25, i64 %load26
+  %load27 = load i8, ptr %inst, align 1
+  %inst1 = icmp ne i8 %load27, 0
+  br i1 %inst1, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %load48 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load49 = load i64, ptr %"\D1\85", align 4
+  %inst2 = getelementptr i8, ptr %load48, i64 %load49
+  %load50 = load ptr, ptr %"\D0\9C", align 8
+  %load51 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %load52 = load i8, ptr %inst2, align 1
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %load50, ptr %load51, i8 %load52)
+  %load53 = load i64, ptr %"\D1\85", align 4
+  %inst3 = add i64 %load53, 1
+  store i64 %inst3, ptr %"\D1\85", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  br label %return
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %0, ptr %1, i8 %2) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96" = alloca i8, align 1
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  store i8 %2, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 1
+  %load34 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load34, i32 0, i32 1
+  %load35 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst1 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load35, i32 0, i32 0
+  %load36 = load i64, ptr %inst1, align 4
+  %inst2 = add i64 %load36, 1
+  %load37 = load ptr, ptr %"\D0\9C", align 8
+  %load38 = load ptr, ptr %inst, align 8
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %load37, ptr %load38, i64 %inst2)
+  %load39 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load39, i32 0, i32 1
+  store ptr %inst3, ptr %inst4, align 8
+  %load40 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load40, i32 0, i32 1
+  %load41 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load41, i32 0, i32 0
+  %load42 = load ptr, ptr %inst5, align 8
+  %load43 = load i64, ptr %inst6, align 4
+  %inst7 = getelementptr i8, ptr %load42, i64 %load43
+  %load44 = load i8, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 1
+  store i8 %load44, ptr %inst7, align 1
+  %load45 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load45, i32 0, i32 0
+  %load46 = load i64, ptr %inst8, align 4
+  %inst9 = add i64 %load46, 1
+  %load47 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load47, i32 0, i32 0
+  store i64 %inst9, ptr %inst10, align 4
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load29 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load29, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 1
+  %load30 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load31 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load31, 1
+  %load32 = load ptr, ptr %inst2, align 8
+  %load33 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load32(ptr %load33, ptr %load30, i64 %inst3)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load28 = load ptr, ptr %return1, align 8
+  ret ptr %load28
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D0\BD\D0\BD\D1\94_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B7_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B1\D1\83\D1\84\D0\B5\D1\80" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %load54 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load54, i32 0, i32 0
+  %load55 = load i64, ptr %inst, align 4
+  %inst1 = sub i64 %load55, 1
+  %load56 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load56, i32 0, i32 0
+  store i64 %inst1, ptr %inst2, align 4
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %0, ptr %1, i8 %2) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B1\D1\83\D1\84\D0\B5\D1\80" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca i8, align 1
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  store i8 %2, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 1
+  %load57 = load ptr, ptr %"\D0\9C", align 8
+  %load58 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %load59 = load i8, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 1
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %load57, ptr %load58, i8 %load59)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %0, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B1\D1\83\D1\84\D0\B5\D1\80" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %1, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %load62 = load ptr, ptr %"\D0\9C", align 8
+  %load63 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0"(ptr %load62, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load63)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0"(ptr %0, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %1, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", i32 0, i32 1
+  %load60 = load ptr, ptr %inst, align 8
+  %load61 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load61, ptr %load60)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B1\D1\83\D1\84\D0\B5\D1\80" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\85" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %load74 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load74, i32 0, i32 0
+  %load75 = load i64, ptr %inst, align 4
+  %inst2 = add i64 %load75, 1
+  %load76 = load ptr, ptr %"\D0\9C", align 8
+  %load77 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %load77, i64 %inst2)
+  store ptr %inst3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 0, ptr %"\D1\85", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit, %while_body_exit
+  %load64 = load ptr, ptr %return1, align 8
+  ret ptr %load64
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load78 = load i64, ptr %"\D1\85", align 4
+  %load79 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load79, i32 0, i32 0
+  %load80 = load i64, ptr %inst4, align 4
+  %inst5 = icmp ult i64 %load78, %load80
+  br i1 %inst5, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %load81 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load81, i32 0, i32 1
+  %load82 = load ptr, ptr %inst6, align 8
+  %load83 = load i64, ptr %"\D1\85", align 4
+  %inst7 = getelementptr i8, ptr %load82, i64 %load83
+  %load84 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load85 = load i64, ptr %"\D1\85", align 4
+  %inst8 = getelementptr i8, ptr %load84, i64 %load85
+  %load86 = load i8, ptr %inst7, align 1
+  store i8 %load86, ptr %inst8, align 1
+  %load87 = load i64, ptr %"\D1\85", align 4
+  %inst9 = add i64 %load87, 1
+  store i64 %inst9, ptr %"\D1\85", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load88 = load ptr, ptr %"\D0\B1\D1\83\D1\84\D0\B5\D1\80", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %load88, i32 0, i32 0
+  %load89 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load90 = load i64, ptr %inst10, align 4
+  %inst11 = getelementptr i8, ptr %load89, i64 %load90
+  store i8 0, ptr %inst11, align 1
+  %load91 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load91, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  %load66 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load66, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
+  %load67 = load ptr, ptr %inst2, align 8
+  %load68 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr %load67(ptr %load68, i64 1)
+  store ptr %inst3, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load65 = load ptr, ptr %return1, align 8
+  ret ptr %load65
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load70 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load70, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
+  %load71 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load71, 1
+  %load72 = load ptr, ptr %inst2, align 8
+  %load73 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load72(ptr %load73, i64 %inst3)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load69 = load ptr, ptr %return1, align 8
+  ret ptr %load69
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load95 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load95, i32 0, i32 1
+  %load96 = load ptr, ptr %inst, align 8
+  %load97 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load98 = load ptr, ptr %inst, align 8
+  %load99 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %load98, i64 %load99)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load94 = load ptr, ptr %return1, align 8
+  ret ptr %load94
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load101 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load101, i32 0, i32 1
+  %load102 = load ptr, ptr %inst, align 8
+  %load103 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load104 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %load102, ptr %load103, i64 %load104)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load100 = load ptr, ptr %return1, align 8
+  ret ptr %load100
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load105 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load105, i32 0, i32 1
+  %load106 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load107 = load ptr, ptr %inst, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load107, ptr %load106)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load92 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load93 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load93, ptr %load92)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C", align 8
+  %load333 = load ptr, ptr %"\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C", align 8
+  %inst = call ptr %load333(i64 104)
+  store ptr %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load332 = load ptr, ptr %return1, align 8
+  ret ptr %load332
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D0\BB\D0\B0\D1\88\D1\82\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87"(ptr %0, %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" %1, %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" %2) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B5\D1\80\D1\81\D1\96\D1\8F_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %"\D1\81\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", align 8
+  %construct = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" %1, ptr %"\D0\B2\D0\B5\D1\80\D1\81\D1\96\D1\8F_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 4
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" %2, ptr %"\D1\81\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", align 8
+  %load346 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load346, i32 0, i32 0
+  %load347 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %"\D1\81\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" %load347, ptr %inst, align 8
+  %load348 = load ptr, ptr %"\D0\92", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load348, i32 0, i32 2
+  %load349 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %"\D0\B2\D0\B5\D1\80\D1\81\D1\96\D1\8F_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 4
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8" %load349, ptr %inst1, align 4
+  %load350 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load350, i32 0, i32 0
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst2, i32 0, i32 0
+  %load351 = load ptr, ptr %inst3, align 8
+  %load352 = load ptr, ptr %"\D0\92", align 8
+  %inst4 = call ptr %load351(ptr %load352, i64 1168)
+  %load353 = load ptr, ptr %"\D0\92", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load353, i32 0, i32 1
+  store ptr %inst4, ptr %inst5, align 8
+  %load354 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load354, i32 0, i32 1
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 0
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C", ptr %inst7, align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 1
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C", ptr %inst8, align 8
+  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 2
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C", ptr %inst9, align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 3
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8", ptr %inst10, align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 4
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8", ptr %inst11, align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 5
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D0\BE\D0\BC\D0\B5\D1\80\D1\82\D0\B8", ptr %inst12, align 8
+  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 6
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D1\96\D0\B4\D0\BB\D0\BE\D0\B3\D0\B0_\D0\B464", ptr %inst13, align 8
+  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 7
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F_\D0\B464", ptr %inst14, align 8
+  %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 8
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BD\D0\B5\D0\B3\D0\B0\D1\86\D1\96\D1\8F_\D0\B464", ptr %inst15, align 8
+  %inst16 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 9
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B0_\D0\BD\D0\B5\D0\B3\D0\B0\D1\86\D1\96\D1\8F_\D0\B464", ptr %inst16, align 8
+  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, i32 0, i32 10
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B464_\D0\B2_\D0\AE8", ptr %inst17, align 8
+  %load355 = load ptr, ptr %inst6, align 8
+  %load356 = load ptr, ptr %"\D0\92", align 8
+  %load357 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %construct, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\BB\D0\B0\D1\88\D1\82\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D1\83"(ptr %load355, ptr %load356, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0" %load357)
+  %load358 = load ptr, ptr %"\D0\92", align 8
+  %inst18 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load358, i32 0, i32 1
+  %load359 = load ptr, ptr %inst18, align 8
+  %inst19 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load359, i32 0, i32 18
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BE\D0\B1\D1\80\D0\BE\D0\B1\D0\BD\D0\B8\D0\BA_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D0\BD\D0\BD\D1\8F_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D0\B4\D0\BE_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", ptr %inst19, align 8
+  %load360 = load ptr, ptr %"\D0\92", align 8
+  %inst20 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load360, i32 0, i32 1
+  %load361 = load ptr, ptr %inst20, align 8
+  %inst21 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load361, i32 0, i32 19
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BE\D0\B1\D1\80\D0\BE\D0\B1\D0\BD\D0\B8\D0\BA_\D0\B2\D0\B7\D1\8F\D1\82\D1\82\D1\8F_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", ptr %inst21, align 8
+  %load362 = load ptr, ptr %"\D0\92", align 8
+  %inst22 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load362, i32 0, i32 1
+  %load363 = load ptr, ptr %inst22, align 8
+  %inst23 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load363, i32 0, i32 20
+  store ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BE\D0\B1\D1\80\D0\BE\D0\B1\D0\BD\D0\B8\D0\BA_\D0\B2\D0\B7\D1\8F\D1\82\D1\82\D1\8F_\D0\B1\D1\96\D0\B1", ptr %inst23, align 8
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\BE\D0\B7\D0\BB\D0\B0\D1\88\D1\82\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87"(ptr %0) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load364 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load364, i32 0, i32 1
+  %load365 = load ptr, ptr %inst, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D0\BE\D0\B7\D0\BB\D0\B0\D1\88\D1\82\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D1\83"(ptr %load365)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\BE\D1\87\D0\B0\D1\82\D0\B8_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3"(ptr %0) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load462 = load ptr, ptr %"\D0\92", align 8
+  %load463 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.3"(ptr %load463)
+  store ptr %inst, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  %load464 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\94\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", ptr %load464, i32 0, i32 0
+  %load465 = load ptr, ptr %"\D0\92", align 8
+  store ptr %load465, ptr %inst2, align 8
+  %load466 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load466, i32 0, i32 1
+  %load467 = load ptr, ptr %inst3, align 8
+  %inst4 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D1\82\D0\B8\D0\BC\D1\87\D0\B0\D1\81\D0\BE\D0\B2\D0\B5_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr %load467)
+  %load468 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\94\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", ptr %load468, i32 0, i32 1
+  store ptr %inst4, ptr %inst5, align 8
+  %load469 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %load469, ptr @15)
+  %load470 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load470, i32 0, i32 2
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %inst6, i32 0, i32 0
+  %load471 = load ptr, ptr %"\D0\92", align 8
+  %load472 = load i64, ptr %inst7, align 4
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\BF64"(ptr %load471, i64 %load472)
+  %load473 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %load473, ptr @16)
+  %load474 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load474, i32 0, i32 2
+  %inst9 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %inst8, i32 0, i32 1
+  %load475 = load ptr, ptr %"\D0\92", align 8
+  %load476 = load i64, ptr %inst9, align 4
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\BF64"(ptr %load475, i64 %load476)
+  %load477 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %load477, ptr @17)
+  %load478 = load ptr, ptr %"\D0\92", align 8
+  %inst10 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load478, i32 0, i32 2
+  %inst11 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B5\D1\80\D1\81\D1\96\D1\8F\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %inst10, i32 0, i32 2
+  %load479 = load ptr, ptr %"\D0\92", align 8
+  %load480 = load i64, ptr %inst11, align 4
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\BF64"(ptr %load479, i64 %load480)
+  %load481 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %load481, ptr @18)
+  %load482 = load ptr, ptr %"\D0\92", align 8
+  %inst12 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load482, i32 0, i32 0
+  %inst13 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst12, i32 0, i32 8
+  %load483 = load ptr, ptr %inst13, align 8
+  %load484 = load ptr, ptr %"\D0\92", align 8
+  %load485 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  call void %load483(ptr %load484, ptr %load485, ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8")
+  %load486 = load ptr, ptr %"\D0\92", align 8
+  %inst14 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load486, i32 0, i32 1
+  %load487 = load ptr, ptr %inst14, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B0\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D1\82\D0\B8\D0\BC\D1\87\D0\B0\D1\81\D0\BE\D0\B2\D0\B5_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5"(ptr %load487)
+  %load488 = load ptr, ptr %"\D0\92", align 8
+  %inst15 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load488, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst15, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load456 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load456
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B7\D1\8F\D1\82\D0\B8_\D1\84\D0\B0\D0\B9\D0\BB_\D0\AE8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F" = alloca ptr, align 8
+  %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\B8\D0\B9_\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\BE\D0\B3\D0\BE_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83" = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  store ptr %2, ptr %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  store ptr null, ptr %"\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\B8\D0\B9_\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  store i64 0, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\BE\D0\B3\D0\BE_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 4
+  %load490 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load490, i32 0, i32 0
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 6
+  %load491 = load ptr, ptr %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  %inst3 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load491)
+  %load492 = load ptr, ptr %inst2, align 8
+  %load493 = load ptr, ptr %"\D0\92", align 8
+  %load494 = load ptr, ptr %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  %inst4 = call i64 %load492(ptr %load493, ptr %load494, i64 %inst3, ptr %"\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\B8\D0\B9_\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\BE\D0\B3\D0\BE_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83")
+  %inst5 = icmp ne i64 %inst4, 0
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit15, %if_body_exit15, %if_body_exit21
+  %load489 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load489
+
+if_body:                                          ; preds = %entry
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load495 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load495, i32 0, i32 1
+  %load496 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load496, i32 0, i32 1
+  %load497 = load ptr, ptr %inst7, align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load497, i32 0, i32 17
+  %load498 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  %load499 = load ptr, ptr %inst6, align 8
+  %load500 = load ptr, ptr %inst8, align 8
+  %load501 = load ptr, ptr %"\D0\B2\D0\B8\D0\BF\D1\80\D0\B0\D0\B2\D0\BB\D0\B5\D0\BD\D0\B8\D0\B9_\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B7\D1\8F\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\B7\D0\B0_\D1\88\D0\BB\D1\8F\D1\85\D0\BE\D0\BC"(ptr %load499, ptr %load500, ptr %load498, ptr %load501)
+  store ptr %inst9, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  %load502 = load ptr, ptr %"\D0\92", align 8
+  %inst10 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load502, i32 0, i32 1
+  %load503 = load ptr, ptr %inst10, align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load503, i32 0, i32 14
+  %load504 = load i64, ptr %inst11, align 4
+  %inst12 = icmp eq i64 %load504, 1
+  br i1 %inst12, label %if_body13, label %if_body_else14
+
+if_body13:                                        ; preds = %if_body_exit
+  store ptr null, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load505 = load ptr, ptr %"\D0\92", align 8
+  %inst16 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load505, i32 0, i32 1
+  %load506 = load ptr, ptr %inst16, align 8
+  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load506, i32 0, i32 15
+  %load507 = load ptr, ptr %inst17, align 8
+  %inst18 = icmp ne ptr %load507, null
+  br i1 %inst18, label %if_body19, label %if_body_else20
+
+if_body_else14:                                   ; preds = %if_body_exit
+  br label %if_body_exit15
+
+if_body_exit15:                                   ; preds = %if_body_else14, %if_body_exit21
+  %load523 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  %load524 = load ptr, ptr %"\D0\92", align 8
+  %inst31 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load524, ptr %load523)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst31, ptr %return1, align 8
+  br label %return
+  br label %return
+
+if_body19:                                        ; preds = %if_body13
+  %load508 = load ptr, ptr %"\D0\92", align 8
+  %inst22 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load508, i32 0, i32 1
+  %load509 = load ptr, ptr %inst22, align 8
+  %inst23 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load509, i32 0, i32 15
+  %load510 = load ptr, ptr %inst23, align 8
+  %inst24 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load510, i32 0, i32 0
+  %load511 = load ptr, ptr %"\D0\92", align 8
+  %inst25 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load511, i32 0, i32 1
+  %load512 = load ptr, ptr %inst25, align 8
+  %inst26 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load512, i32 0, i32 15
+  %load513 = load ptr, ptr %inst26, align 8
+  %inst27 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load513, i32 0, i32 1
+  %load514 = load ptr, ptr %"\D0\92", align 8
+  %load515 = load ptr, ptr %inst24, align 8
+  %load516 = load i64, ptr %inst27, align 4
+  %inst28 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load514, ptr %load515, i64 %load516)
+  store ptr %inst28, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  br label %if_body_exit21
+
+if_body_else20:                                   ; preds = %if_body13
+  br label %if_body_exit21
+
+if_body_exit21:                                   ; preds = %if_body_else20, %if_body19
+  %load517 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  %load518 = load ptr, ptr %"\D0\92", align 8
+  %load519 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst29 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load518, ptr %load517, ptr %load519)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst29, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load520 = load ptr, ptr %"\D0\92", align 8
+  %inst30 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load520, i32 0, i32 1
+  %load521 = load ptr, ptr %inst30, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load521)
+  %load522 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load522, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit15
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D1\8E8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  br label %return
+
+return:                                           ; preds = %entry
+  %load525 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load525
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B3\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load526 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load526, i32 0, i32 1
+  %load527 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load528 = load ptr, ptr %inst, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B3\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %load528, ptr %load527)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B6\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %0) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load529 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load529, i32 0, i32 1
+  %load530 = load ptr, ptr %inst, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B7\D0\B1\D0\B5\D1\80\D0\B5\D0\B6\D0\B5\D0\BD\D0\B8\D0\B9_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %load530)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\B7_\D0\AE8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load532 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load532, i32 0, i32 1
+  %load533 = load ptr, ptr %inst, align 8
+  %load534 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\B7_\D0\AE8"(ptr %load533, ptr %load534)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load531 = load ptr, ptr %return1, align 8
+  ret ptr %load531
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\82\D0\B0\D0\BA"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load536 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load536, i32 0, i32 1
+  %load537 = load ptr, ptr %inst, align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load537, i32 0, i32 35
+  %load538 = load ptr, ptr %inst2, align 8
+  store ptr %load538, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load535 = load ptr, ptr %return1, align 8
+  ret ptr %load535
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BD\D1\96"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load540 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load540, i32 0, i32 1
+  %load541 = load ptr, ptr %inst, align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load541, i32 0, i32 36
+  %load542 = load ptr, ptr %inst2, align 8
+  store ptr %load542, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load539 = load ptr, ptr %return1, align 8
+  ret ptr %load539
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B7\D0\BD\D0\B0\D1\87\D0\B8\D1\82\D0\B8_\D0\B3\D0\BB\D0\BE\D0\B1\D0\B0\D0\BB\D1\8C\D0\BD\D0\B8\D0\B9_\D1\81\D1\83\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load543 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load543, i32 0, i32 1
+  %load544 = load ptr, ptr %"\D0\92", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load544, i32 0, i32 1
+  %load545 = load ptr, ptr %inst1, align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load545, i32 0, i32 17
+  %load546 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load547 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load548 = load ptr, ptr %inst, align 8
+  %load549 = load ptr, ptr %inst2, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D1\96"(ptr %load548, ptr %load549, ptr %load546, ptr %load547)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\83\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D1\83\D0\B2\D0\B0\D1\82\D0\B8"(ptr %0) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load550 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load550, i32 0, i32 1
+  %load551 = load ptr, ptr %inst, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D1\83\D0\B2\D0\B0\D1\82\D0\B8"(ptr %load551)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D1\83_\D0\B4\D1\96\D1\8E"(ptr %0, ptr %1, ptr %2, ptr %3, ptr %4) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96" = alloca ptr, align 8
+  %"\D0\B2\D1\96\D0\B4\D0\BA\D0\BB\D0\B8\D0\BA_\D0\BF\D0\B5\D1\80\D0\B5\D0\B4_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  store ptr %2, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %3, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store ptr %4, ptr %"\D0\B2\D1\96\D0\B4\D0\BA\D0\BB\D0\B8\D0\BA_\D0\BF\D0\B5\D1\80\D0\B5\D0\B4_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", align 8
+  %load606 = load ptr, ptr %"\D0\92", align 8
+  %load607 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.5"(ptr %load607)
+  store ptr %inst, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %load608 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load608, i32 0, i32 0
+  %load609 = load ptr, ptr %"\D0\92", align 8
+  store ptr %load609, ptr %inst2, align 8
+  %load610 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load610, i32 0, i32 1
+  %load611 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load611, ptr %inst3, align 8
+  %load612 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst4 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load612, i32 0, i32 2
+  %load613 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store ptr %load613, ptr %inst4, align 8
+  %load614 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load614, i32 0, i32 3
+  %load615 = load ptr, ptr %"\D0\B2\D1\96\D0\B4\D0\BA\D0\BB\D0\B8\D0\BA_\D0\BF\D0\B5\D1\80\D0\B5\D0\B4_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", align 8
+  store ptr %load615, ptr %inst5, align 8
+  %load616 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load616, i32 0, i32 1
+  %load617 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load618 = load ptr, ptr %inst6, align 8
+  %load619 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst7 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load618, ptr %load617, ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", ptr %load619, ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D1\96\D0\B4\D0\BA\D0\BB\D0\B8\D0\BA_\D0\BF\D0\B5\D1\80\D0\B5\D0\B4_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97")
+  store ptr %inst7, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %load620 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  store ptr %load620, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load600 = load ptr, ptr %return1, align 8
+  ret ptr %load600
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8\D1\81\D0\BB\D0\BE"(ptr %0, double %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca double, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store double %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load622 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load622, i32 0, i32 1
+  %load623 = load ptr, ptr %inst, align 8
+  %load624 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load623, double %load624)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load625 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  store ptr %load625, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load621 = load ptr, ptr %return1, align 8
+  ret ptr %load621
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\B7_\D0\AE8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load627 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load627, i32 0, i32 1
+  %load628 = load ptr, ptr %inst, align 8
+  %load629 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load628, ptr %load629)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83", align 8
+  %load630 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83", align 8
+  store ptr %load630, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load626 = load ptr, ptr %return1, align 8
+  ret ptr %load626
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4_\D0\B7_\D0\AE8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load632 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load632, i32 0, i32 1
+  %load633 = load ptr, ptr %inst, align 8
+  %load634 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr %load633, ptr %load634)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load635 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  store ptr %load635, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load631 = load ptr, ptr %return1, align 8
+  ret ptr %load631
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load637 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load637, i32 0, i32 1
+  %load638 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load639 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr %load639, ptr %load638)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  %load640 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F", align 8
+  store ptr %load640, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load636 = load ptr, ptr %return1, align 8
+  ret ptr %load636
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D0\BF\D0\B8\D1\81\D0\BE\D0\BA"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load642 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load642, i32 0, i32 1
+  %load643 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83"(ptr %load643)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83", align 8
+  %load644 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D1\83", align 8
+  store ptr %load644, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load641 = load ptr, ptr %return1, align 8
+  ret ptr %load641
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load646 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load646, i32 0, i32 1
+  %load647 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0"(ptr %load647)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0", align 8
+  %load648 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\B0", align 8
+  store ptr %load648, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load645 = load ptr, ptr %return1, align 8
+  ret ptr %load645
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\B1\D0\B0\D0\B9\D1\82\D0\B8"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load650 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load650, i32 0, i32 1
+  %load651 = load ptr, ptr %inst, align 8
+  %load652 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr %load651, i64 %load652)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2", align 8
+  %load653 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2", align 8
+  store ptr %load653, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load649 = load ptr, ptr %return1, align 8
+  ret ptr %load649
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load655 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load655, i32 0, i32 1
+  %load656 = load ptr, ptr %inst, align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load656, i32 0, i32 23
+  %load657 = load ptr, ptr %inst2, align 8
+  %load658 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load658, i32 0, i32 1
+  %load659 = load ptr, ptr %inst3, align 8
+  %inst4 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr %load657, ptr %load659, ptr null, ptr null, ptr null)
+  store ptr %inst4, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load660 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %load660, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load654 = load ptr, ptr %return1, align 8
+  ret ptr %load654
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr %0, ptr %1, ptr %2, i64 %3, ptr %4, ptr %5) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2" = alloca i64, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2" = alloca ptr, align 8
+  %"\D0\BF" = alloca i64, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  store i64 %3, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 4
+  store ptr %4, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %5, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load677 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load677, i32 0, i32 1
+  %load678 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %load678)
+  store ptr %inst2, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load661 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load661
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load679 = load i64, ptr %"\D0\BF", align 4
+  %load680 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 4
+  %inst3 = icmp ult i64 %load679, %load680
+  br i1 %inst3, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %load701 = load ptr, ptr %"\D0\92", align 8
+  %inst4 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load701, i32 0, i32 1
+  %load702 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load703 = load i64, ptr %"\D0\BF", align 4
+  %inst5 = getelementptr ptr, ptr %load702, i64 %load703
+  %load704 = load ptr, ptr %inst5, align 8
+  %load705 = load ptr, ptr %inst4, align 8
+  %load706 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.9"(ptr %load705, ptr %load706, ptr %load704)
+  %load707 = load i64, ptr %"\D0\BF", align 4
+  %inst6 = add i64 %load707, 1
+  store i64 %inst6, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load708 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load709 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load709, i32 0, i32 1
+  %load710 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  %load711 = load ptr, ptr %inst7, align 8
+  %load712 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  %inst8 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr %load708, ptr %load711, ptr %load710, ptr %load712, ptr null)
+  store ptr %inst8, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D1\83", align 8
+  %load713 = load ptr, ptr %"\D0\92", align 8
+  %inst9 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load713, i32 0, i32 1
+  %load714 = load ptr, ptr %inst9, align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load714, i32 0, i32 14
+  %load715 = load i64, ptr %inst10, align 4
+  %inst11 = icmp eq i64 %load715, 1
+  br i1 %inst11, label %if_body, label %if_body_else
+
+if_body:                                          ; preds = %while_body_exit
+  %load716 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D1\83", align 8
+  %load717 = load ptr, ptr %"\D0\92", align 8
+  %inst12 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load717, ptr %load716, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst12, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load718 = load ptr, ptr %"\D0\92", align 8
+  %inst13 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load718, i32 0, i32 1
+  %load719 = load ptr, ptr %inst13, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load719)
+  %load720 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load720, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %while_body_exit
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load721 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D1\83", align 8
+  %load722 = load ptr, ptr %"\D0\92", align 8
+  %inst14 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load722, ptr %load721)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst14, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load724 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load725 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load725, i32 0, i32 1
+  %load726 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load727 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %load724, ptr %load727, ptr %load726)
+  store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load728 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load728, i32 0, i32 1
+  %load729 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load729, i32 0, i32 14
+  %load730 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load730, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load723 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load723
+
+if_body:                                          ; preds = %entry
+  %load731 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load732 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load732, ptr %load731, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load733 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load733, i32 0, i32 1
+  %load734 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load734)
+  %load735 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load735, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load736 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load737 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load737, ptr %load736)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %0, ptr %1, ptr %2, ptr %3) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  store ptr %3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load739 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load740 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load740, i32 0, i32 1
+  %load741 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load742 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load743 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %load739, ptr %load743, ptr %load741, ptr %load742)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load744 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load744, i32 0, i32 1
+  %load745 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load745, i32 0, i32 14
+  %load746 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load746, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load738 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load738
+
+if_body:                                          ; preds = %entry
+  %load747 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load748 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load748, ptr %load747, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load749 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load749, i32 0, i32 1
+  %load750 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load750)
+  %load751 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load751, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load752 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load752, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load754 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load755 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load755, i32 0, i32 1
+  %load756 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load757 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %load754, ptr %load757, ptr %load756)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load758 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load758, i32 0, i32 1
+  %load759 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load759, i32 0, i32 14
+  %load760 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load760, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load753 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load753
+
+if_body:                                          ; preds = %entry
+  %load761 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load762 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load762, ptr %load761, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load763 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load763, i32 0, i32 1
+  %load764 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load764)
+  %load765 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load765, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load766 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load766, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %0, ptr %1, ptr %2, i64 %3, ptr %4, ptr %5) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2" = alloca i64, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2" = alloca ptr, align 8
+  %"\D0\BF" = alloca i64, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  store i64 %3, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 4
+  store ptr %4, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %5, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load768 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load768, i32 0, i32 1
+  %load769 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %load769)
+  store ptr %inst2, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load767 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load767
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load770 = load i64, ptr %"\D0\BF", align 4
+  %load771 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 4
+  %inst3 = icmp ult i64 %load770, %load771
+  br i1 %inst3, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %load772 = load ptr, ptr %"\D0\92", align 8
+  %inst4 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load772, i32 0, i32 1
+  %load773 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load774 = load i64, ptr %"\D0\BF", align 4
+  %inst5 = getelementptr ptr, ptr %load773, i64 %load774
+  %load775 = load ptr, ptr %inst5, align 8
+  %load776 = load ptr, ptr %inst4, align 8
+  %load777 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.9"(ptr %load776, ptr %load777, ptr %load775)
+  %load778 = load i64, ptr %"\D0\BF", align 4
+  %inst6 = add i64 %load778, 1
+  store i64 %inst6, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load779 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load780 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load780, i32 0, i32 1
+  %load781 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load782 = load ptr, ptr %inst7, align 8
+  %load783 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  %inst8 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %load779, ptr %load782, ptr %load781, ptr %load783, ptr null)
+  store ptr %inst8, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load784 = load ptr, ptr %"\D0\92", align 8
+  %inst9 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load784, i32 0, i32 1
+  %load785 = load ptr, ptr %inst9, align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load785, i32 0, i32 14
+  %load786 = load i64, ptr %inst10, align 4
+  %inst11 = icmp eq i64 %load786, 1
+  br i1 %inst11, label %if_body, label %if_body_else
+
+if_body:                                          ; preds = %while_body_exit
+  %load787 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load788 = load ptr, ptr %"\D0\92", align 8
+  %inst12 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load788, ptr %load787, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst12, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load789 = load ptr, ptr %"\D0\92", align 8
+  %inst13 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load789, i32 0, i32 1
+  %load790 = load ptr, ptr %inst13, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load790)
+  %load791 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load791, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %while_body_exit
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load792 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load793 = load ptr, ptr %"\D0\92", align 8
+  %inst14 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load793, ptr %load792)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst14, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D0\BB\D1\8E\D1\87" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %load795 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load796 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load796, i32 0, i32 1
+  %load797 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %load798 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr %load795, ptr %load798, ptr %load797)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load799 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load799, i32 0, i32 1
+  %load800 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load800, i32 0, i32 14
+  %load801 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load801, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load794 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load794
+
+if_body:                                          ; preds = %entry
+  %load802 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load803 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load803, ptr %load802, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load804 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load804, i32 0, i32 1
+  %load805 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load805)
+  %load806 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load806, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load807 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load808 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load808, ptr %load807)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr %0, ptr %1, ptr %2, ptr %3) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D0\BB\D1\8E\D1\87" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  store ptr %3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load810 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load811 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load811, i32 0, i32 1
+  %load812 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %load813 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load814 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr %load810, ptr %load814, ptr %load812, ptr %load813)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load815 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load815, i32 0, i32 1
+  %load816 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load816, i32 0, i32 14
+  %load817 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load817, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load809 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load809
+
+if_body:                                          ; preds = %entry
+  %load818 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load819 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load819, ptr %load818, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load820 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load820, i32 0, i32 1
+  %load821 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load821)
+  %load822 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load822, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load823 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load823, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D0\BB\D1\8E\D1\87" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %load825 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load826 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load826, i32 0, i32 1
+  %load827 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %load828 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr %load825, ptr %load828, ptr %load827)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load829 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load829, i32 0, i32 1
+  %load830 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load830, i32 0, i32 14
+  %load831 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load831, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load824 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load824
+
+if_body:                                          ; preds = %entry
+  %load832 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D1\83", align 8
+  %load833 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load833, ptr %load832, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load834 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load834, i32 0, i32 1
+  %load835 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load835)
+  %load836 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load836, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load837 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load837, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D0\BE\D1\80\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load839 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load840 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load840, i32 0, i32 1
+  %load841 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr %load839, ptr %load841)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D0\BE\D1\80\D1\83", align 8
+  %load842 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load842, i32 0, i32 1
+  %load843 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load843, i32 0, i32 14
+  %load844 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load844, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load838 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load838
+
+if_body:                                          ; preds = %entry
+  %load845 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D0\BE\D1\80\D1\83", align 8
+  %load846 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load846, ptr %load845, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load847 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load847, i32 0, i32 1
+  %load848 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load848)
+  %load849 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load849, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load850 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D0\BE\D1\80\D1\83", align 8
+  %load851 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load851, ptr %load850)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D0\B2\D0\B0\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load853 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load854 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load854, i32 0, i32 1
+  %load855 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load856 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8"(ptr %load853, ptr %load856, ptr %load855)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D0\B2\D0\B0\D0\BD\D0\BD\D1\8F", align 8
+  %load857 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load857, i32 0, i32 1
+  %load858 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load858, i32 0, i32 14
+  %load859 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load859, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load852 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load852
+
+if_body:                                          ; preds = %entry
+  %load860 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D0\B2\D0\B0\D0\BD\D0\BD\D1\8F", align 8
+  %load861 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load861, ptr %load860, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load862 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load862, i32 0, i32 1
+  %load863 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load863)
+  %load864 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load864, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load865 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\BE\D0\B4\D0\B0\D0\B2\D0\B0\D0\BD\D0\BD\D1\8F", align 8
+  %load866 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load866, ptr %load865)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\96\D0\BC\D0\B0\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load868 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load869 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load869, i32 0, i32 1
+  %load870 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load871 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8"(ptr %load868, ptr %load871, ptr %load870)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\96\D0\BC\D0\B0\D0\BD\D0\BD\D1\8F", align 8
+  %load872 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load872, i32 0, i32 1
+  %load873 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load873, i32 0, i32 14
+  %load874 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load874, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load867 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load867
+
+if_body:                                          ; preds = %entry
+  %load875 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\96\D0\BC\D0\B0\D0\BD\D0\BD\D1\8F", align 8
+  %load876 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load876, ptr %load875, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load877 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load877, i32 0, i32 1
+  %load878 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load878)
+  %load879 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load879, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load880 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\D0\BD\D1\96\D0\BC\D0\B0\D0\BD\D0\BD\D1\8F", align 8
+  %load881 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load881, ptr %load880)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\BD\D0\BE\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load883 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load884 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load884, i32 0, i32 1
+  %load885 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load886 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8"(ptr %load883, ptr %load886, ptr %load885)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\BD\D0\BE\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load887 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load887, i32 0, i32 1
+  %load888 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load888, i32 0, i32 14
+  %load889 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load889, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load882 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load882
+
+if_body:                                          ; preds = %entry
+  %load890 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\BD\D0\BE\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load891 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load891, ptr %load890, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load892 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load892, i32 0, i32 1
+  %load893 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load893)
+  %load894 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load894, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load895 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\BD\D0\BE\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load896 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load896, ptr %load895)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load898 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load899 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load899, i32 0, i32 1
+  %load900 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load901 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %load898, ptr %load901, ptr %load900)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load902 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load902, i32 0, i32 1
+  %load903 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load903, i32 0, i32 14
+  %load904 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load904, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load897 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load897
+
+if_body:                                          ; preds = %entry
+  %load905 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load906 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load906, ptr %load905, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load907 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load907, i32 0, i32 1
+  %load908 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load908)
+  %load909 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load909, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load910 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load911 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load911, ptr %load910)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D0\B0"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load913 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load914 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load914, i32 0, i32 1
+  %load915 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load916 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr %load913, ptr %load916, ptr %load915)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\96", align 8
+  %load917 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load917, i32 0, i32 1
+  %load918 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load918, i32 0, i32 14
+  %load919 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load919, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body
+  %load912 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load912
+
+if_body:                                          ; preds = %entry
+  %load920 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D1\96", align 8
+  %load921 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load921, ptr %load920, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load922 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load922, i32 0, i32 1
+  %load923 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load923)
+  %load924 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load924, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B0"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B8" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load926 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load927 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load927, i32 0, i32 1
+  %load928 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load929 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D1\83_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D1\83_\D0\B4\D1\96\D0\BB\D0\B5\D0\BD\D0\BD\D1\8F"(ptr %load926, ptr %load929, ptr %load928)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B8", align 8
+  %load930 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load930, i32 0, i32 1
+  %load931 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load931, i32 0, i32 14
+  %load932 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load932, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load925 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load925
+
+if_body:                                          ; preds = %entry
+  %load933 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B8", align 8
+  %load934 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load934, ptr %load933, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load935 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load935, i32 0, i32 1
+  %load936 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load936)
+  %load937 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load937, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load938 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B8", align 8
+  %load939 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load939, ptr %load938)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D0\B5\D0\BF\D1\96\D0\BD\D1\8C"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load941 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load942 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load942, i32 0, i32 1
+  %load943 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load944 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F"(ptr %load941, ptr %load944, ptr %load943)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\96", align 8
+  %load945 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load945, i32 0, i32 1
+  %load946 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load946, i32 0, i32 14
+  %load947 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load947, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load940 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load940
+
+if_body:                                          ; preds = %entry
+  %load948 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\96", align 8
+  %load949 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load949, ptr %load948, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load950 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load950, i32 0, i32 1
+  %load951 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load951)
+  %load952 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load952, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load953 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\96", align 8
+  %load954 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load954, ptr %load953)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load956 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load957 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load957, i32 0, i32 1
+  %load958 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load959 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE"(ptr %load956, ptr %load959, ptr %load958)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", align 8
+  %load960 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load960, i32 0, i32 1
+  %load961 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load961, i32 0, i32 14
+  %load962 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load962, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load955 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load955
+
+if_body:                                          ; preds = %entry
+  %load963 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", align 8
+  %load964 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load964, ptr %load963, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load965 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load965, i32 0, i32 1
+  %load966 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load966)
+  %load967 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load967, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load968 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", align 8
+  %load969 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load969, ptr %load968)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load971 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load972 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load972, i32 0, i32 1
+  %load973 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load974 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D1\81\D1\83\D0\BD\D1\83\D1\82\D0\B8_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC"(ptr %load971, ptr %load974, ptr %load973)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", align 8
+  %load975 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load975, i32 0, i32 1
+  %load976 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load976, i32 0, i32 14
+  %load977 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load977, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load970 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load970
+
+if_body:                                          ; preds = %entry
+  %load978 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", align 8
+  %load979 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load979, ptr %load978, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load980 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load980, i32 0, i32 1
+  %load981 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load981)
+  %load982 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load982, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load983 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", align 8
+  %load984 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load984, ptr %load983)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load986 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load987 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load987, i32 0, i32 1
+  %load988 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load989 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96"(ptr %load986, ptr %load989, ptr %load988)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D1\96", align 8
+  %load990 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load990, i32 0, i32 1
+  %load991 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load991, i32 0, i32 14
+  %load992 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load992, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load985 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load985
+
+if_body:                                          ; preds = %entry
+  %load993 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D1\96", align 8
+  %load994 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load994, ptr %load993, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load995 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load995, i32 0, i32 1
+  %load996 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load996)
+  %load997 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load997, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load998 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D1\96", align 8
+  %load999 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load999, ptr %load998)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1001 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1002 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1002, i32 0, i32 1
+  %load1003 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1004 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr %load1001, ptr %load1004, ptr %load1003)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE", align 8
+  %load1005 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1005, i32 0, i32 1
+  %load1006 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1006, i32 0, i32 14
+  %load1007 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1007, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1000 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1000
+
+if_body:                                          ; preds = %entry
+  %load1008 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE", align 8
+  %load1009 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1009, ptr %load1008, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1010 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1010, i32 0, i32 1
+  %load1011 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1011)
+  %load1012 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1012, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1013 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE", align 8
+  %load1014 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1014, ptr %load1013)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1016 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1017 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1017, i32 0, i32 1
+  %load1018 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1019 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE"(ptr %load1016, ptr %load1019, ptr %load1018)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE", align 8
+  %load1020 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1020, i32 0, i32 1
+  %load1021 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1021, i32 0, i32 14
+  %load1022 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1022, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1015 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1015
+
+if_body:                                          ; preds = %entry
+  %load1023 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE", align 8
+  %load1024 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1024, ptr %load1023, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1025 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1025, i32 0, i32 1
+  %load1026 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1026)
+  %load1027 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1027, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1028 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\BE\D0\B3\D0\BE_\D0\B0\D0\B1\D0\BE", align 8
+  %load1029 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1029, ptr %load1028)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\BD\D0\B5" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1031 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1032 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1032, i32 0, i32 1
+  %load1033 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr %load1031, ptr %load1033)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\BD\D0\B5", align 8
+  %load1034 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1034, i32 0, i32 1
+  %load1035 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1035, i32 0, i32 14
+  %load1036 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1036, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1030 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1030
+
+if_body:                                          ; preds = %entry
+  %load1037 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\BD\D0\B5", align 8
+  %load1038 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1038, ptr %load1037, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1039 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1039, i32 0, i32 1
+  %load1040 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1040)
+  %load1041 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1041, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1042 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE_\D0\BD\D0\B5", align 8
+  %load1043 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1043, ptr %load1042)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1045 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1046 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1046, i32 0, i32 1
+  %load1047 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1048 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5"(ptr %load1045, ptr %load1048, ptr %load1047)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", align 8
+  %load1049 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1049, i32 0, i32 1
+  %load1050 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1050, i32 0, i32 14
+  %load1051 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1051, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1044 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1044
+
+if_body:                                          ; preds = %entry
+  %load1052 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", align 8
+  %load1053 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1053, ptr %load1052, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1054 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1054, i32 0, i32 1
+  %load1055 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1055)
+  %load1056 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1056, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1057 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", align 8
+  %load1058 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1058, ptr %load1057)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1060 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1061 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1061, i32 0, i32 1
+  %load1062 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1063 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5"(ptr %load1060, ptr %load1063, ptr %load1062)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", align 8
+  %load1064 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1064, i32 0, i32 1
+  %load1065 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1065, i32 0, i32 14
+  %load1066 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1066, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1059 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1059
+
+if_body:                                          ; preds = %entry
+  %load1067 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", align 8
+  %load1068 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1068, ptr %load1067, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1069 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1069, i32 0, i32 1
+  %load1070 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1070)
+  %load1071 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1071, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1072 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", align 8
+  %load1073 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1073, ptr %load1072)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1075 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1076 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1076, i32 0, i32 1
+  %load1077 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1078 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr %load1075, ptr %load1078, ptr %load1077)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE", align 8
+  %load1079 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1079, i32 0, i32 1
+  %load1080 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1080, i32 0, i32 14
+  %load1081 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1081, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1074 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1074
+
+if_body:                                          ; preds = %entry
+  %load1082 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE", align 8
+  %load1083 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1083, ptr %load1082, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1084 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1084, i32 0, i32 1
+  %load1085 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1085)
+  %load1086 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1086, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1087 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D1\96\D0\B2\D0\BD\D0\BE", align 8
+  %load1088 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1088, ptr %load1087)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1090 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1091 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1091, i32 0, i32 1
+  %load1092 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1093 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr %load1090, ptr %load1093, ptr %load1092)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C", align 8
+  %load1094 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1094, i32 0, i32 1
+  %load1095 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1095, i32 0, i32 14
+  %load1096 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1096, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1089 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1089
+
+if_body:                                          ; preds = %entry
+  %load1097 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C", align 8
+  %load1098 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1098, ptr %load1097, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1099 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1099, i32 0, i32 1
+  %load1100 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1100)
+  %load1101 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1101, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1102 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C", align 8
+  %load1103 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1103, ptr %load1102)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\94" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1105 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1106 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1106, i32 0, i32 1
+  %load1107 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1108 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94"(ptr %load1105, ptr %load1108, ptr %load1107)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\94", align 8
+  %load1109 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1109, i32 0, i32 1
+  %load1110 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1110, i32 0, i32 14
+  %load1111 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1111, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1104 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1104
+
+if_body:                                          ; preds = %entry
+  %load1112 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\94", align 8
+  %load1113 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1113, ptr %load1112, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1114 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1114, i32 0, i32 1
+  %load1115 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1115)
+  %load1116 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1116, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1117 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\94", align 8
+  %load1118 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1118, ptr %load1117)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1120 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1121 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1121, i32 0, i32 1
+  %load1122 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr %load1120, ptr %load1122)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", align 8
+  %load1123 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1123, i32 0, i32 1
+  %load1124 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1124, i32 0, i32 14
+  %load1125 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1125, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1119 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1119
+
+if_body:                                          ; preds = %entry
+  %load1126 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", align 8
+  %load1127 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1127, ptr %load1126, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1128 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1128, i32 0, i32 1
+  %load1129 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1129)
+  %load1130 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1130, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1131 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", align 8
+  %load1132 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1132, ptr %load1131)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1134 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1135 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1135, i32 0, i32 1
+  %load1136 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr %load1134, ptr %load1136)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5", align 8
+  %load1137 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1137, i32 0, i32 1
+  %load1138 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1138, i32 0, i32 14
+  %load1139 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1139, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1133 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1133
+
+if_body:                                          ; preds = %entry
+  %load1140 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5", align 8
+  %load1141 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1141, ptr %load1140, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1142 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1142, i32 0, i32 1
+  %load1143 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1143)
+  %load1144 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1144, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1145 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5", align 8
+  %load1146 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1146, ptr %load1145)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1148 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1149 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1149, i32 0, i32 1
+  %load1150 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B8\D1\82\D0\B8"(ptr %load1148, ptr %load1150)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1151 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1151, i32 0, i32 1
+  %load1152 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1152, i32 0, i32 14
+  %load1153 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1153, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1147 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1147
+
+if_body:                                          ; preds = %entry
+  %load1154 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1155 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1155, ptr %load1154, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1156 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1156, i32 0, i32 1
+  %load1157 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1157)
+  %load1158 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1158, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1159 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B0\D0\BF\D0\B5\D1\80\D0\B5\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1160 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1160, ptr %load1159)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1162 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1163 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1163, i32 0, i32 1
+  %load1164 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr %load1162, ptr %load1164)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1165 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1165, i32 0, i32 1
+  %load1166 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1166, i32 0, i32 14
+  %load1167 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1167, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1161 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1161
+
+if_body:                                          ; preds = %entry
+  %load1168 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1169 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1169, ptr %load1168, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1170 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1170, i32 0, i32 1
+  %load1171 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1171)
+  %load1172 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1172, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1173 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1174 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1174, ptr %load1173)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1176 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1177 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1177, i32 0, i32 1
+  %load1178 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr %load1176, ptr %load1178)
+  store ptr %inst2, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1179 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1179, i32 0, i32 1
+  %load1180 = load ptr, ptr %inst3, align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1180, i32 0, i32 14
+  %load1181 = load i64, ptr %inst4, align 4
+  %inst5 = icmp eq i64 %load1181, 1
+  br i1 %inst5, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1175 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1175
+
+if_body:                                          ; preds = %entry
+  %load1182 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1183 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1183, ptr %load1182, ptr null)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst6, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %load1184 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1184, i32 0, i32 1
+  %load1185 = load ptr, ptr %inst7, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1185)
+  %load1186 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1186, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1187 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1188 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %load1188, ptr %load1187)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst8, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D0\BA\D0\BE\D0\BF\D1\96\D1\8E\D0\B2\D0\B0\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\8F\D0\BA_\D0\AE8"(ptr %0, ptr %1, ptr %2, ptr %3) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\9C\D0\B0\D0\9C\D0\B0" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 8
+  store ptr %3, ptr %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1190 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %load1190, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\9C\D0\B0\D0\9C\D0\B0", align 8
+  %load1191 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1191, i32 0, i32 1
+  %load1192 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\9C\D0\B0\D0\9C\D0\B0", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", ptr %load1192, i32 0, i32 4
+  %load1193 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\9C\D0\B0\D0\9C\D0\B0", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", ptr %load1193, i32 0, i32 3
+  %load1194 = load ptr, ptr %inst, align 8
+  %load1195 = load ptr, ptr %inst2, align 8
+  %load1196 = load i64, ptr %inst3, align 4
+  %load1197 = load ptr, ptr %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst4 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE32_\D0\B2_\D0\AE8"(ptr %load1194, ptr %load1195, i64 %load1196, ptr %load1197)
+  %load1198 = load ptr, ptr %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 8
+  %inst5 = getelementptr i64, ptr %load1198, i32 0
+  store i64 %inst4, ptr %inst5, align 4
+  %load1199 = load ptr, ptr %"\D0\B0\D0\B4\D1\80\D0\B5\D1\81\D0\B0_\D0\BD\D0\B0_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 8
+  %inst6 = getelementptr i64, ptr %load1199, i32 0
+  %load1200 = load i64, ptr %inst6, align 4
+  %inst7 = icmp eq i64 %load1200, 0
+  br i1 %inst7, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit
+  %load1189 = load i1, ptr %return1, align 1
+  ret i1 %load1189
+
+if_body:                                          ; preds = %entry
+  %load1201 = load ptr, ptr %"\D0\92", align 8
+  %inst8 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1201, i32 0, i32 1
+  %load1202 = load ptr, ptr %inst8, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load1202, ptr @19)
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\83\D1\81\D0\BF\D1\96\D1\85"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %construct = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %construct, i32 0, i32 0
+  store ptr null, ptr %inst, align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %construct, i32 0, i32 1
+  %load1204 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %load1204, ptr %inst2, align 8
+  %load1205 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %construct, align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1205, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1203 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1203
+}
+
+define %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %construct = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %2, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1207 = load ptr, ptr %"\D0\92", align 8
+  %load1208 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1207, ptr %load1208, i64 0, ptr null)
+  store ptr %inst, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %construct, i32 0, i32 0
+  %load1209 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1209, ptr %inst2, align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %construct, i32 0, i32 1
+  %load1210 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %load1210, ptr %inst3, align 8
+  %load1211 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %construct, align 8
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1211, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1206 = load %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %return1, align 8
+  ret %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load1206
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1, i64 %2, ptr %3) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D1\96\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\97" = alloca i64, align 8
+  %"\D1\96\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\8F" = alloca ptr, align 8
+  %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D1\96\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\97", align 4
+  store ptr %3, ptr %"\D1\96\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\8F", align 8
+  %load1218 = load ptr, ptr %"\D0\92", align 8
+  %load1219 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.11"(ptr %load1219)
+  store ptr %inst, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1220 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1220, i32 0, i32 0
+  %load1221 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1221, ptr %inst2, align 8
+  %load1222 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1222, i32 0, i32 1
+  %load1223 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D1\96\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\97", align 4
+  store i64 %load1223, ptr %inst3, align 4
+  %load1224 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst4 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1224, i32 0, i32 2
+  %load1225 = load ptr, ptr %"\D1\96\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\8F", align 8
+  store ptr %load1225, ptr %inst4, align 8
+  %load1226 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1226, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1212 = load ptr, ptr %return1, align 8
+  ret ptr %load1212
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BF" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1227 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1227, i32 0, i32 0
+  %load1228 = load ptr, ptr %inst, align 8
+  %inst1 = icmp ne ptr %load1228, null
+  br i1 %inst1, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit13
+  ret void
+
+if_body:                                          ; preds = %entry
+  %load1229 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1229, i32 0, i32 0
+  %load1230 = load ptr, ptr %"\D0\92", align 8
+  %load1231 = load ptr, ptr %inst2, align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1230, ptr %load1231)
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_cond:                                       ; preds = %while_body, %if_body_exit
+  %load1232 = load i64, ptr %"\D0\BF", align 4
+  %load1233 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1233, i32 0, i32 1
+  %load1234 = load i64, ptr %inst3, align 4
+  %inst4 = icmp ult i64 %load1232, %load1234
+  br i1 %inst4, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %load1235 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1235, i32 0, i32 2
+  %load1236 = load ptr, ptr %inst5, align 8
+  %load1237 = load i64, ptr %"\D0\BF", align 4
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\86\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\97\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1236, i64 %load1237
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\86\D1\81\D1\82\D0\BE\D1\80\D1\96\D1\97\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %inst6, i32 0, i32 0
+  %load1238 = load ptr, ptr %inst7, align 8
+  %load1239 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1239, ptr %load1238)
+  %load1240 = load i64, ptr %"\D0\BF", align 4
+  %inst8 = add i64 %load1240, 1
+  store i64 %inst8, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load1241 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst9 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1241, i32 0, i32 2
+  %load1242 = load ptr, ptr %inst9, align 8
+  %inst10 = icmp ne ptr %load1242, null
+  br i1 %inst10, label %if_body11, label %if_body_else12
+
+if_body11:                                        ; preds = %while_body_exit
+  %load1243 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst14 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1243, i32 0, i32 2
+  %load1244 = load ptr, ptr %inst14, align 8
+  %load1245 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1245, ptr %load1244)
+  br label %if_body_exit13
+
+if_body_else12:                                   ; preds = %while_body_exit
+  br label %if_body_exit13
+
+if_body_exit13:                                   ; preds = %if_body_else12, %if_body11
+  %load1246 = load ptr, ptr %"\D0\92", align 8
+  %load1247 = load ptr, ptr %"\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1246, ptr %load1247)
+  br label %return
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83" = alloca ptr, align 8
+  %"\D1\80\D1\8F\D0\B4\D0\BE\D0\BA" = alloca i64, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  store i64 %2, ptr %"\D1\80\D1\8F\D0\B4\D0\BE\D0\BA", align 4
+  %load1254 = load ptr, ptr %"\D0\92", align 8
+  %load1255 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.13"(ptr %load1255)
+  store ptr %inst, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1256 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1256, i32 0, i32 0
+  store ptr null, ptr %inst2, align 8
+  %load1257 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1257, i32 0, i32 1
+  %load1258 = load ptr, ptr %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  %inst4 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load1258)
+  %load1259 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1259, i32 0, i32 0
+  %load1260 = load ptr, ptr %inst3, align 8
+  %load1261 = load ptr, ptr %"\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  %inst6 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\AE8"(ptr %load1260, ptr %load1261, i64 %inst4, ptr %inst5)
+  %load1262 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1262, i32 0, i32 0
+  %load1263 = load ptr, ptr %inst7, align 8
+  %inst8 = icmp eq ptr %load1263, null
+  br i1 %inst8, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit
+  %load1248 = load ptr, ptr %return1, align 8
+  ret ptr %load1248
+
+if_body:                                          ; preds = %entry
+  %load1264 = load ptr, ptr %"\D0\92", align 8
+  %inst9 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1264, i32 0, i32 1
+  %load1265 = load ptr, ptr %inst9, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load1265, ptr @20)
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1266 = load i64, ptr %"\D1\80\D1\8F\D0\B4\D0\BE\D0\BA", align 4
+  %load1267 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst10 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1267, i32 0, i32 1
+  store i64 %load1266, ptr %inst10, align 4
+  %load1268 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1268, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1269 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1269, i32 0, i32 0
+  %load1270 = load ptr, ptr %inst, align 8
+  %load1271 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1271, ptr %load1270)
+  %load1272 = load ptr, ptr %"\D0\92", align 8
+  %load1273 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1272, ptr %load1273)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\88\D0\BB\D1\8F\D1\85_\D0\B4\D0\BE_\D1\84\D0\B0\D0\B9\D0\BB\D1\83_\D0\B7_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BC\D0\BF" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1275 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1275, ptr %"\D0\BC\D0\BF", align 8
+  %load1276 = load ptr, ptr %"\D0\BC\D0\BF", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1276, i32 0, i32 0
+  %load1277 = load ptr, ptr %inst, align 8
+  store ptr %load1277, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1274 = load ptr, ptr %return1, align 8
+  ret ptr %load1274
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\80\D1\8F\D0\B4\D0\BE\D0\BA_\D0\B7_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BC\D0\BF" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load1279 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1279, ptr %"\D0\BC\D0\BF", align 8
+  %load1280 = load ptr, ptr %"\D0\BC\D0\BF", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load1280, i32 0, i32 1
+  %load1281 = load i64, ptr %inst, align 4
+  store i64 %load1281, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1278 = load i64, ptr %return1, align 4
+  ret i64 %load1278
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D0\BE\D0\B2\D0\B5_\D0\B7\D0\BE\D0\B1\D1\80\D0\B0\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0_\D1\8F\D0\BA_\D0\AE8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1283 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1283, i32 0, i32 1
+  %load1284 = load ptr, ptr %inst, align 8
+  %inst2 = call %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load1284)
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %inst2, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8", align 8
+  %load1285 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1286 = load ptr, ptr %"\D0\92", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1286, i32 0, i32 1
+  %load1287 = load ptr, ptr %inst3, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load1285, ptr %load1287, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8", i64 0)
+  %load1288 = load ptr, ptr %"\D0\92", align 8
+  %inst4 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1288, i32 0, i32 1
+  %load1289 = load ptr, ptr %inst4, align 8
+  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %load1289, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8")
+  %load1290 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst6 = getelementptr ptr, ptr %load1290, i32 0
+  store ptr %inst5, ptr %inst6, align 8
+  %load1291 = load ptr, ptr %"\D0\92", align 8
+  %inst7 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1291, i32 0, i32 1
+  %load1292 = load ptr, ptr %inst7, align 8
+  %load1293 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %load1292, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load1293)
+  %load1294 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst8 = getelementptr ptr, ptr %load1294, i32 0
+  %load1295 = load ptr, ptr %inst8, align 8
+  %inst9 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load1295)
+  store i64 %inst9, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1282 = load i64, ptr %return1, align 4
+  ret i64 %load1282
+}
+
+define double @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca double, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1297 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1298 = load ptr, ptr %"\D0\92", align 8
+  %inst = call i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\BC"(ptr %load1297, ptr %load1298)
+  %inst2 = icmp eq i1 %inst, false
+  br i1 %inst2, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1296 = load double, ptr %return1, align 8
+  ret double %load1296
+
+if_body:                                          ; preds = %entry
+  store double 0.000000e+00, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1299 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %load1299, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load1300 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1300, i32 0, i32 3
+  %load1301 = load double, ptr %inst3, align 8
+  store double %load1301, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D1\80\D0\B0\D0\B6\D0\B0\D1\94\D1\82\D1\8C\D1\81\D1\8F_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\B8\D0\BC_\D1\82\D0\B0\D0\BA"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1303 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1304 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1304, i32 0, i32 1
+  %load1305 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D1\80\D0\B0\D0\B6\D0\B0\D1\94\D1\82\D1\8C\D1\81\D1\8F_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\B8\D0\BC_\D1\82\D0\B0\D0\BA"(ptr %load1303, ptr %load1305)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1302 = load i1, ptr %return1, align 1
+  ret i1 %load1302
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\B4\D1\96\D1\94\D1\8E"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1307 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1308 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1308, i32 0, i32 1
+  %load1309 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\B4\D1\96\D1\94\D1\8E"(ptr %load1307, ptr %load1309)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1306 = load i1, ptr %return1, align 1
+  ret i1 %load1306
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\8E_\D0\B4\D1\96\D1\94\D1\8E"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1311 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1312 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1312, i32 0, i32 1
+  %load1313 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\8E_\D0\B4\D1\96\D1\94\D1\8E"(ptr %load1311, ptr %load1313)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1310 = load i1, ptr %return1, align 1
+  ret i1 %load1310
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1315 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1316 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1316, i32 0, i32 1
+  %load1317 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\BC"(ptr %load1315, ptr %load1317)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1314 = load i1, ptr %return1, align 1
+  ret i1 %load1314
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D0\BE\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1319 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1320 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1320, i32 0, i32 1
+  %load1321 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D0\BE\D0\BC"(ptr %load1319, ptr %load1321)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1318 = load i1, ptr %return1, align 1
+  ret i1 %load1318
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D0\BE\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1323 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1324 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1324, i32 0, i32 1
+  %load1325 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D0\BE\D0\BC"(ptr %load1323, ptr %load1325)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1322 = load i1, ptr %return1, align 1
+  ret i1 %load1322
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D0\B5\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1327 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1328 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1328, i32 0, i32 1
+  %load1329 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D0\B5\D0\BC"(ptr %load1327, ptr %load1329)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1326 = load i1, ptr %return1, align 1
+  ret i1 %load1326
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D0\BE\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1331 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1332 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1332, i32 0, i32 1
+  %load1333 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\81\D0\BF\D0\B8\D1\81\D0\BA\D0\BE\D0\BC"(ptr %load1331, ptr %load1333)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1330 = load i1, ptr %return1, align 1
+  ret i1 %load1330
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\BE\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1335 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1336 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1336, i32 0, i32 1
+  %load1337 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D1\81\D0\BB\D0\BE\D0\B2\D0\BD\D0\B8\D0\BA\D0\BE\D0\BC"(ptr %load1335, ptr %load1337)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1334 = load i1, ptr %return1, align 1
+  ret i1 %load1334
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\B8\D0\BC"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1339 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1340 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1340, i32 0, i32 1
+  %load1341 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\BB\D0\BE\D0\B3\D1\96\D1\87\D0\BD\D0\B8\D0\BC"(ptr %load1339, ptr %load1341)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1338 = load i1, ptr %return1, align 1
+  ret i1 %load1338
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\B1\D0\B0\D0\B9\D1\82\D0\B0\D0\BC\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  %load1343 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1344 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1344, i32 0, i32 1
+  %load1345 = load ptr, ptr %inst, align 8
+  %inst2 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\94_\D0\B1\D0\B0\D0\B9\D1\82\D0\B0\D0\BC\D0\B8"(ptr %load1343, ptr %load1345)
+  store i1 %inst2, ptr %return1, align 1
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1342 = load i1, ptr %return1, align 1
+  ret i1 %load1342
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D0\B0\D1\82\D0\B8_\D0\B2_\D0\B1\D0\B0\D0\B9\D1\82\D0\B8"(ptr %0, ptr %1, ptr %2, i64 %3, i64 %4) {
+alloca:
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  %"\D0\B7\D1\81\D1\83\D0\B2" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store i64 %3, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  store i64 %4, ptr %"\D0\B7\D1\81\D1\83\D0\B2", align 4
+  %load1346 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1347 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1347, i32 0, i32 1
+  %load1348 = load ptr, ptr %inst, align 8
+  %load1349 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  %load1350 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load1351 = load i64, ptr %"\D0\B7\D1\81\D1\83\D0\B2", align 4
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D0\B0\D1\82\D0\B8_\D0\B2_\D0\B1\D0\B0\D0\B9\D1\82\D0\B8"(ptr %load1346, ptr %load1348, ptr %load1349, i64 %load1350, i64 %load1351)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1353 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1354 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1354, i32 0, i32 1
+  %load1355 = load ptr, ptr %inst, align 8
+  %load1356 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr %load1353, ptr %load1355, ptr %load1356)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1352 = load i64, ptr %return1, align 4
+  ret i64 %load1352
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1358 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1359 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1359, i32 0, i32 1
+  %load1360 = load ptr, ptr %inst, align 8
+  %load1361 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr %load1358, ptr %load1360, ptr %load1361)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1357 = load i64, ptr %return1, align 4
+  ret i64 %load1357
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1363 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1364 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1364, i32 0, i32 1
+  %load1365 = load ptr, ptr %inst, align 8
+  %load1366 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr %load1363, ptr %load1365, ptr %load1366)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1362 = load i64, ptr %return1, align 4
+  ret i64 %load1362
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1368 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1369 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1369, i32 0, i32 1
+  %load1370 = load ptr, ptr %inst, align 8
+  %load1371 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83"(ptr %load1368, ptr %load1370, ptr %load1371)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1367 = load i64, ptr %return1, align 4
+  ret i64 %load1367
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\8F\D0\BA_\D0\AE8"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1373 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1374 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1374, i32 0, i32 1
+  %load1375 = load ptr, ptr %inst, align 8
+  %load1376 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\8F\D0\BA_\D0\AE8"(ptr %load1373, ptr %load1375, ptr %load1376)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1372 = load i64, ptr %return1, align 4
+  ret i64 %load1372
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1378 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1379 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1379, i32 0, i32 1
+  %load1380 = load ptr, ptr %inst, align 8
+  %load1381 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\B4\D0\B0\D0\BD\D0\B8\D1\85_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr %load1378, ptr %load1380, ptr %load1381)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1377 = load i64, ptr %return1, align 4
+  ret i64 %load1377
+}
+
+define i64 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i64, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %1, ptr %"\D0\92", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1383 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1384 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1384, i32 0, i32 1
+  %load1385 = load ptr, ptr %inst, align 8
+  %load1386 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst2 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B4\D0\B0\D0\BD\D1\96_\D0\B1\D0\B0\D0\B9\D1\82\D1\96\D0\B2"(ptr %load1383, ptr %load1385, ptr %load1386)
+  store i64 %inst2, ptr %return1, align 4
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1382 = load i64, ptr %return1, align 4
+  ret i64 %load1382
+}
+
+define i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\BD\D0\B0\D0\B9\D1\82\D0\B8_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D0\B9_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82"(ptr %0, ptr %1, ptr %2, ptr %3) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D1\85_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2" = alloca ptr, align 8
+  %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  store ptr %3, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load1388 = load ptr, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %load1388, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D1\85_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  %load1404 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1404, i32 0, i32 1
+  %load1405 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load1406 = load ptr, ptr %inst, align 8
+  %load1407 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D1\85_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %load1406, ptr %load1407, ptr %load1405)
+  store ptr %inst2, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", align 8
+  %load1408 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", align 8
+  %inst3 = icmp eq ptr %load1408, null
+  br i1 %inst3, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
+  %load1387 = load i1, ptr %return1, align 1
+  ret i1 %load1387
+
+if_body:                                          ; preds = %entry
+  store i1 false, ptr %return1, align 1
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1409 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load1409, i32 0, i32 1
+  %load1410 = load ptr, ptr %inst4, align 8
+  %load1411 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst5 = getelementptr ptr, ptr %load1411, i32 0
+  store ptr %load1410, ptr %inst5, align 8
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D0\B0\D1\82\D0\B8_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D0\B9_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82"(ptr %0, ptr %1, ptr %2, ptr %3) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D1\85_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  store ptr %3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1412 = load ptr, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %load1412, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D1\85_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  %load1441 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1441, i32 0, i32 1
+  %load1442 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %load1443 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1444 = load ptr, ptr %inst, align 8
+  %load1445 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D0\B8\D1\85_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D1\96\D0\B2", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load1444, ptr %load1445, ptr %load1442, ptr %load1443)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr null, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1446 = load ptr, ptr %return1, align 8
+  ret ptr %load1446
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1447 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1447, i32 0, i32 1
+  %load1448 = load ptr, ptr %inst, align 8
+  %load1449 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %load1448, ptr %load1449)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE8"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1450 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1450, i32 0, i32 1
+  %load1451 = load ptr, ptr %inst, align 8
+  %load1452 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE8"(ptr %load1451, ptr %load1452)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1453 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1454 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1454, i32 0, i32 1
+  %load1455 = load ptr, ptr %inst, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %load1453, ptr %load1455, i64 1)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\BF64"(ptr %0, i64 %1) {
+alloca:
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  %load1456 = load ptr, ptr %"\D0\92", align 8
+  %inst = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load1456, i32 0, i32 1
+  %load1457 = load ptr, ptr %inst, align 8
+  %load1458 = load i64, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\BF64"(ptr %load1457, i64 %load1458)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+declare ptr @"\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D0\B2\D0\BA\D1\83"(ptr)
+
+declare void @"\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8"(ptr)
+
+declare ptr @"\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8"(ptr, ptr, ptr, i64, i64)
+
+declare dso_local ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D1\83_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr)
+
+declare dso_local ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr)
+
+declare dso_local void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr, ptr)
+
+declare dso_local ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8E\D0\B2\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F"(ptr, ptr, ptr, ptr)
+
+declare dso_local ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8E\D0\B2\D0\B0\D1\82\D0\B8_\D1\82\D1\96\D0\BB\D0\BE"(ptr, ptr, ptr, ptr, i1)
+
+declare dso_local void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\9C"(ptr, ptr)
+
+declare dso_local void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0"(ptr, ptr)
+
+declare dso_local void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\9C\D0\B0\D0\9C\D0\B0"(ptr, ptr)
+
+declare dso_local void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D1\87\D0\B8\D1\82\D0\B0\D1\82\D0\B8_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4"(ptr, ptr)
+
+declare i64 @mavka_double_to_string(double, ptr)
+
+declare double @mavka_bitnot(double)
+
+declare double @mavka_negate(double)
+
+declare double @mavka_pow(double, double)
+
+declare double @mavka_floor(double)
+
+define internal i1 @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BE\D0\B1\D1\80\D0\BE\D0\B1\D0\BD\D0\B8\D0\BA_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D0\BD\D0\BD\D1\8F_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D0\B4\D0\BE_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr %0, ptr %1, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6" %2, ptr %3) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BF\D0\B0\D0\BA\D1\83" = alloca ptr, align 8
+  %"\D1\88\D0\BB\D1\8F\D1\85" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %"\D1\8E8_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8_\D0\BF\D0\B0\D0\BA\D1\83" = alloca ptr, align 8
+  %"\D0\BF\D1\88" = alloca i64, align 8
+  %"\D1\8E8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\B0_\D1\88\D0\BB\D1\8F\D1\85\D1\83" = alloca ptr, align 8
+  %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85_\D1\81\D0\B8\D1\80\D0\B8\D0\B9" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BF\D0\B0\D0\BA\D1\83", align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6" %2, ptr %"\D1\88\D0\BB\D1\8F\D1\85", align 8
+  store ptr %3, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load109 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load109, i32 0, i32 22
+  %load110 = load ptr, ptr %inst, align 8
+  store ptr %load110, ptr %"\D0\92", align 8
+  %load111 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load111)
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %inst2, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", align 8
+  %load112 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BF\D0\B0\D0\BA\D1\83", align 8
+  %inst3 = icmp ne ptr %load112, null
+  br i1 %inst3, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit35, %if_body_exit35, %if_body16, %if_body6
+  %load108 = load i1, ptr %return1, align 1
+  ret i1 %load108
+
+if_body:                                          ; preds = %entry
+  %load113 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load113, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", ptr @1)
+  %load114 = load ptr, ptr %"\D0\9C", align 8
+  %load115 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\BF\D0\B0\D0\BA\D1\83", align 8
+  %inst4 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8"(ptr %load114, ptr %load115, ptr %"\D1\8E8_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8_\D0\BF\D0\B0\D0\BA\D1\83")
+  %inst5 = icmp eq i1 %inst4, false
+  br i1 %inst5, label %if_body6, label %if_body_else7
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body_exit8
+  store i64 0, ptr %"\D0\BF\D1\88", align 4
+  br label %while_cond
+
+if_body6:                                         ; preds = %if_body
+  store i1 false, ptr %return1, align 1
+  br label %return
+  br label %if_body_exit8
+
+if_body_else7:                                    ; preds = %if_body
+  br label %if_body_exit8
+
+if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
+  %load116 = load ptr, ptr %"\D0\9C", align 8
+  %load117 = load ptr, ptr %"\D1\8E8_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8_\D0\BF\D0\B0\D0\BA\D1\83", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load116, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", ptr %load117)
+  %load118 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load118, i32 0, i32 22
+  %load119 = load ptr, ptr %inst9, align 8
+  %load120 = load ptr, ptr %"\D1\8E8_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8_\D0\BF\D0\B0\D0\BA\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load119, ptr %load120)
+  %load121 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load121, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", ptr @2)
+  br label %if_body_exit
+
+while_cond:                                       ; preds = %if_body_exit25, %if_body_exit
+  %load122 = load i64, ptr %"\D0\BF\D1\88", align 4
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 0
+  %load123 = load i64, ptr %inst10, align 4
+  %inst11 = icmp ult i64 %load122, %load123
+  br i1 %inst11, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 1
+  %load124 = load ptr, ptr %inst12, align 8
+  %load125 = load i64, ptr %"\D0\BF\D1\88", align 4
+  %inst13 = getelementptr ptr, ptr %load124, i64 %load125
+  %load126 = load ptr, ptr %"\D0\9C", align 8
+  %load127 = load ptr, ptr %inst13, align 8
+  %inst14 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\B7\D0\B2\D0\B8"(ptr %load126, ptr %load127, ptr %"\D1\8E8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\B0_\D1\88\D0\BB\D1\8F\D1\85\D1\83")
+  %inst15 = icmp eq i1 %inst14, false
+  br i1 %inst15, label %if_body16, label %if_body_else17
+
+while_body_exit:                                  ; preds = %while_cond
+  %load137 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load137, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", ptr @4)
+  %load138 = load ptr, ptr %"\D0\9C", align 8
+  %inst27 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %load138, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8")
+  store ptr %inst27, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85_\D1\81\D0\B8\D1\80\D0\B8\D0\B9", align 8
+  store i64 0, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 4
+  %load139 = load ptr, ptr %"\D0\92", align 8
+  %inst28 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load139, i32 0, i32 0
+  %inst29 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst28, i32 0, i32 6
+  %load140 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85_\D1\81\D0\B8\D1\80\D0\B8\D0\B9", align 8
+  %inst30 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load140)
+  %load141 = load ptr, ptr %inst29, align 8
+  %load142 = load ptr, ptr %"\D0\92", align 8
+  %load143 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85_\D1\81\D0\B8\D1\80\D0\B8\D0\B9", align 8
+  %load144 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst31 = call i64 %load141(ptr %load142, ptr %load143, i64 %inst30, ptr %load144, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83")
+  %inst32 = icmp ne i64 %inst31, 0
+  br i1 %inst32, label %if_body33, label %if_body_else34
+
+if_body16:                                        ; preds = %while_body
+  store i1 false, ptr %return1, align 1
+  br label %return
+  br label %if_body_exit18
+
+if_body_else17:                                   ; preds = %while_body
+  br label %if_body_exit18
+
+if_body_exit18:                                   ; preds = %if_body_else17, %if_body16
+  %load128 = load ptr, ptr %"\D0\9C", align 8
+  %load129 = load ptr, ptr %"\D1\8E8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\B0_\D1\88\D0\BB\D1\8F\D1\85\D1\83", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load128, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", ptr %load129)
+  %load130 = load ptr, ptr %"\D0\9C", align 8
+  %inst19 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load130, i32 0, i32 22
+  %load131 = load ptr, ptr %inst19, align 8
+  %load132 = load ptr, ptr %"\D1\8E8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\B0_\D1\88\D0\BB\D1\8F\D1\85\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load131, ptr %load132)
+  %load133 = load i64, ptr %"\D0\BF\D1\88", align 4
+  %inst20 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 0
+  %load134 = load i64, ptr %inst20, align 4
+  %inst21 = sub i64 %load134, 1
+  %inst22 = icmp ult i64 %load133, %inst21
+  br i1 %inst22, label %if_body23, label %if_body_else24
+
+if_body23:                                        ; preds = %if_body_exit18
+  %load135 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load135, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", ptr @3)
+  br label %if_body_exit25
+
+if_body_else24:                                   ; preds = %if_body_exit18
+  br label %if_body_exit25
+
+if_body_exit25:                                   ; preds = %if_body_else24, %if_body23
+  %load136 = load i64, ptr %"\D0\BF\D1\88", align 4
+  %inst26 = add i64 %load136, 1
+  store i64 %inst26, ptr %"\D0\BF\D1\88", align 4
+  br label %while_cond
+
+if_body33:                                        ; preds = %while_body_exit
+  br label %if_body_exit35
+
+if_body_else34:                                   ; preds = %while_body_exit
+  br label %if_body_exit35
+
+if_body_exit35:                                   ; preds = %if_body_else34, %if_body33
+  %load145 = load ptr, ptr %"\D0\9C", align 8
+  %inst36 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load145, i32 0, i32 22
+  %load146 = load ptr, ptr %inst36, align 8
+  %load147 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85_\D1\81\D0\B8\D1\80\D0\B8\D0\B9", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load146, ptr %load147)
+  %load148 = load ptr, ptr %"\D0\9C", align 8
+  %load149 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\88\D0\BB\D1\8F\D1\85\D1\83_\D1\8E8", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %load148, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load149)
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BE\D0\B1\D1\80\D0\BE\D0\B1\D0\BD\D0\B8\D0\BA_\D0\B2\D0\B7\D1\8F\D1\82\D1\82\D1\8F_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83" = alloca ptr, align 8
+  %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83" = alloca i64, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %"\D1\8E8_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BA\D0\BE\D0\B4" = alloca ptr, align 8
+  %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\8355" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F56" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BA\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  store ptr %2, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %load151 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load151, i32 0, i32 22
+  %load152 = load ptr, ptr %inst, align 8
+  store ptr %load152, ptr %"\D0\92", align 8
+  store ptr null, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  store i64 0, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 4
+  %load153 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load153, i32 0, i32 0
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst2, i32 0, i32 7
+  %load154 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %inst4 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load154)
+  %load155 = load ptr, ptr %inst3, align 8
+  %load156 = load ptr, ptr %"\D0\92", align 8
+  %load157 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %inst5 = call i64 %load155(ptr %load156, ptr %load157, i64 %inst4, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83")
+  %inst6 = icmp ne i64 %inst5, 0
+  br i1 %inst6, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit52, %if_body_exit52, %if_body_exit61, %if_body_exit37, %if_body
+  %load150 = load ptr, ptr %return1, align 8
+  ret ptr %load150
+
+if_body:                                          ; preds = %entry
+  %load158 = load ptr, ptr %"\D0\9C", align 8
+  %inst7 = call %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D1\80\D0\BE\D0\B1\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load158)
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %inst7, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", align 8
+  %load159 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load159, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", ptr @5)
+  %load160 = load ptr, ptr %"\D0\9C", align 8
+  %load161 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load160, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", ptr %load161)
+  %load162 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load162, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", ptr @6)
+  %load163 = load ptr, ptr %"\D0\9C", align 8
+  %inst8 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D1\8E8_\D0\B7_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %load163, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8")
+  store ptr %inst8, ptr %"\D1\8E8_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", align 8
+  %load164 = load ptr, ptr %"\D0\9C", align 8
+  %load165 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87\D0\B0_\D1\8E8"(ptr %load164, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" %load165)
+  %load166 = load ptr, ptr %"\D0\9C", align 8
+  %load167 = load ptr, ptr %"\D1\8E8_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr %load166, ptr %load167)
+  store ptr %inst9, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load168 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load168, i32 0, i32 22
+  %load169 = load ptr, ptr %inst10, align 8
+  %load170 = load ptr, ptr %"\D1\8E8_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load169, ptr %load170)
+  %load171 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load171, ptr null)
+  %load172 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  store ptr %load172, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load178 = load ptr, ptr %"\D0\9C", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load178, i32 0, i32 22
+  %load179 = load ptr, ptr %inst11, align 8
+  %inst12 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %load179)
+  store ptr %inst12, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load180 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst13 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load180, i32 0, i32 0
+  store ptr null, ptr %inst13, align 8
+  %load181 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %inst14 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load181)
+  %load182 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst15 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load182, i32 0, i32 0
+  %load183 = load ptr, ptr %"\D0\9C", align 8
+  %load184 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %inst16 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\AE8"(ptr %load183, ptr %load184, i64 %inst14, ptr %inst15)
+  %load185 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst17 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load185, i32 0, i32 0
+  %load186 = load ptr, ptr %inst17, align 8
+  %inst18 = icmp eq ptr %load186, null
+  br i1 %inst18, label %if_body19, label %if_body_else20
+
+if_body19:                                        ; preds = %if_body_exit
+  %load187 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load187, ptr @7)
+  br label %if_body_exit21
+
+if_body_else20:                                   ; preds = %if_body_exit
+  br label %if_body_exit21
+
+if_body_exit21:                                   ; preds = %if_body_else20, %if_body19
+  %load188 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst22 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load188, i32 0, i32 1
+  %load189 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  store ptr %load189, ptr %inst22, align 8
+  %load190 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst23 = call ptr @"\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D0\B2\D0\BA\D1\83"(ptr %load190)
+  store ptr %inst23, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %load191 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst24 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load191, i32 0, i32 0
+  %load192 = load i64, ptr %inst24, align 4
+  %inst25 = icmp eq i64 %load192, 0
+  br i1 %inst25, label %if_body26, label %if_body_else27
+
+if_body26:                                        ; preds = %if_body_exit21
+  %load193 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst29 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load193, i32 0, i32 2
+  %load194 = load ptr, ptr %inst29, align 8
+  %inst30 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load194, i32 0, i32 1
+  %load195 = load ptr, ptr %"\D0\9C", align 8
+  %load196 = load ptr, ptr %inst30, align 8
+  %inst31 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr %load195, ptr %load196)
+  store ptr %inst31, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83", align 8
+  store ptr null, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load197 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst32 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load197, i32 0, i32 2
+  %load198 = load ptr, ptr %inst32, align 8
+  %inst33 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load198, i32 0, i32 0
+  %load199 = load ptr, ptr %inst33, align 8
+  %inst34 = icmp ne ptr %load199, null
+  br i1 %inst34, label %if_body35, label %if_body_else36
+
+if_body_else27:                                   ; preds = %if_body_exit21
+  br label %if_body_exit28
+
+if_body_exit28:                                   ; preds = %if_body_else27, %if_body_exit37
+  %load210 = load ptr, ptr %"\D0\9C", align 8
+  %load211 = load ptr, ptr %"\D1\8E8_\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %inst43 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr %load210, ptr %load211)
+  store ptr %inst43, ptr %"\D0\BA\D0\BE\D0\B4", align 8
+  %load212 = load ptr, ptr %"\D0\9C", align 8
+  %inst44 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load212, i32 0, i32 22
+  %load213 = load ptr, ptr %inst44, align 8
+  %inst45 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr %load213)
+  store ptr %inst45, ptr %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %load214 = load ptr, ptr %"\D0\9C", align 8
+  %inst46 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load214, i32 0, i32 22
+  %load215 = load ptr, ptr %inst46, align 8
+  %load216 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst47 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load216, i32 0, i32 1
+  %load217 = load ptr, ptr %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %load218 = load ptr, ptr %"\D0\BA\D0\BE\D0\B4", align 8
+  %load219 = load ptr, ptr %inst47, align 8
+  %inst48 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8E\D0\B2\D0\B0\D1\82\D0\B8_\D1\82\D1\96\D0\BB\D0\BE"(ptr %load215, ptr %load217, ptr %load218, ptr %load219, i1 true)
+  store ptr %inst48, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %load220 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst49 = icmp ne ptr %load220, null
+  br i1 %inst49, label %if_body50, label %if_body_else51
+
+if_body35:                                        ; preds = %if_body26
+  %load200 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst38 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load200, i32 0, i32 0
+  %load201 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst39 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load201, i32 0, i32 2
+  %load202 = load ptr, ptr %inst39, align 8
+  %inst40 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load202, i32 0, i32 0
+  %load203 = load ptr, ptr %inst40, align 8
+  %inst41 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", ptr %load203, i32 0, i32 1
+  %load204 = load ptr, ptr %"\D0\9C", align 8
+  %load205 = load ptr, ptr %inst38, align 8
+  %load206 = load i64, ptr %inst41, align 4
+  %inst42 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load204, ptr %load205, i64 %load206)
+  store ptr %inst42, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  br label %if_body_exit37
+
+if_body_else36:                                   ; preds = %if_body26
+  br label %if_body_exit37
+
+if_body_exit37:                                   ; preds = %if_body_else36, %if_body35
+  %load207 = load ptr, ptr %"\D0\9C", align 8
+  %load208 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load207, ptr %load208)
+  %load209 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83", align 8
+  store ptr %load209, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit28
+
+if_body50:                                        ; preds = %if_body_exit28
+  %load221 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst53 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", ptr %load221, i32 0, i32 0
+  %load222 = load ptr, ptr %"\D0\9C", align 8
+  %load223 = load ptr, ptr %inst53, align 8
+  %inst54 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr %load222, ptr %load223)
+  store ptr %inst54, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\8355", align 8
+  store ptr null, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F56", align 8
+  %load224 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst57 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", ptr %load224, i32 0, i32 1
+  %load225 = load ptr, ptr %inst57, align 8
+  %inst58 = icmp ne ptr %load225, null
+  br i1 %inst58, label %if_body59, label %if_body_else60
+
+if_body_else51:                                   ; preds = %if_body_exit28
+  br label %if_body_exit52
+
+if_body_exit52:                                   ; preds = %if_body_else51, %if_body_exit61
+  %load235 = load ptr, ptr %"\D0\9C", align 8
+  %inst66 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load235, i32 0, i32 22
+  %load236 = load ptr, ptr %inst66, align 8
+  %load237 = load ptr, ptr %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr %load236, ptr %load237)
+  %load238 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  call void @"\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8"(ptr %load238)
+  %load239 = load ptr, ptr %"\D0\9C", align 8
+  %inst67 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load239, i32 0, i32 22
+  %load240 = load ptr, ptr %inst67, align 8
+  %load241 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst68 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load241, i32 0, i32 0
+  %load242 = load ptr, ptr %inst68, align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load240, ptr %load242)
+  %load243 = load ptr, ptr %"\D0\9C", align 8
+  %inst69 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load243, i32 0, i32 22
+  %load244 = load ptr, ptr %inst69, align 8
+  %load245 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D1\84\D0\B0\D0\B9\D0\BB\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load244, ptr %load245)
+  %load246 = load ptr, ptr %"\D0\9C", align 8
+  %inst70 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load246, i32 0, i32 22
+  %load247 = load ptr, ptr %inst70, align 8
+  %load248 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load247, ptr %load248)
+  %load249 = load ptr, ptr %"\D0\9C", align 8
+  %inst71 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load249, i32 0, i32 17
+  %load250 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  %load251 = load ptr, ptr %"\D0\9C", align 8
+  %load252 = load ptr, ptr %inst71, align 8
+  %load253 = load ptr, ptr %"\D0\BA\D0\BE\D0\B4", align 8
+  %load254 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  %inst72 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr %load251, ptr %load252, ptr %load253, ptr null, ptr %load254, ptr %load250)
+  store ptr %inst72, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load255 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  store ptr %load255, ptr %return1, align 8
+  br label %return
+  br label %return
+
+if_body59:                                        ; preds = %if_body50
+  %load226 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst62 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load226, i32 0, i32 0
+  %load227 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst63 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", ptr %load227, i32 0, i32 1
+  %load228 = load ptr, ptr %inst63, align 8
+  %inst64 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", ptr %load228, i32 0, i32 1
+  %load229 = load ptr, ptr %"\D0\9C", align 8
+  %load230 = load ptr, ptr %inst62, align 8
+  %load231 = load i64, ptr %inst64, align 4
+  %inst65 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load229, ptr %load230, i64 %load231)
+  store ptr %inst65, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F56", align 8
+  br label %if_body_exit61
+
+if_body_else60:                                   ; preds = %if_body50
+  br label %if_body_exit61
+
+if_body_exit61:                                   ; preds = %if_body_else60, %if_body59
+  %load232 = load ptr, ptr %"\D0\9C", align 8
+  %load233 = load ptr, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F56", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load232, ptr %load233)
+  %load234 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\8355", align 8
+  store ptr %load234, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit52
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load174 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load174, i64 16)
+  store ptr %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load173 = load ptr, ptr %return1, align 8
+  ret ptr %load173
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.2"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load176 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst = mul i64 %load176, 16
+  %load177 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load177, i64 %inst)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load175 = load ptr, ptr %return1, align 8
+  ret ptr %load175
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BE\D0\B1\D1\80\D0\BE\D0\B1\D0\BD\D0\B8\D0\BA_\D0\B2\D0\B7\D1\8F\D1\82\D1\82\D1\8F_\D0\B1\D1\96\D0\B1"(ptr %0, ptr %1, %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6" %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83" = alloca ptr, align 8
+  %"\D1\88\D0\BB\D1\8F\D1\85" = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6" %2, ptr %"\D1\88\D0\BB\D1\8F\D1\85", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 1
+  %load257 = load ptr, ptr %inst, align 8
+  %inst2 = getelementptr ptr, ptr %load257, i32 0
+  %load258 = load ptr, ptr %inst2, align 8
+  %load259 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load259, i32 0, i32 0
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst3, i32 0, i32 1
+  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst4, i32 0, i32 63
+  %load260 = load ptr, ptr %inst5, align 8
+  %inst6 = icmp eq ptr %load258, %load260
+  br i1 %inst6, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit36, %if_body_exit36, %if_body34, %if_body24, %if_body14, %if_body
+  %load256 = load ptr, ptr %return1, align 8
+  ret ptr %load256
+
+if_body:                                          ; preds = %entry
+  %load261 = load ptr, ptr %"\D0\9C", align 8
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load261, i32 0, i32 22
+  %load262 = load ptr, ptr %inst7, align 8
+  %load263 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\9C"(ptr %load262, ptr %load263)
+  %load264 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  store ptr %load264, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 1
+  %load265 = load ptr, ptr %inst8, align 8
+  %inst9 = getelementptr ptr, ptr %load265, i32 0
+  %load266 = load ptr, ptr %inst9, align 8
+  %load267 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load267, i32 0, i32 0
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst10, i32 0, i32 1
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst11, i32 0, i32 64
+  %load268 = load ptr, ptr %inst12, align 8
+  %inst13 = icmp eq ptr %load266, %load268
+  br i1 %inst13, label %if_body14, label %if_body_else15
+
+if_body14:                                        ; preds = %if_body_exit
+  %load269 = load ptr, ptr %"\D0\9C", align 8
+  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load269, i32 0, i32 22
+  %load270 = load ptr, ptr %inst17, align 8
+  %load271 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0"(ptr %load270, ptr %load271)
+  %load272 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  store ptr %load272, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit16
+
+if_body_else15:                                   ; preds = %if_body_exit
+  br label %if_body_exit16
+
+if_body_exit16:                                   ; preds = %if_body_else15, %if_body14
+  %inst18 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 1
+  %load273 = load ptr, ptr %inst18, align 8
+  %inst19 = getelementptr ptr, ptr %load273, i32 0
+  %load274 = load ptr, ptr %inst19, align 8
+  %load275 = load ptr, ptr %"\D0\9C", align 8
+  %inst20 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load275, i32 0, i32 0
+  %inst21 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst20, i32 0, i32 1
+  %inst22 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst21, i32 0, i32 65
+  %load276 = load ptr, ptr %inst22, align 8
+  %inst23 = icmp eq ptr %load274, %load276
+  br i1 %inst23, label %if_body24, label %if_body_else25
+
+if_body24:                                        ; preds = %if_body_exit16
+  %load277 = load ptr, ptr %"\D0\9C", align 8
+  %inst27 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load277, i32 0, i32 22
+  %load278 = load ptr, ptr %inst27, align 8
+  %load279 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D0\9C\D0\B0\D0\9C\D0\B0"(ptr %load278, ptr %load279)
+  %load280 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  store ptr %load280, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit26
+
+if_body_else25:                                   ; preds = %if_body_exit16
+  br label %if_body_exit26
+
+if_body_exit26:                                   ; preds = %if_body_else25, %if_body24
+  %inst28 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.6", ptr %"\D1\88\D0\BB\D1\8F\D1\85", i32 0, i32 1
+  %load281 = load ptr, ptr %inst28, align 8
+  %inst29 = getelementptr ptr, ptr %load281, i32 0
+  %load282 = load ptr, ptr %inst29, align 8
+  %load283 = load ptr, ptr %"\D0\9C", align 8
+  %inst30 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load283, i32 0, i32 0
+  %inst31 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst30, i32 0, i32 1
+  %inst32 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst31, i32 0, i32 76
+  %load284 = load ptr, ptr %inst32, align 8
+  %inst33 = icmp eq ptr %load282, %load284
+  br i1 %inst33, label %if_body34, label %if_body_else35
+
+if_body34:                                        ; preds = %if_body_exit26
+  %load285 = load ptr, ptr %"\D0\9C", align 8
+  %inst37 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load285, i32 0, i32 22
+  %load286 = load ptr, ptr %inst37, align 8
+  %load287 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B1\D1\96\D0\B1\D0\BB\D1\96\D0\BE\D1\82\D0\B5\D0\BA\D0\B0::\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B8\D1\82\D0\B8_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8C_\D1\87\D0\B8\D1\82\D0\B0\D1\82\D0\B8_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4"(ptr %load286, ptr %load287)
+  %load288 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BC\D0\BE\D0\B4\D1\83\D0\BB\D1\8F_\D0\B7\D0\B0\D0\BF\D0\B8\D1\81\D1\83", align 8
+  store ptr %load288, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit36
+
+if_body_else35:                                   ; preds = %if_body_exit26
+  br label %if_body_exit36
+
+if_body_exit36:                                   ; preds = %if_body_else35, %if_body34
+  %load289 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load289, ptr null)
+  %load290 = load ptr, ptr %"\D0\9C", align 8
+  %inst38 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load290, ptr @8)
+  store ptr %inst38, ptr %return1, align 8
+  br label %return
+  br label %return
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store i64 %1, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load292 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load292, i32 0, i32 22
+  %load293 = load ptr, ptr %inst, align 8
+  store ptr %load293, ptr %"\D0\92", align 8
+  %load294 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load294, i32 0, i32 0
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst2, i32 0, i32 0
+  %load295 = load ptr, ptr %inst3, align 8
+  %load296 = load ptr, ptr %"\D0\92", align 8
+  %load297 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %inst4 = call ptr %load295(ptr %load296, i64 %load297)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load291 = load ptr, ptr %return1, align 8
+  ret ptr %load291
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BD\D0\BE\D0\B2\D0\B8\D0\B9_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D0\BD\D0\BE\D0\B2\D0\B8\D0\B9_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load299 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load299, i32 0, i32 22
+  %load300 = load ptr, ptr %inst, align 8
+  store ptr %load300, ptr %"\D0\92", align 8
+  %load301 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load301, i32 0, i32 0
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst2, i32 0, i32 1
+  %load302 = load ptr, ptr %inst3, align 8
+  %load303 = load ptr, ptr %"\D0\92", align 8
+  %load304 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load305 = load i64, ptr %"\D0\BD\D0\BE\D0\B2\D0\B8\D0\B9_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %inst4 = call ptr %load302(ptr %load303, ptr %load304, i64 %load305)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load298 = load ptr, ptr %return1, align 8
+  ret ptr %load298
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load306 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load306, i32 0, i32 22
+  %load307 = load ptr, ptr %inst, align 8
+  store ptr %load307, ptr %"\D0\92", align 8
+  %load308 = load ptr, ptr %"\D0\92", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load308, i32 0, i32 0
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst1, i32 0, i32 2
+  %load309 = load ptr, ptr %inst2, align 8
+  %load310 = load ptr, ptr %"\D0\92", align 8
+  %load311 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  call void %load309(ptr %load310, ptr %load311)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load312 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load312, i32 0, i32 22
+  %load313 = load ptr, ptr %inst, align 8
+  store ptr %load313, ptr %"\D0\92", align 8
+  %load314 = load ptr, ptr %"\D0\92", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load314, i32 0, i32 0
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst1, i32 0, i32 3
+  %load315 = load ptr, ptr %inst2, align 8
+  %load316 = load ptr, ptr %"\D0\92", align 8
+  %load317 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load318 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  call void %load315(ptr %load316, ptr %load317, i64 %load318)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B2\D0\B8\D0\B2\D0\B5\D1\81\D1\82\D0\B8_\D0\AE8"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80" = alloca i64, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  %load319 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load319, i32 0, i32 22
+  %load320 = load ptr, ptr %inst, align 8
+  store ptr %load320, ptr %"\D0\92", align 8
+  %load321 = load ptr, ptr %"\D0\92", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load321, i32 0, i32 0
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst1, i32 0, i32 4
+  %load322 = load ptr, ptr %inst2, align 8
+  %load323 = load ptr, ptr %"\D0\92", align 8
+  %load324 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load325 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80", align 4
+  call void %load322(ptr %load323, ptr %load324, i64 %load325)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D0\BE\D0\BC\D0\B5\D1\80\D1\82\D0\B8"(ptr %0, i32 %1) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BA\D0\BE\D0\B4" = alloca i32, align 4
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store i32 %1, ptr %"\D0\BA\D0\BE\D0\B4", align 4
+  %load326 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load326, i32 0, i32 22
+  %load327 = load ptr, ptr %inst, align 8
+  store ptr %load327, ptr %"\D0\92", align 8
+  %load328 = load ptr, ptr %"\D0\92", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load328, i32 0, i32 0
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst1, i32 0, i32 5
+  %load329 = load ptr, ptr %inst2, align 8
+  %load330 = load ptr, ptr %"\D0\92", align 8
+  %load331 = load i32, ptr %"\D0\BA\D0\BE\D0\B4", align 4
+  call void %load329(ptr %load330, i32 %load331)
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal double @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D1\96\D0\B4\D0\BB\D0\BE\D0\B3\D0\B0_\D0\B464"(ptr %0, double %1) {
+alloca:
+  %return1 = alloca double, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca double, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store double %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load335 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst = call double @mavka_floor(double %load335)
+  store double %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load334 = load double, ptr %return1, align 8
+  ret double %load334
+}
+
+define internal double @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BF\D1\96\D0\B4\D0\BD\D0\B5\D1\81\D1\82\D0\B8_\D0\B4\D0\BE_\D1\81\D1\82\D0\B5\D0\BF\D0\B5\D0\BD\D1\8F_\D0\B464"(ptr %0, double %1, double %2) {
+alloca:
+  %return1 = alloca double, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B1\D0\B0\D0\B7\D0\B0" = alloca double, align 8
+  %"\D0\B5\D0\BA\D1\81\D0\BF\D0\BE\D0\BD\D0\B5\D0\BD\D1\82\D0\B0" = alloca double, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store double %1, ptr %"\D0\B1\D0\B0\D0\B7\D0\B0", align 8
+  store double %2, ptr %"\D0\B5\D0\BA\D1\81\D0\BF\D0\BE\D0\BD\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load337 = load double, ptr %"\D0\B1\D0\B0\D0\B7\D0\B0", align 8
+  %load338 = load double, ptr %"\D0\B5\D0\BA\D1\81\D0\BF\D0\BE\D0\BD\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst = call double @mavka_pow(double %load337, double %load338)
+  store double %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load336 = load double, ptr %return1, align 8
+  ret double %load336
+}
+
+define internal double @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\BD\D0\B5\D0\B3\D0\B0\D1\86\D1\96\D1\8F_\D0\B464"(ptr %0, double %1) {
+alloca:
+  %return1 = alloca double, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca double, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store double %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load340 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst = call double @mavka_negate(double %load340)
+  store double %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load339 = load double, ptr %return1, align 8
+  ret double %load339
+}
+
+define internal double @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B0_\D0\BD\D0\B5\D0\B3\D0\B0\D1\86\D1\96\D1\8F_\D0\B464"(ptr %0, double %1) {
+alloca:
+  %return1 = alloca double, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca double, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store double %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load342 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst = call double @mavka_bitnot(double %load342)
+  store double %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load341 = load double, ptr %return1, align 8
+  ret double %load341
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BC\D0\B0\D1\88\D0\B8\D0\BD\D0\B0_\D0\B464_\D0\B2_\D0\AE8"(ptr %0, double %1, ptr %2, ptr %3) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca double, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store double %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  store ptr %3, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 8
+  %load343 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load344 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst = call i64 @mavka_double_to_string(double %load344, ptr %load343)
+  %load345 = load ptr, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 8
+  %inst1 = getelementptr i64, ptr %load345, i32 0
+  store i64 %inst, ptr %inst1, align 4
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %"\D0\B4\D0\B0\D0\BD\D1\96" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca i64, align 8
+  %"\D0\B2\D0\B2\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83" = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5" = alloca ptr, align 8
+  %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BA\D0\BE\D0\B4" = alloca ptr, align 8
+  %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\8361" = alloca ptr, align 8
+  %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F62" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BA\D0\BE\D0\B4\D1\83" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  %load366 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load366, ptr %"\D0\B2\D0\B2\D1\96\D0\B4", align 8
+  %load367 = load ptr, ptr %"\D0\B2\D0\B2\D1\96\D0\B4", align 8
+  %inst = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D1\96\D0\B2\D0\BD\D1\8F\D1\82\D0\B8_\D0\AE8"(ptr %load367, ptr @9)
+  %inst1 = icmp eq i64 %inst, 0
+  br i1 %inst1, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit67, %if_body_exit42
+  ret void
+
+if_body:                                          ; preds = %entry
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  %load368 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store ptr %load368, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  %load369 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\94\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", ptr %load369, i32 0, i32 0
+  %load370 = load ptr, ptr %inst2, align 8
+  store ptr %load370, ptr %"\D0\92", align 8
+  %load371 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\B4\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\94\D1\96\D0\B0\D0\BB\D0\BE\D0\B3\D1\83", ptr %load371, i32 0, i32 1
+  %load372 = load ptr, ptr %inst3, align 8
+  store ptr %load372, ptr %"\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5", align 8
+  %load373 = load ptr, ptr %"\D0\92", align 8
+  %load374 = load ptr, ptr %"\D0\92", align 8
+  %inst4 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8"(ptr %load374)
+  store ptr %inst4, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load375 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load375, i32 0, i32 0
+  store ptr null, ptr %inst5, align 8
+  %load376 = load ptr, ptr %"\D0\92", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load376, i32 0, i32 1
+  %inst7 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr @11)
+  %load377 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst8 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load377, i32 0, i32 0
+  %load378 = load ptr, ptr %inst6, align 8
+  %inst9 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\AE8"(ptr %load378, ptr @10, i64 %inst7, ptr %inst8)
+  %load379 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst10 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load379, i32 0, i32 0
+  %load380 = load ptr, ptr %inst10, align 8
+  %inst11 = icmp eq ptr %load380, null
+  br i1 %inst11, label %if_body12, label %if_body_else13
+
+if_body_exit:                                     ; preds = %if_body_exit82, %if_body
+  br label %return
+
+if_body12:                                        ; preds = %if_body_else
+  %load381 = load ptr, ptr %"\D0\92", align 8
+  %inst15 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load381, i32 0, i32 1
+  %load382 = load ptr, ptr %inst15, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load382, ptr @12)
+  br label %if_body_exit14
+
+if_body_else13:                                   ; preds = %if_body_else
+  br label %if_body_exit14
+
+if_body_exit14:                                   ; preds = %if_body_else13, %if_body12
+  %load383 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst16 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load383, i32 0, i32 1
+  store ptr null, ptr %inst16, align 8
+  %load384 = load ptr, ptr %"\D0\92", align 8
+  %inst17 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load384, i32 0, i32 1
+  %load385 = load ptr, ptr %"\D0\B2\D0\B2\D1\96\D0\B4", align 8
+  %inst18 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load385)
+  %load386 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst19 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load386, i32 0, i32 1
+  %load387 = load ptr, ptr %inst17, align 8
+  %load388 = load ptr, ptr %"\D0\B2\D0\B2\D1\96\D0\B4", align 8
+  %inst20 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D0\AE8"(ptr %load387, ptr %load388, i64 %inst18, ptr %inst19)
+  %load389 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst21 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load389, i32 0, i32 1
+  %load390 = load ptr, ptr %inst21, align 8
+  %inst22 = icmp eq ptr %load390, null
+  br i1 %inst22, label %if_body23, label %if_body_else24
+
+if_body23:                                        ; preds = %if_body_exit14
+  %load391 = load ptr, ptr %"\D0\92", align 8
+  %inst26 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load391, i32 0, i32 1
+  %load392 = load ptr, ptr %inst26, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load392, ptr @13)
+  br label %if_body_exit25
+
+if_body_else24:                                   ; preds = %if_body_exit14
+  br label %if_body_exit25
+
+if_body_exit25:                                   ; preds = %if_body_else24, %if_body23
+  %load393 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst27 = call ptr @"\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D0\BC\D0\B0\D0\B2\D0\BA\D1\83"(ptr %load393)
+  store ptr %inst27, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %load394 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst28 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load394, i32 0, i32 0
+  %load395 = load i64, ptr %inst28, align 4
+  %inst29 = icmp eq i64 %load395, 0
+  br i1 %inst29, label %if_body30, label %if_body_else31
+
+if_body30:                                        ; preds = %if_body_exit25
+  %load396 = load ptr, ptr %"\D0\92", align 8
+  %inst33 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load396, i32 0, i32 1
+  %load397 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst34 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load397, i32 0, i32 2
+  %load398 = load ptr, ptr %inst34, align 8
+  %inst35 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load398, i32 0, i32 1
+  %load399 = load ptr, ptr %inst33, align 8
+  %load400 = load ptr, ptr %inst35, align 8
+  %inst36 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr %load399, ptr %load400)
+  store ptr %inst36, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83", align 8
+  store ptr null, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  %load401 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst37 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load401, i32 0, i32 2
+  %load402 = load ptr, ptr %inst37, align 8
+  %inst38 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load402, i32 0, i32 0
+  %load403 = load ptr, ptr %inst38, align 8
+  %inst39 = icmp ne ptr %load403, null
+  br i1 %inst39, label %if_body40, label %if_body_else41
+
+if_body_else31:                                   ; preds = %if_body_exit25
+  br label %if_body_exit32
+
+if_body_exit32:                                   ; preds = %if_body_else31, %if_body_exit42
+  %load412 = load ptr, ptr %"\D0\92", align 8
+  %inst49 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load412, i32 0, i32 1
+  %load413 = load ptr, ptr %inst49, align 8
+  %inst50 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4"(ptr %load413, ptr @14)
+  store ptr %inst50, ptr %"\D0\BA\D0\BE\D0\B4", align 8
+  %load414 = load ptr, ptr %"\D0\92", align 8
+  %inst51 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr %load414)
+  store ptr %inst51, ptr %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %load415 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst52 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load415, i32 0, i32 1
+  %load416 = load ptr, ptr %"\D0\92", align 8
+  %load417 = load ptr, ptr %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %load418 = load ptr, ptr %"\D0\BA\D0\BE\D0\B4", align 8
+  %load419 = load ptr, ptr %inst52, align 8
+  %inst53 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D1\81\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8E\D0\B2\D0\B0\D1\82\D0\B8_\D1\82\D1\96\D0\BB\D0\BE"(ptr %load416, ptr %load417, ptr %load418, ptr %load419, i1 true)
+  store ptr %inst53, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %load420 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst54 = icmp ne ptr %load420, null
+  br i1 %inst54, label %if_body55, label %if_body_else56
+
+if_body40:                                        ; preds = %if_body30
+  %load404 = load ptr, ptr %"\D0\92", align 8
+  %inst43 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load404, i32 0, i32 1
+  %load405 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst44 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load405, i32 0, i32 0
+  %load406 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  %inst45 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load406, i32 0, i32 2
+  %load407 = load ptr, ptr %inst45, align 8
+  %inst46 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\9C\D0\B0\D0\B2\D0\BA\D0\B8", ptr %load407, i32 0, i32 0
+  %load408 = load ptr, ptr %inst46, align 8
+  %inst47 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", ptr %load408, i32 0, i32 1
+  %load409 = load ptr, ptr %inst43, align 8
+  %load410 = load ptr, ptr %inst44, align 8
+  %load411 = load i64, ptr %inst47, align 4
+  %inst48 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load409, ptr %load410, i64 %load411)
+  store ptr %inst48, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", align 8
+  br label %if_body_exit42
+
+if_body_else41:                                   ; preds = %if_body30
+  br label %if_body_exit42
+
+if_body_exit42:                                   ; preds = %if_body_else41, %if_body40
+  br label %return
+  br label %if_body_exit32
+
+if_body55:                                        ; preds = %if_body_exit32
+  %load421 = load ptr, ptr %"\D0\92", align 8
+  %inst58 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load421, i32 0, i32 1
+  %load422 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst59 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", ptr %load422, i32 0, i32 0
+  %load423 = load ptr, ptr %inst58, align 8
+  %load424 = load ptr, ptr %inst59, align 8
+  %inst60 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D0\B7_\D1\8E8"(ptr %load423, ptr %load424)
+  store ptr %inst60, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\8361", align 8
+  store ptr null, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F62", align 8
+  %load425 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst63 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", ptr %load425, i32 0, i32 1
+  %load426 = load ptr, ptr %inst63, align 8
+  %inst64 = icmp ne ptr %load426, null
+  br i1 %inst64, label %if_body65, label %if_body_else66
+
+if_body_else56:                                   ; preds = %if_body_exit32
+  br label %if_body_exit57
+
+if_body_exit57:                                   ; preds = %if_body_else56, %if_body_exit67
+  %load434 = load ptr, ptr %"\D0\92", align 8
+  %load435 = load ptr, ptr %"\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BD\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97"(ptr %load434, ptr %load435)
+  %load436 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8", align 8
+  call void @"\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D0\BC\D0\B0\D0\B2\D0\BA\D0\B8"(ptr %load436)
+  %load437 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst73 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load437, i32 0, i32 0
+  %load438 = load ptr, ptr %inst73, align 8
+  %load439 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load439, ptr %load438)
+  %load440 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst74 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load440, i32 0, i32 1
+  %load441 = load ptr, ptr %inst74, align 8
+  %load442 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load442, ptr %load441)
+  %load443 = load ptr, ptr %"\D0\92", align 8
+  %load444 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load443, ptr %load444)
+  %load445 = load ptr, ptr %"\D0\92", align 8
+  %inst75 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load445, i32 0, i32 1
+  %load446 = load ptr, ptr %inst75, align 8
+  %load447 = load ptr, ptr %"\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D0\B5", align 8
+  %load448 = load ptr, ptr %"\D0\BA\D0\BE\D0\B4", align 8
+  %inst76 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D0\BA\D0\BE\D0\B4_\D0\B2_\D1\81\D0\B5\D1\80\D0\B5\D0\B4\D0\BE\D0\B2\D0\B8\D1\89\D1\96"(ptr %load446, ptr %load447, ptr %load448)
+  store ptr %inst76, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load449 = load ptr, ptr %"\D0\92", align 8
+  %inst77 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load449, i32 0, i32 1
+  %load450 = load ptr, ptr %inst77, align 8
+  %inst78 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load450, i32 0, i32 14
+  %load451 = load i64, ptr %inst78, align 4
+  %inst79 = icmp eq i64 %load451, 1
+  br i1 %inst79, label %if_body80, label %if_body_else81
+
+if_body65:                                        ; preds = %if_body55
+  %load427 = load ptr, ptr %"\D0\92", align 8
+  %inst68 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load427, i32 0, i32 1
+  %load428 = load ptr, ptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst69 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A2\D0\B5\D0\BA\D1\81\D1\82\D0\9A\D0\BE\D0\B4\D1\83", ptr %load428, i32 0, i32 0
+  %load429 = load ptr, ptr %"\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0_\D0\BA\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", align 8
+  %inst70 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B0\D0\9A\D0\BE\D0\BC\D0\BF\D1\96\D0\BB\D1\8F\D1\86\D1\96\D1\97", ptr %load429, i32 0, i32 1
+  %load430 = load ptr, ptr %inst70, align 8
+  %inst71 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F", ptr %load430, i32 0, i32 1
+  %load431 = load ptr, ptr %inst68, align 8
+  %load432 = load ptr, ptr %inst69, align 8
+  %load433 = load i64, ptr %inst71, align 4
+  %inst72 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load431, ptr %load432, i64 %load433)
+  store ptr %inst72, ptr %"\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F62", align 8
+  br label %if_body_exit67
+
+if_body_else66:                                   ; preds = %if_body55
+  br label %if_body_exit67
+
+if_body_exit67:                                   ; preds = %if_body_else66, %if_body65
+  br label %return
+  br label %if_body_exit57
+
+if_body80:                                        ; preds = %if_body_exit57
+  %load452 = load ptr, ptr %"\D0\92", align 8
+  %inst83 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\92\D0\B8\D0\BA\D0\BE\D0\BD\D1\83\D0\B2\D0\B0\D1\87", ptr %load452, i32 0, i32 1
+  %load453 = load ptr, ptr %inst83, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load453)
+  br label %if_body_exit82
+
+if_body_else81:                                   ; preds = %if_body_exit57
+  %load454 = load ptr, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D0\BD\D0\BD\D1\8F_\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %load455 = load ptr, ptr %"\D0\92", align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D0\B4\D1\80\D1\83\D0\BA\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %load455, ptr %load454)
+  br label %if_body_exit82
+
+if_body_exit82:                                   ; preds = %if_body_else81, %if_body80
+  br label %if_body_exit
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.3"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load458 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load458, i64 16)
+  store ptr %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load457 = load ptr, ptr %return1, align 8
+  ret ptr %load457
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.4"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load460 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst = mul i64 %load460, 16
+  %load461 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load461, i64 %inst)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load459 = load ptr, ptr %return1, align 8
+  ret ptr %load459
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %0, ptr %1, ptr %2, ptr %3, ptr %4) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F" = alloca ptr, align 8
+  %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  store ptr %1, ptr %"\D0\9C", align 8
+  store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  store ptr %3, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  store ptr %4, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load553 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load553, i32 0, i32 6
+  %load554 = load ptr, ptr %inst, align 8
+  store ptr %load554, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %load555 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst2 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load555, i32 0, i32 1
+  %load556 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %load557 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load557, i32 0, i32 0
+  %load558 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  %load559 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load559, i32 0, i32 0
+  %load560 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load560, i32 0, i32 1
+  %load561 = load ptr, ptr %inst5, align 8
+  %load562 = load ptr, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load563 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load563, i32 0, i32 2
+  %load564 = load ptr, ptr %inst2, align 8
+  %load565 = load ptr, ptr %inst3, align 8
+  %load566 = load i64, ptr %inst4, align 4
+  %load567 = load ptr, ptr %inst6, align 8
+  %inst7 = call %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %load564(ptr %load556, ptr %load565, ptr %load558, i64 %load566, ptr %load561, ptr %load562, ptr %load567)
+  store %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82" %inst7, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst8 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 0
+  %load568 = load ptr, ptr %inst8, align 8
+  %inst9 = icmp ne ptr %load568, null
+  br i1 %inst9, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body_exit15
+  %load552 = load ptr, ptr %return1, align 8
+  ret ptr %load552
+
+if_body:                                          ; preds = %entry
+  %inst10 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 0
+  %load569 = load ptr, ptr %inst10, align 8
+  %inst11 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load569, i32 0, i32 0
+  %load570 = load ptr, ptr %inst11, align 8
+  %inst12 = icmp eq ptr %load570, null
+  br i1 %inst12, label %if_body13, label %if_body_else14
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body_exit15
+  %inst26 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 1
+  %load584 = load ptr, ptr %inst26, align 8
+  store ptr %load584, ptr %return1, align 8
+  br label %return
+  br label %return
+
+if_body13:                                        ; preds = %if_body
+  %load571 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load571, ptr null)
+  br label %if_body_exit15
+
+if_body_else14:                                   ; preds = %if_body
+  %inst16 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 0
+  %load572 = load ptr, ptr %inst16, align 8
+  %inst17 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load572, i32 0, i32 0
+  %load573 = load ptr, ptr %inst17, align 8
+  %inst18 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load573, i32 0, i32 0
+  %inst19 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 0
+  %load574 = load ptr, ptr %inst19, align 8
+  %inst20 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load574, i32 0, i32 0
+  %load575 = load ptr, ptr %inst20, align 8
+  %inst21 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\9C\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F\D0\9F\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F", ptr %load575, i32 0, i32 1
+  %load576 = load ptr, ptr %"\D0\9C", align 8
+  %load577 = load ptr, ptr %inst18, align 8
+  %load578 = load i64, ptr %inst21, align 4
+  %inst22 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BC\D1\96\D1\81\D1\86\D0\B5\D0\B7\D0\BD\D0\B0\D1\85\D0\BE\D0\B4\D0\B6\D0\B5\D0\BD\D0\BD\D1\8F_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load576, ptr %load577, i64 %load578)
+  %load579 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load579, ptr %inst22)
+  br label %if_body_exit15
+
+if_body_exit15:                                   ; preds = %if_body_else14, %if_body13
+  %load580 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst23 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load580, i32 0, i32 0
+  %inst24 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 0
+  %load581 = load ptr, ptr %inst23, align 8
+  %load582 = load ptr, ptr %inst24, align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load581, ptr %load582)
+  %inst25 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", i32 0, i32 1
+  %load583 = load ptr, ptr %inst25, align 8
+  store ptr %load583, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+}
+
+define internal void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D1\96\D0\B4\D0\BA\D0\BB\D0\B8\D0\BA_\D0\BF\D0\B5\D1\80\D0\B5\D0\B4_\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %0, ptr %1) {
+alloca:
+  %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  store ptr %1, ptr %"\D0\9C", align 8
+  %load585 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load585, i32 0, i32 6
+  %load586 = load ptr, ptr %inst, align 8
+  store ptr %load586, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %load587 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst1 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load587, i32 0, i32 3
+  %load588 = load ptr, ptr %inst1, align 8
+  %inst2 = icmp ne ptr %load588, null
+  br i1 %inst2, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit
+  ret void
+
+if_body:                                          ; preds = %entry
+  %load589 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst3 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load589, i32 0, i32 3
+  %load590 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %load591 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst4 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load591, i32 0, i32 0
+  %load592 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst5 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load592, i32 0, i32 2
+  %load593 = load ptr, ptr %inst3, align 8
+  %load594 = load ptr, ptr %inst4, align 8
+  %load595 = load ptr, ptr %inst5, align 8
+  call void %load593(ptr %load590, ptr %load594, ptr %load595)
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load596 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst6 = getelementptr %"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\94\D0\B0\D0\BD\D1\96\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load596, i32 0, i32 0
+  %load597 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97", align 8
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\9D\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97\D0\94\D1\96\D1\97", ptr %load597, i32 0, i32 6
+  %load598 = load ptr, ptr %inst6, align 8
+  %load599 = load ptr, ptr %inst7, align 8
+  call void @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load598, ptr %load599)
+  br label %return
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.5"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load602 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load602, i64 32)
+  store ptr %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load601 = load ptr, ptr %return1, align 8
+  ret ptr %load601
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.6"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load604 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst = mul i64 %load604, 32
+  %load605 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load605, i64 %inst)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load603 = load ptr, ptr %return1, align 8
+  ret ptr %load603
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  %load672 = load ptr, ptr %"\D0\9C", align 8
+  %load673 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.7"(ptr %load673)
+  store ptr %inst, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %load674 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load674, i32 0, i32 0
+  store i64 0, ptr %inst2, align 4
+  %load675 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load675, i32 0, i32 1
+  store ptr null, ptr %inst3, align 8
+  %load676 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  store ptr %load676, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load662 = load ptr, ptr %return1, align 8
+  ret ptr %load662
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.7"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  %load664 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load664, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
+  %load665 = load ptr, ptr %inst2, align 8
+  %load666 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr %load665(ptr %load666, i64 16)
+  store ptr %inst3, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load663 = load ptr, ptr %return1, align 8
+  ret ptr %load663
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.8"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load668 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load668, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
+  %load669 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load669, 16
+  %load670 = load ptr, ptr %inst2, align 8
+  %load671 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load670(ptr %load671, i64 %inst3)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load667 = load ptr, ptr %return1, align 8
+  ret ptr %load667
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.9"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = alloca ptr, align 8
+  %"\D0\B4\D0\B0\D0\BD\D1\96" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  store ptr %2, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  %load687 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load687, i32 0, i32 1
+  %load688 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst1 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load688, i32 0, i32 0
+  %load689 = load i64, ptr %inst1, align 4
+  %inst2 = add i64 %load689, 1
+  %load690 = load ptr, ptr %"\D0\9C", align 8
+  %load691 = load ptr, ptr %inst, align 8
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.10"(ptr %load690, ptr %load691, i64 %inst2)
+  %load692 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load692, i32 0, i32 1
+  store ptr %inst3, ptr %inst4, align 8
+  %load693 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load693, i32 0, i32 1
+  %load694 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load694, i32 0, i32 0
+  %load695 = load ptr, ptr %inst5, align 8
+  %load696 = load i64, ptr %inst6, align 4
+  %inst7 = getelementptr ptr, ptr %load695, i64 %load696
+  %load697 = load ptr, ptr %"\D0\B4\D0\B0\D0\BD\D1\96", align 8
+  store ptr %load697, ptr %inst7, align 8
+  %load698 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load698, i32 0, i32 0
+  %load699 = load i64, ptr %inst8, align 4
+  %inst9 = add i64 %load699, 1
+  %load700 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0", ptr %load700, i32 0, i32 0
+  store i64 %inst9, ptr %inst10, align 4
+  br label %return
+
+return:                                           ; preds = %entry
+  ret void
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.10"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load682 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load682, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 1
+  %load683 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load684 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load684, 8
+  %load685 = load ptr, ptr %inst2, align 8
+  %load686 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load685(ptr %load686, ptr %load683, i64 %inst3)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load681 = load ptr, ptr %return1, align 8
+  ret ptr %load681
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.11"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load1214 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load1214, i64 24)
+  store ptr %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1213 = load ptr, ptr %return1, align 8
+  ret ptr %load1213
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.12"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load1216 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst = mul i64 %load1216, 24
+  %load1217 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load1217, i64 %inst)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1215 = load ptr, ptr %return1, align 8
+  ret ptr %load1215
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.13"(ptr %0) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  %load1250 = load ptr, ptr %"\D0\92", align 8
+  %inst = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load1250, i64 16)
+  store ptr %inst, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1249 = load ptr, ptr %return1, align 8
+  ret ptr %load1249
+}
+
+define internal ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.14"(ptr %0, i64 %1) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\92" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\92", align 8
+  store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load1252 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst = mul i64 %load1252, 16
+  %load1253 = load ptr, ptr %"\D0\92", align 8
+  %inst2 = call ptr @"\D0\BC\D0\B0\D0\B2\D0\BA\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BF\D0\B0\D0\BC\CA\BC\D1\8F\D1\82\D1\8C"(ptr %load1253, i64 %inst)
+  store ptr %inst2, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1251 = load ptr, ptr %return1, align 8
+  ret ptr %load1251
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80" = alloca ptr, align 8
+  %"\D0\BA\D0\BB\D1\8E\D1\87" = alloca ptr, align 8
+  %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  store i64 0, ptr %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit, %while_body_exit, %if_body
+  %load1389 = load ptr, ptr %return1, align 8
+  ret ptr %load1389
+
+while_cond:                                       ; preds = %if_body_exit, %entry
+  %load1390 = load i64, ptr %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F", align 4
+  %load1391 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1391, i32 0, i32 0
+  %load1392 = load i64, ptr %inst, align 4
+  %inst2 = icmp ult i64 %load1390, %load1392
+  br i1 %inst2, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %load1393 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1393, i32 0, i32 2
+  %load1394 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1394, i32 0, i32 1
+  %load1395 = load ptr, ptr %inst4, align 8
+  %load1396 = load i64, ptr %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F", align 4
+  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load1395, i64 %load1396
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %inst5, i32 0, i32 0
+  %load1397 = load ptr, ptr %inst3, align 8
+  %load1398 = load ptr, ptr %inst6, align 8
+  %load1399 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %inst7 = call i1 %load1397(ptr %load1398, ptr %load1399)
+  br i1 %inst7, label %if_body, label %if_body_else
+
+while_body_exit:                                  ; preds = %while_cond
+  store ptr null, ptr %return1, align 8
+  br label %return
+  br label %return
+
+if_body:                                          ; preds = %while_body
+  %load1400 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1400, i32 0, i32 1
+  %load1401 = load ptr, ptr %inst8, align 8
+  %load1402 = load i64, ptr %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F", align 4
+  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load1401, i64 %load1402
+  store ptr %inst9, ptr %return1, align 8
+  br label %return
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %while_body
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  %load1403 = load i64, ptr %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F", align 4
+  %inst10 = add i64 %load1403, 1
+  store i64 %inst10, ptr %"\D0\BF\D0\BE\D0\B7\D0\B8\D1\86\D1\96\D1\8F", align 4
+  br label %while_cond
+}
+
+define internal void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %0, ptr %1, ptr %2, ptr %3) {
+alloca:
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80" = alloca ptr, align 8
+  %"\D0\BA\D0\BB\D1\8E\D1\87" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8" = alloca ptr, align 8
+  %construct = alloca %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  store ptr %3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1413 = load ptr, ptr %"\D0\9C", align 8
+  %load1414 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %load1415 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %load1413, ptr %load1414, ptr %load1415)
+  store ptr %inst, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
+  %load1416 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
+  %inst1 = icmp eq ptr %load1416, null
+  br i1 %inst1, label %if_body, label %if_body_else
+
+return:                                           ; preds = %if_body_exit
+  ret void
+
+if_body:                                          ; preds = %entry
+  %load1423 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1423, i32 0, i32 1
+  %load1424 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1424, i32 0, i32 0
+  %load1425 = load i64, ptr %inst3, align 4
+  %inst4 = add i64 %load1425, 1
+  %load1426 = load ptr, ptr %"\D0\9C", align 8
+  %load1427 = load ptr, ptr %inst2, align 8
+  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.15"(ptr %load1426, ptr %load1427, i64 %inst4)
+  %load1428 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1428, i32 0, i32 1
+  store ptr %inst5, ptr %inst6, align 8
+  %load1429 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1429, i32 0, i32 1
+  %load1430 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1430, i32 0, i32 0
+  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, i32 0, i32 0
+  %load1431 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  store ptr %load1431, ptr %inst9, align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, i32 0, i32 1
+  %load1432 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1432, ptr %inst10, align 8
+  %load1433 = load ptr, ptr %inst7, align 8
+  %load1434 = load i64, ptr %inst8, align 4
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load1433, i64 %load1434
+  %load1435 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83" %load1435, ptr %inst11, align 8
+  %load1436 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1436, i32 0, i32 0
+  %load1437 = load i64, ptr %inst12, align 4
+  %inst13 = add i64 %load1437, 1
+  %load1438 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load1438, i32 0, i32 0
+  store i64 %inst13, ptr %inst14, align 4
+  br label %if_body_exit
+
+if_body_else:                                     ; preds = %entry
+  %load1439 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
+  %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load1439, i32 0, i32 1
+  %load1440 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load1440, ptr %inst15, align 8
+  br label %if_body_exit
+
+if_body_exit:                                     ; preds = %if_body_else, %if_body
+  br label %return
+}
+
+define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.15"(ptr %0, ptr %1, i64 %2) {
+alloca:
+  %return1 = alloca ptr, align 8
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store i64 %2, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %load1418 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1418, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 1
+  %load1419 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1420 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load1420, 16
+  %load1421 = load ptr, ptr %inst2, align 8
+  %load1422 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load1421(ptr %load1422, ptr %load1419, i64 %inst3)
+  store ptr %inst4, ptr %return1, align 8
+  br label %return
+  br label %return
+
+return:                                           ; preds = %entry, %entry
+  %load1417 = load ptr, ptr %return1, align 8
+  ret ptr %load1417
+}
