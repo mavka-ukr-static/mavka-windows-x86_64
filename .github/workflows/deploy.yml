@@ -50,9 +50,10 @@ jobs:
           cd build
           cmake -DCMAKE_CXX_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_C_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_LINKER:FILEPATH="C:/Program Files/LLVM/bin/lld-link.exe" -G "Ninja" ..\external -DCMAKE_CXX_FLAGS=-fdiagnostics-color=always -DREADLINE_AVAILABLE=0
           ninja
-          cd -
+          cd ..
+          Compress-Archive -Path build/mavka.exe -Destination mavka.zip
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files: build/mavka.exe
+          files: mavka.exe
 
