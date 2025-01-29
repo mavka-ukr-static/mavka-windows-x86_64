@@ -38,8 +38,9 @@ IF (WIN32)
             ../build/МаМа/Середовище.o
             ../build/МаМа/СкладенийОбʼєкт.o
             ../build/МаМа/Утилізатор.o)
-    target_compile_options(mavka PUBLIC -O3 -fexceptions -DMAVKA_READLINE=${READLINE_AVAILABLE})
+    target_compile_options(mavka PUBLIC -stdlib=libc++ -O3 -fexceptions -DMAVKA_READLINE=${READLINE_AVAILABLE})
     target_link_libraries(mavka PUBLIC mavka_parser)
+    target_link_options(mavka PUBLIC -stdlib=libc++)
 ELSE ()
     project(mavka_external)
 
