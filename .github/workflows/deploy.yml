@@ -48,7 +48,7 @@ jobs:
           clang -c -o build\МаМа\СкладенийОбʼєкт.o .плавлення\МаМа\СкладенийОбʼєкт.ll -target x86_64-windows-gnu
           clang -c -o build\МаМа\Утилізатор.o .плавлення\МаМа\Утилізатор.ll -target x86_64-windows-gnu
           cd build
-          cmake -DCMAKE_CXX_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_C_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_LINKER:FILEPATH="C:/Program Files/LLVM/bin/lld-link.exe" -DCMAKE_CXX_FLAGS="-target x86_64-windows-gnu -stdlib=libc++" -DCMAKE_C_FLAGS="-target x86_64-windows-gnu -stdlib=libc++" -DCMAKE_EXE_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_MODULE_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_SHARED_LINKER_FLAGS_INIT="-fuse-ld=lld" -G "Ninja" ..\external -DREADLINE_AVAILABLE=0
+          cmake -DCMAKE_CXX_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_C_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_LINKER:FILEPATH="C:/Program Files/LLVM/bin/lld-link.exe" -DCMAKE_CXX_FLAGS="-target x86_64-windows-gnu -std=c++20" -DCMAKE_C_FLAGS="-target x86_64-windows-gnu -std=c++20" -DCMAKE_EXE_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_MODULE_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_SHARED_LINKER_FLAGS_INIT="-fuse-ld=lld" -G "Ninja" ..\external -DREADLINE_AVAILABLE=0
           ninja
           cd ..
           Compress-Archive -Path build/mavka.exe -Destination mavka.zip
