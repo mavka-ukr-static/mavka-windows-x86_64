@@ -2,8 +2,8 @@ name: Build
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "*.*.*"
 jobs:
   deploy:
     name: Try build on windows
@@ -58,7 +58,6 @@ jobs:
           if-no-files-found: error
       - name: Release
         uses: softprops/action-gh-release@v2
-      #  if: startsWith(github.ref, 'refs/tags/')
         with:
           files: build/mavka.exe
 
