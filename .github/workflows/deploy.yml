@@ -7,54 +7,67 @@ on:
       
 jobs:
   deploy:
-    name: Try build on windows
-    runs-on: windows-latest
+    name: Try build for windows
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: goto-bus-stop/setup-zig@v2
       - name: Build
         run: |
-          choco install ninja -y
-          mkdir build
-          mkdir build\мавка
-          mkdir build\мавка\бібліотека
-          mkdir build\МаМа
-          mkdir build\МаМа\КД
-          clang -c -o build\мавка\бібліотека\М.o .плавлення\мавка\бібліотека\М.ll -target x86_64-windows-gnu
-          clang -c -o build\мавка\бібліотека\мавка.o .плавлення\мавка\бібліотека\мавка.ll -target x86_64-windows-gnu
-          clang -c -o build\мавка\бібліотека\МаМа.o .плавлення\мавка\бібліотека\МаМа.ll -target x86_64-windows-gnu
-          clang -c -o build\мавка\бібліотека\читати_юнікод.o .плавлення\мавка\бібліотека\читати_юнікод.ll -target x86_64-windows-gnu
-          clang -c -o build\мавка\компілятор.o .плавлення\мавка\компілятор.ll -target x86_64-windows-gnu
-          clang -c -o build\мавка\мавка.o .плавлення\мавка\мавка.ll -target x86_64-windows-gnu
-          clang -c -o build\старт.o .плавлення\старт.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\КД\КД.o .плавлення\МаМа\КД\КД.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\біб.o .плавлення\МаМа\біб.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Код.o .плавлення\МаМа\Код.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Машина.o .плавлення\МаМа\Машина.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Назва.o .плавлення\МаМа\Назва.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Обʼєкт.o .плавлення\МаМа\Обʼєкт.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктБайтів.o .плавлення\МаМа\ОбʼєктБайтів.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктДії.o .плавлення\МаМа\ОбʼєктДії.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктЛогічного.o .плавлення\МаМа\ОбʼєктЛогічного.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктМодуля.o .плавлення\МаМа\ОбʼєктМодуля.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктНативноїДії.o .плавлення\МаМа\ОбʼєктНативноїДії.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктСловника.o .плавлення\МаМа\ОбʼєктСловника.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктСписку.o .плавлення\МаМа\ОбʼєктСписку.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктСтруктури.o .плавлення\МаМа\ОбʼєктСтруктури.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктТексту.o .плавлення\МаМа\ОбʼєктТексту.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктЮнікоду.o .плавлення\МаМа\ОбʼєктЮнікоду.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\ОбʼєктЧисла.o .плавлення\МаМа\ОбʼєктЧисла.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Помилка.o .плавлення\МаМа\Помилка.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Середовище.o .плавлення\МаМа\Середовище.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\СкладенийОбʼєкт.o .плавлення\МаМа\СкладенийОбʼєкт.ll -target x86_64-windows-gnu
-          clang -c -o build\МаМа\Утилізатор.o .плавлення\МаМа\Утилізатор.ll -target x86_64-windows-gnu
-          llvm-ar rcs build/mavka.a build\мавка\бібліотека\М.o build\мавка\бібліотека\мавка.o build\мавка\бібліотека\МаМа.o build\мавка\бібліотека\читати_юнікод.o build\мавка\компілятор.o build\старт.o build\МаМа\КД\КД.o build\МаМа\біб.o build\МаМа\Код.o build\МаМа\Машина.o build\МаМа\Назва.o build\МаМа\Обʼєкт.o build\МаМа\ОбʼєктБайтів.o build\МаМа\ОбʼєктДії.o build\МаМа\ОбʼєктЛогічного.o build\МаМа\ОбʼєктМодуля.o build\МаМа\ОбʼєктНативноїДії.o build\МаМа\ОбʼєктСловника.o build\МаМа\ОбʼєктСписку.o build\МаМа\ОбʼєктСтруктури.o build\МаМа\ОбʼєктТексту.o build\МаМа\ОбʼєктЮнікоду.o build\МаМа\ОбʼєктЧисла.o build\МаМа\Помилка.o build\МаМа\Середовище.o build\МаМа\СкладенийОбʼєкт.o build\МаМа\Утилізатор.o
-          cd build
-          cmake -DCMAKE_CXX_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_C_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_LINKER:FILEPATH="C:/Program Files/LLVM/bin/lld-link.exe" -DCMAKE_CXX_FLAGS="-target x86_64-windows-gnu" -DCMAKE_C_FLAGS="-target x86_64-windows-gnu" -G "Ninja" ..\external -DREADLINE_AVAILABLE=0
+          PLATFORM="w"
+          export CC="zig cc -target x86_64-windows"
+          export CXX="zig c++ -target x86_64-windows"
+          export AR="zig ar"
+          export RANLIB="zig ranlib"
+          export USE_JEMALLOC=no
+          export USE_SYSTEMD=no
+          export TSIL="ціль"
+          OUT="build-$PLATFORM/mavka.exe"
+          READLINE_AVAILABLE=0
+          mkdir -p build-"$PLATFORM"/external
+          cd build-"$PLATFORM"/external
+          cmake ../../external -G Ninja -DREADLINE_AVAILABLE="$READLINE_AVAILABLE"
           ninja
-          cd ..
-          Compress-Archive -Path build/mavka.exe -Destination mavka.zip
+          cd -
+          CXX_OPTIONS=(
+            "-O3"
+          )
+          $CXX "${CXX_OPTIONS[@]}" -o "$OUT" \
+            .плавлення/мавка/бібліотека/М.ll \
+            .плавлення/мавка/бібліотека/мавка.ll \
+            .плавлення/мавка/бібліотека/МаМа.ll \
+            .плавлення/мавка/бібліотека/читати_юнікод.ll \
+            .плавлення/мавка/компілятор.ll \
+            .плавлення/мавка/мавка.ll \
+            .плавлення/старт.ll \
+            .плавлення/МаМа/КД/КД.ll \
+            .плавлення/МаМа/біб.ll \
+            .плавлення/МаМа/Код.ll \
+            .плавлення/МаМа/Машина.ll \
+            .плавлення/МаМа/Назва.ll \
+            .плавлення/МаМа/Обʼєкт.ll \
+            .плавлення/МаМа/ОбʼєктБайтів.ll \
+            .плавлення/МаМа/ОбʼєктДії.ll \
+            .плавлення/МаМа/ОбʼєктЛогічного.ll \
+            .плавлення/МаМа/ОбʼєктМодуля.ll \
+            .плавлення/МаМа/ОбʼєктНативноїДії.ll \
+            .плавлення/МаМа/ОбʼєктСловника.ll \
+            .плавлення/МаМа/ОбʼєктСписку.ll \
+            .плавлення/МаМа/ОбʼєктСтруктури.ll \
+            .плавлення/МаМа/ОбʼєктТексту.ll \
+            .плавлення/МаМа/ОбʼєктЮнікоду.ll \
+            .плавлення/МаМа/ОбʼєктЧисла.ll \
+            .плавлення/МаМа/Помилка.ll \
+            .плавлення/МаМа/Середовище.ll \
+            .плавлення/МаМа/СкладенийОбʼєкт.ll \
+            .плавлення/МаМа/Утилізатор.ll \
+            build-"$PLATFORM"/external/libmavka_external.a \
+            build-"$PLATFORM"/external/mavka_parser/libmavka_parser.a \
+            build-"$PLATFORM"/external/mavka_parser/syntax/libmavka_syntax.a \
+            build-"$PLATFORM"/external/mavka_parser/syntax/antlr4-cpp-runtime/libantlr4_cpp_runtime.a \
+            external/main.cpp
+          zip -r -9 mavka.zip build-"$PLATFORM"/mavka.exe
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           files: mavka.zip
-
