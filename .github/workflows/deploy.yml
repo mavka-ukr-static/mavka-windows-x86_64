@@ -1,10 +1,14 @@
 name: Build
 
+#on:
+#  push:
+#    tags:
+#      - "*.*.*-*"
 on:
   push:
-    tags:
-      - "*.*.*-*"
-      
+    branches:
+      - main
+
 jobs:
   deploy:
     name: Try build for windows
@@ -14,6 +18,7 @@ jobs:
       - uses: goto-bus-stop/setup-zig@v2
       - name: Build
         run: |
+          apt install clang ninja -y
           PLATFORM="w"
           export CC="zig cc -target x86_64-windows"
           export CXX="zig c++ -target x86_64-windows"
@@ -71,3 +76,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: mavka.zip
+
