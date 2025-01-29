@@ -18,7 +18,7 @@ jobs:
       - uses: goto-bus-stop/setup-zig@v2
       - name: Build
         run: |
-          apt install clang ninja -y
+          sudo apt-get install clang ninja -y
           PLATFORM="w"
           export CC="zig cc -target x86_64-windows"
           export CXX="zig c++ -target x86_64-windows"
