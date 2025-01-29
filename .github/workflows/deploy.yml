@@ -51,12 +51,6 @@ jobs:
           cmake -DCMAKE_CXX_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_C_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_LINKER:FILEPATH="C:/Program Files/LLVM/bin/lld-link.exe" -G "Ninja" ..\external -DCMAKE_CXX_FLAGS=-fdiagnostics-color=always -DREADLINE_AVAILABLE=0
           ninja
           cd -
-      - name: Publish artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: mavka.exe
-          path: build/mavka.exe
-          if-no-files-found: error
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
