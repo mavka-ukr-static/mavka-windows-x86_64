@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: goto-bus-stop/setup-zig@v2
-      - uses: seanmiddleditch/gha-setup-ninja@master
       - name: Build
         run: |
+          sudo apt install -y ninja-build
+          sudo snap install zig --classic --beta
           PLATFORM="w"
           export CC="zig cc -target x86_64-windows"
           export CXX="zig c++ -target x86_64-windows"
