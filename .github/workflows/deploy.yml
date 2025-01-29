@@ -16,9 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: goto-bus-stop/setup-zig@v2
+      - uses: ashutoshvarma/setup-ninja@master
       - name: Build
         run: |
-          sudo apt-get install ninja-build -y
           PLATFORM="w"
           export CC="zig cc -target x86_64-windows"
           export CXX="zig c++ -target x86_64-windows"
