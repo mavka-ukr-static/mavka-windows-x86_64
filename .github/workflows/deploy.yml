@@ -19,34 +19,34 @@ jobs:
           mkdir build\мавка\бібліотека
           mkdir build\МаМа
           mkdir build\МаМа\КД
-          clang -c -o build\мавка\бібліотека\М.o .плавлення\мавка\бібліотека\М.ll -target x86_64-w64-mingw32
-          clang -c -o build\мавка\бібліотека\мавка.o .плавлення\мавка\бібліотека\мавка.ll -target x86_64-w64-mingw32
-          clang -c -o build\мавка\бібліотека\МаМа.o .плавлення\мавка\бібліотека\МаМа.ll -target x86_64-w64-mingw32
-          clang -c -o build\мавка\бібліотека\читати_юнікод.o .плавлення\мавка\бібліотека\читати_юнікод.ll -target x86_64-w64-mingw32
-          clang -c -o build\мавка\компілятор.o .плавлення\мавка\компілятор.ll -target x86_64-w64-mingw32
-          clang -c -o build\мавка\мавка.o .плавлення\мавка\мавка.ll -target x86_64-w64-mingw32
-          clang -c -o build\старт.o .плавлення\старт.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\КД\КД.o .плавлення\МаМа\КД\КД.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\біб.o .плавлення\МаМа\біб.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Код.o .плавлення\МаМа\Код.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Машина.o .плавлення\МаМа\Машина.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Назва.o .плавлення\МаМа\Назва.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Обʼєкт.o .плавлення\МаМа\Обʼєкт.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктБайтів.o .плавлення\МаМа\ОбʼєктБайтів.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктДії.o .плавлення\МаМа\ОбʼєктДії.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктЛогічного.o .плавлення\МаМа\ОбʼєктЛогічного.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктМодуля.o .плавлення\МаМа\ОбʼєктМодуля.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктНативноїДії.o .плавлення\МаМа\ОбʼєктНативноїДії.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктСловника.o .плавлення\МаМа\ОбʼєктСловника.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктСписку.o .плавлення\МаМа\ОбʼєктСписку.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктСтруктури.o .плавлення\МаМа\ОбʼєктСтруктури.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктТексту.o .плавлення\МаМа\ОбʼєктТексту.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктЮнікоду.o .плавлення\МаМа\ОбʼєктЮнікоду.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\ОбʼєктЧисла.o .плавлення\МаМа\ОбʼєктЧисла.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Помилка.o .плавлення\МаМа\Помилка.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Середовище.o .плавлення\МаМа\Середовище.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\СкладенийОбʼєкт.o .плавлення\МаМа\СкладенийОбʼєкт.ll -target x86_64-w64-mingw32
-          clang -c -o build\МаМа\Утилізатор.o .плавлення\МаМа\Утилізатор.ll -target x86_64-w64-mingw32
+          clang -c -o build\мавка\бібліотека\М.o .плавлення\мавка\бібліотека\М.ll -target x86_64-windows-gnu
+          clang -c -o build\мавка\бібліотека\мавка.o .плавлення\мавка\бібліотека\мавка.ll -target x86_64-windows-gnu
+          clang -c -o build\мавка\бібліотека\МаМа.o .плавлення\мавка\бібліотека\МаМа.ll -target x86_64-windows-gnu
+          clang -c -o build\мавка\бібліотека\читати_юнікод.o .плавлення\мавка\бібліотека\читати_юнікод.ll -target x86_64-windows-gnu
+          clang -c -o build\мавка\компілятор.o .плавлення\мавка\компілятор.ll -target x86_64-windows-gnu
+          clang -c -o build\мавка\мавка.o .плавлення\мавка\мавка.ll -target x86_64-windows-gnu
+          clang -c -o build\старт.o .плавлення\старт.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\КД\КД.o .плавлення\МаМа\КД\КД.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\біб.o .плавлення\МаМа\біб.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Код.o .плавлення\МаМа\Код.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Машина.o .плавлення\МаМа\Машина.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Назва.o .плавлення\МаМа\Назва.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Обʼєкт.o .плавлення\МаМа\Обʼєкт.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктБайтів.o .плавлення\МаМа\ОбʼєктБайтів.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктДії.o .плавлення\МаМа\ОбʼєктДії.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктЛогічного.o .плавлення\МаМа\ОбʼєктЛогічного.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктМодуля.o .плавлення\МаМа\ОбʼєктМодуля.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктНативноїДії.o .плавлення\МаМа\ОбʼєктНативноїДії.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктСловника.o .плавлення\МаМа\ОбʼєктСловника.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктСписку.o .плавлення\МаМа\ОбʼєктСписку.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктСтруктури.o .плавлення\МаМа\ОбʼєктСтруктури.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктТексту.o .плавлення\МаМа\ОбʼєктТексту.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктЮнікоду.o .плавлення\МаМа\ОбʼєктЮнікоду.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\ОбʼєктЧисла.o .плавлення\МаМа\ОбʼєктЧисла.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Помилка.o .плавлення\МаМа\Помилка.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Середовище.o .плавлення\МаМа\Середовище.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\СкладенийОбʼєкт.o .плавлення\МаМа\СкладенийОбʼєкт.ll -target x86_64-windows-gnu
+          clang -c -o build\МаМа\Утилізатор.o .плавлення\МаМа\Утилізатор.ll -target x86_64-windows-gnu
           cd build
           cmake -DCMAKE_CXX_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_C_COMPILER:FILEPATH="C:/Program Files/LLVM/bin/clang.exe" -DCMAKE_LINKER:FILEPATH="C:/Program Files/LLVM/bin/lld-link.exe" -DCMAKE_CXX_FLAGS="-target x86_64-windows-gnu" -DCMAKE_C_FLAGS="-target x86_64-windows-gnu" -G "Ninja" ..\external -DREADLINE_AVAILABLE=0
           ninja
