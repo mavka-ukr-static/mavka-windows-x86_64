@@ -495,24 +495,24 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\9C", align 8
   store double %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  %load910 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load910, i32 0, i32 27
-  %load911 = load ptr, ptr %"\D0\9C", align 8
-  %load912 = load ptr, ptr %inst, align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %load911, ptr %load912)
+  %load912 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load912, i32 0, i32 27
+  %load913 = load ptr, ptr %"\D0\9C", align 8
+  %load914 = load ptr, ptr %inst, align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %load913, ptr %load914)
   store ptr %inst2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load913 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load913, i32 0, i32 3
-  %load914 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  store double %load914, ptr %inst3, align 8
   %load915 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  store ptr %load915, ptr %return1, align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load915, i32 0, i32 3
+  %load916 = load double, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store double %load916, ptr %inst3, align 8
+  %load917 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  store ptr %load917, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load885 = load ptr, ptr %return1, align 8
-  ret ptr %load885
+  %load887 = load ptr, ptr %return1, align 8
+  ret ptr %load887
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, ptr)
@@ -561,17 +561,17 @@ entry:                                            ; preds = %alloca
   store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
   store ptr %3, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
   store ptr %4, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
-  %load919 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load919, ptr null)
-  %load920 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load920, ptr @60)
+  %load921 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load921, ptr null)
+  %load922 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load922, ptr @60)
   store ptr %inst, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load918 = load ptr, ptr %return1, align 8
-  ret ptr %load918
+  %load920 = load ptr, ptr %return1, align 8
+  ret ptr %load920
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr, ptr, ptr, ptr, ptr)
@@ -612,30 +612,30 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
-  %load922 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load922, i32 0, i32 2
-  %load923 = load ptr, ptr %inst, align 8
-  store ptr %load923, ptr %"\D1\82\D0\B8\D0\BF", align 8
+  %load924 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load924, i32 0, i32 2
+  %load925 = load ptr, ptr %inst, align 8
+  store ptr %load925, ptr %"\D1\82\D0\B8\D0\BF", align 8
   br label %while_cond
 
 return:                                           ; preds = %while_body_exit, %while_body_exit, %if_body
-  %load921 = load ptr, ptr %return1, align 8
-  ret ptr %load921
+  %load923 = load ptr, ptr %return1, align 8
+  ret ptr %load923
 
 while_cond:                                       ; preds = %if_body_exit, %entry
-  %load924 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
-  %inst2 = icmp ne ptr %load924, null
+  %load926 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
+  %inst2 = icmp ne ptr %load926, null
   br i1 %inst2, label %while_body, label %while_body_exit
 
 while_body:                                       ; preds = %while_cond
-  %load925 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load925, i32 0, i32 7
-  %load926 = load ptr, ptr %"\D0\9C", align 8
-  %load927 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
-  %inst4 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %load926, ptr %inst3, ptr %load927)
+  %load927 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load927, i32 0, i32 7
+  %load928 = load ptr, ptr %"\D0\9C", align 8
+  %load929 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
+  %inst4 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %load928, ptr %inst3, ptr %load929)
   store ptr %inst4, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4\D1\96\D0\B2", align 8
-  %load928 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4\D1\96\D0\B2", align 8
-  %inst5 = icmp ne ptr %load928, null
+  %load930 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4\D1\96\D0\B2", align 8
+  %inst5 = icmp ne ptr %load930, null
   br i1 %inst5, label %if_body, label %if_body_else
 
 while_body_exit:                                  ; preds = %while_cond
@@ -644,10 +644,10 @@ while_body_exit:                                  ; preds = %while_cond
   br label %return
 
 if_body:                                          ; preds = %while_body
-  %load929 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4\D1\96\D0\B2", align 8
-  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load929, i32 0, i32 1
-  %load930 = load ptr, ptr %inst6, align 8
-  store ptr %load930, ptr %return1, align 8
+  %load931 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83_\D0\BC\D0\B5\D1\82\D0\BE\D0\B4\D1\96\D0\B2", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load931, i32 0, i32 1
+  %load932 = load ptr, ptr %inst6, align 8
+  store ptr %load932, ptr %return1, align 8
   br label %return
   br label %if_body_exit
 
@@ -655,10 +655,10 @@ if_body_else:                                     ; preds = %while_body
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load931 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
-  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load931, i32 0, i32 5
-  %load932 = load ptr, ptr %inst7, align 8
-  store ptr %load932, ptr %"\D1\82\D0\B8\D0\BF", align 8
+  %load933 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load933, i32 0, i32 5
+  %load934 = load ptr, ptr %inst7, align 8
+  store ptr %load934, ptr %"\D1\82\D0\B8\D0\BF", align 8
   br label %while_cond
 }
 
@@ -705,8 +705,8 @@ entry:                                            ; preds = %alloca
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load933 = load ptr, ptr %return1, align 8
-  ret ptr %load933
+  %load935 = load ptr, ptr %return1, align 8
+  ret ptr %load935
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr, ptr)
@@ -745,16 +745,16 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0", align 8
-  %load935 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load935, i32 0, i32 36
-  %load936 = load ptr, ptr %inst, align 8
-  store ptr %load936, ptr %return1, align 8
+  %load937 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load937, i32 0, i32 36
+  %load938 = load ptr, ptr %inst, align 8
+  store ptr %load938, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load934 = load ptr, ptr %return1, align 8
-  ret ptr %load934
+  %load936 = load ptr, ptr %return1, align 8
+  ret ptr %load936
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr, ptr, ptr)
@@ -798,24 +798,24 @@ entry:                                            ; preds = %alloca
   store ptr %2, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
   store ptr %3, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
   store ptr %4, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
-  %load938 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load939 = load ptr, ptr %"\D0\9C", align 8
-  %load940 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %load938, ptr %load939, ptr %load940)
-  store ptr %inst, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load940 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   %load941 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load941, i32 0, i32 14
-  %load942 = load i64, ptr %inst2, align 4
-  %inst3 = icmp eq i64 %load942, 1
+  %load942 = load ptr, ptr %"\D0\BD\D0\B0\D0\B7\D0\B2\D0\B0_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D1\96\D1\81\D1\82\D1\8C"(ptr %load940, ptr %load941, ptr %load942)
+  store ptr %inst, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load943 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load943, i32 0, i32 14
+  %load944 = load i64, ptr %inst2, align 4
+  %inst3 = icmp eq i64 %load944, 1
   br i1 %inst3, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
-  %load937 = load ptr, ptr %return1, align 8
-  ret ptr %load937
+  %load939 = load ptr, ptr %return1, align 8
+  ret ptr %load939
 
 if_body:                                          ; preds = %entry
-  %load943 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
-  store ptr %load943, ptr %return1, align 8
+  %load945 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  store ptr %load945, ptr %return1, align 8
   br label %return
   br label %if_body_exit
 
@@ -823,12 +823,12 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load944 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load945 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
-  %load946 = load ptr, ptr %"\D0\9C", align 8
-  %load947 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
-  %load948 = load ptr, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
-  %inst4 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr %load945, ptr %load946, ptr %load944, ptr %load947, ptr %load948)
+  %load946 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load947 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\BB\D0\B0\D1\81\D1\82\D0\B8\D0\B2\D0\BE\D1\81\D1\82\D1\96", align 8
+  %load948 = load ptr, ptr %"\D0\9C", align 8
+  %load949 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %load950 = load ptr, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
+  %inst4 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8"(ptr %load947, ptr %load948, ptr %load946, ptr %load949, ptr %load950)
   store ptr %inst4, ptr %return1, align 8
   br label %return
   br label %return
@@ -870,17 +870,17 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
-  %load950 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load950, ptr null)
-  %load951 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load951, ptr @61)
+  %load952 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load952, ptr null)
+  %load953 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load953, ptr @61)
   store ptr %inst, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load949 = load ptr, ptr %return1, align 8
-  ret ptr %load949
+  %load951 = load ptr, ptr %return1, align 8
+  ret ptr %load951
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
@@ -921,17 +921,17 @@ entry:                                            ; preds = %alloca
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
   store ptr %3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  %load953 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load953, ptr null)
-  %load954 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load954, ptr @62)
+  %load955 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load955, ptr null)
+  %load956 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load956, ptr @62)
   store ptr %inst, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load952 = load ptr, ptr %return1, align 8
-  ret ptr %load952
+  %load954 = load ptr, ptr %return1, align 8
+  ret ptr %load954
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr, ptr)
@@ -970,17 +970,17 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
-  %load956 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load956, ptr null)
-  %load957 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load957, ptr @63)
+  %load958 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load958, ptr null)
+  %load959 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load959, ptr @63)
   store ptr %inst, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load955 = load ptr, ptr %return1, align 8
-  ret ptr %load955
+  %load957 = load ptr, ptr %return1, align 8
+  ret ptr %load957
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D0\B8\D0\B4\D0\B0\D0\BB\D0\B8\D1\82\D0\B8_\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr, ptr)
@@ -1017,17 +1017,17 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load959 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load959, ptr null)
-  %load960 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load960, ptr @64)
+  %load961 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load961, ptr null)
+  %load962 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load962, ptr @64)
   store ptr %inst, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load958 = load ptr, ptr %return1, align 8
-  ret ptr %load958
+  %load960 = load ptr, ptr %return1, align 8
+  ret ptr %load960
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\BF\D0\B5\D1\80\D0\B5\D0\B1\D1\96\D1\80"(ptr, ptr)
@@ -1067,19 +1067,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load962 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load962, null
+  %load964 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load964, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load961 = load ptr, ptr %return1, align 8
-  ret ptr %load961
+  %load963 = load ptr, ptr %return1, align 8
+  ret ptr %load963
 
 if_body:                                          ; preds = %entry
-  %load963 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load963, ptr null)
-  %load964 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load964, ptr @65)
+  %load965 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load965, ptr null)
+  %load966 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load966, ptr @65)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1088,20 +1088,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load965 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load965, i32 0, i32 2
-  %load966 = load ptr, ptr %inst3, align 8
-  %load967 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load967, i32 0, i32 27
-  %load968 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load966, %load968
+  %load967 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load967, i32 0, i32 2
+  %load968 = load ptr, ptr %inst3, align 8
+  %load969 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load969, i32 0, i32 27
+  %load970 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load968, %load970
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load969 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load969, ptr null)
-  %load970 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load970, ptr @66)
+  %load971 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load971, ptr null)
+  %load972 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load972, ptr @66)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1110,17 +1110,17 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load971 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load971, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load972 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load972, i32 0, i32 3
-  %load973 = load double, ptr %inst10, align 8
-  %load974 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load974, i32 0, i32 3
-  %load975 = load double, ptr %inst11, align 8
-  %inst12 = fadd double %load973, %load975
-  %load976 = load ptr, ptr %"\D0\9C", align 8
-  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load976, double %inst12)
+  %load973 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load973, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load974 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load974, i32 0, i32 3
+  %load975 = load double, ptr %inst10, align 8
+  %load976 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load976, i32 0, i32 3
+  %load977 = load double, ptr %inst11, align 8
+  %inst12 = fadd double %load975, %load977
+  %load978 = load ptr, ptr %"\D0\9C", align 8
+  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load978, double %inst12)
   store ptr %inst13, ptr %return1, align 8
   br label %return
   br label %return
@@ -1163,19 +1163,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load978 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load978, null
+  %load980 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load980, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load977 = load ptr, ptr %return1, align 8
-  ret ptr %load977
+  %load979 = load ptr, ptr %return1, align 8
+  ret ptr %load979
 
 if_body:                                          ; preds = %entry
-  %load979 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load979, ptr null)
-  %load980 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load980, ptr @67)
+  %load981 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load981, ptr null)
+  %load982 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load982, ptr @67)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1184,20 +1184,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load981 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load981, i32 0, i32 2
-  %load982 = load ptr, ptr %inst3, align 8
-  %load983 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load983, i32 0, i32 27
-  %load984 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load982, %load984
+  %load983 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load983, i32 0, i32 2
+  %load984 = load ptr, ptr %inst3, align 8
+  %load985 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load985, i32 0, i32 27
+  %load986 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load984, %load986
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load985 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load985, ptr null)
-  %load986 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load986, ptr @68)
+  %load987 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load987, ptr null)
+  %load988 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load988, ptr @68)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1206,17 +1206,17 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load987 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load987, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load988 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load988, i32 0, i32 3
-  %load989 = load double, ptr %inst10, align 8
-  %load990 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load990, i32 0, i32 3
-  %load991 = load double, ptr %inst11, align 8
-  %inst12 = fsub double %load989, %load991
-  %load992 = load ptr, ptr %"\D0\9C", align 8
-  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load992, double %inst12)
+  %load989 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load989, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load990 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load990, i32 0, i32 3
+  %load991 = load double, ptr %inst10, align 8
+  %load992 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load992, i32 0, i32 3
+  %load993 = load double, ptr %inst11, align 8
+  %inst12 = fsub double %load991, %load993
+  %load994 = load ptr, ptr %"\D0\9C", align 8
+  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load994, double %inst12)
   store ptr %inst13, ptr %return1, align 8
   br label %return
   br label %return
@@ -1259,19 +1259,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load994 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load994, null
+  %load996 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load996, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load993 = load ptr, ptr %return1, align 8
-  ret ptr %load993
+  %load995 = load ptr, ptr %return1, align 8
+  ret ptr %load995
 
 if_body:                                          ; preds = %entry
-  %load995 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load995, ptr null)
-  %load996 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load996, ptr @69)
+  %load997 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load997, ptr null)
+  %load998 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load998, ptr @69)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1280,20 +1280,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load997 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load997, i32 0, i32 2
-  %load998 = load ptr, ptr %inst3, align 8
-  %load999 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load999, i32 0, i32 27
-  %load1000 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load998, %load1000
+  %load999 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load999, i32 0, i32 2
+  %load1000 = load ptr, ptr %inst3, align 8
+  %load1001 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1001, i32 0, i32 27
+  %load1002 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1000, %load1002
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1001 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1001, ptr null)
-  %load1002 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1002, ptr @70)
+  %load1003 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1003, ptr null)
+  %load1004 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1004, ptr @70)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1302,17 +1302,17 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1003 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1003, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1004 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1004, i32 0, i32 3
-  %load1005 = load double, ptr %inst10, align 8
-  %load1006 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1006, i32 0, i32 3
-  %load1007 = load double, ptr %inst11, align 8
-  %inst12 = fmul double %load1005, %load1007
-  %load1008 = load ptr, ptr %"\D0\9C", align 8
-  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1008, double %inst12)
+  %load1005 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1005, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1006 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1006, i32 0, i32 3
+  %load1007 = load double, ptr %inst10, align 8
+  %load1008 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1008, i32 0, i32 3
+  %load1009 = load double, ptr %inst11, align 8
+  %inst12 = fmul double %load1007, %load1009
+  %load1010 = load ptr, ptr %"\D0\9C", align 8
+  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1010, double %inst12)
   store ptr %inst13, ptr %return1, align 8
   br label %return
   br label %return
@@ -1355,19 +1355,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1010 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1010, null
+  %load1012 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1012, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1009 = load ptr, ptr %return1, align 8
-  ret ptr %load1009
+  %load1011 = load ptr, ptr %return1, align 8
+  ret ptr %load1011
 
 if_body:                                          ; preds = %entry
-  %load1011 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1011, ptr null)
-  %load1012 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1012, ptr @71)
+  %load1013 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1013, ptr null)
+  %load1014 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1014, ptr @71)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1376,20 +1376,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1013 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1013, i32 0, i32 2
-  %load1014 = load ptr, ptr %inst3, align 8
-  %load1015 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1015, i32 0, i32 27
-  %load1016 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1014, %load1016
+  %load1015 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1015, i32 0, i32 2
+  %load1016 = load ptr, ptr %inst3, align 8
+  %load1017 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1017, i32 0, i32 27
+  %load1018 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1016, %load1018
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1017 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1017, ptr null)
-  %load1018 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1018, ptr @72)
+  %load1019 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1019, ptr null)
+  %load1020 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1020, ptr @72)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1398,17 +1398,17 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1019 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1019, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1020 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1020, i32 0, i32 3
-  %load1021 = load double, ptr %inst10, align 8
-  %load1022 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1022, i32 0, i32 3
-  %load1023 = load double, ptr %inst11, align 8
-  %inst12 = fdiv double %load1021, %load1023
-  %load1024 = load ptr, ptr %"\D0\9C", align 8
-  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1024, double %inst12)
+  %load1021 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1021, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1022 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1022, i32 0, i32 3
+  %load1023 = load double, ptr %inst10, align 8
+  %load1024 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1024, i32 0, i32 3
+  %load1025 = load double, ptr %inst11, align 8
+  %inst12 = fdiv double %load1023, %load1025
+  %load1026 = load ptr, ptr %"\D0\9C", align 8
+  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1026, double %inst12)
   store ptr %inst13, ptr %return1, align 8
   br label %return
   br label %return
@@ -1451,19 +1451,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1026 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1026, null
+  %load1028 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1028, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1025 = load ptr, ptr %return1, align 8
-  ret ptr %load1025
+  %load1027 = load ptr, ptr %return1, align 8
+  ret ptr %load1027
 
 if_body:                                          ; preds = %entry
-  %load1027 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1027, ptr null)
-  %load1028 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1028, ptr @73)
+  %load1029 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1029, ptr null)
+  %load1030 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1030, ptr @73)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1472,20 +1472,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1029 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1029, i32 0, i32 2
-  %load1030 = load ptr, ptr %inst3, align 8
-  %load1031 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1031, i32 0, i32 27
-  %load1032 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1030, %load1032
+  %load1031 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1031, i32 0, i32 2
+  %load1032 = load ptr, ptr %inst3, align 8
+  %load1033 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1033, i32 0, i32 27
+  %load1034 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1032, %load1034
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1033 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1033, ptr null)
-  %load1034 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1034, ptr @74)
+  %load1035 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1035, ptr null)
+  %load1036 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1036, ptr @74)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1494,17 +1494,17 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1035 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1035, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1036 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1036, i32 0, i32 3
-  %load1037 = load double, ptr %inst10, align 8
-  %load1038 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1038, i32 0, i32 3
-  %load1039 = load double, ptr %inst11, align 8
-  %inst12 = frem double %load1037, %load1039
-  %load1040 = load ptr, ptr %"\D0\9C", align 8
-  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1040, double %inst12)
+  %load1037 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1037, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1038 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1038, i32 0, i32 3
+  %load1039 = load double, ptr %inst10, align 8
+  %load1040 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1040, i32 0, i32 3
+  %load1041 = load double, ptr %inst11, align 8
+  %inst12 = frem double %load1039, %load1041
+  %load1042 = load ptr, ptr %"\D0\9C", align 8
+  %inst13 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1042, double %inst12)
   store ptr %inst13, ptr %return1, align 8
   br label %return
   br label %return
@@ -1547,19 +1547,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1042 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1042, null
+  %load1044 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1044, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1041 = load ptr, ptr %return1, align 8
-  ret ptr %load1041
+  %load1043 = load ptr, ptr %return1, align 8
+  ret ptr %load1043
 
 if_body:                                          ; preds = %entry
-  %load1043 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1043, ptr null)
-  %load1044 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1044, ptr @75)
+  %load1045 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1045, ptr null)
+  %load1046 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1046, ptr @75)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1568,20 +1568,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1045 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1045, i32 0, i32 2
-  %load1046 = load ptr, ptr %inst3, align 8
-  %load1047 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1047, i32 0, i32 27
-  %load1048 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1046, %load1048
+  %load1047 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1047, i32 0, i32 2
+  %load1048 = load ptr, ptr %inst3, align 8
+  %load1049 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1049, i32 0, i32 27
+  %load1050 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1048, %load1050
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1049 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1049, ptr null)
-  %load1050 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1050, ptr @76)
+  %load1051 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1051, ptr null)
+  %load1052 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1052, ptr @76)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1590,23 +1590,23 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1051 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1051, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1052 = load ptr, ptr %"\D0\9C", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1052, i32 0, i32 1
+  %load1053 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1053, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1054 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1054, i32 0, i32 1
   %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst10, i32 0, i32 6
-  %load1053 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1053, i32 0, i32 3
-  %load1054 = load double, ptr %inst12, align 8
-  %load1055 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1055, i32 0, i32 3
-  %load1056 = load double, ptr %inst13, align 8
-  %inst14 = fdiv double %load1054, %load1056
-  %load1057 = load ptr, ptr %inst11, align 8
-  %load1058 = load ptr, ptr %"\D0\9C", align 8
-  %inst15 = call double %load1057(ptr %load1058, double %inst14)
-  %load1059 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1059, double %inst15)
+  %load1055 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1055, i32 0, i32 3
+  %load1056 = load double, ptr %inst12, align 8
+  %load1057 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1057, i32 0, i32 3
+  %load1058 = load double, ptr %inst13, align 8
+  %inst14 = fdiv double %load1056, %load1058
+  %load1059 = load ptr, ptr %inst11, align 8
+  %load1060 = load ptr, ptr %"\D0\9C", align 8
+  %inst15 = call double %load1059(ptr %load1060, double %inst14)
+  %load1061 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1061, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -1649,19 +1649,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1061 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1061, null
+  %load1063 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1063, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1060 = load ptr, ptr %return1, align 8
-  ret ptr %load1060
+  %load1062 = load ptr, ptr %return1, align 8
+  ret ptr %load1062
 
 if_body:                                          ; preds = %entry
-  %load1062 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1062, ptr null)
-  %load1063 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1063, ptr @77)
+  %load1064 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1064, ptr null)
+  %load1065 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1065, ptr @77)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1670,20 +1670,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1064 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1064, i32 0, i32 2
-  %load1065 = load ptr, ptr %inst3, align 8
-  %load1066 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1066, i32 0, i32 27
-  %load1067 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1065, %load1067
+  %load1066 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1066, i32 0, i32 2
+  %load1067 = load ptr, ptr %inst3, align 8
+  %load1068 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1068, i32 0, i32 27
+  %load1069 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1067, %load1069
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1068 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1068, ptr null)
-  %load1069 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1069, ptr @78)
+  %load1070 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1070, ptr null)
+  %load1071 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1071, ptr @78)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1692,22 +1692,22 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1070 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1070, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1071 = load ptr, ptr %"\D0\9C", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1071, i32 0, i32 1
+  %load1072 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1072, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1073 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1073, i32 0, i32 1
   %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst10, i32 0, i32 7
-  %load1072 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1072, i32 0, i32 3
-  %load1073 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1073, i32 0, i32 3
-  %load1074 = load ptr, ptr %inst11, align 8
-  %load1075 = load ptr, ptr %"\D0\9C", align 8
-  %load1076 = load double, ptr %inst12, align 8
-  %load1077 = load double, ptr %inst13, align 8
-  %inst14 = call double %load1074(ptr %load1075, double %load1076, double %load1077)
-  %load1078 = load ptr, ptr %"\D0\9C", align 8
-  %inst15 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1078, double %inst14)
+  %load1074 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1074, i32 0, i32 3
+  %load1075 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1075, i32 0, i32 3
+  %load1076 = load ptr, ptr %inst11, align 8
+  %load1077 = load ptr, ptr %"\D0\9C", align 8
+  %load1078 = load double, ptr %inst12, align 8
+  %load1079 = load double, ptr %inst13, align 8
+  %inst14 = call double %load1076(ptr %load1077, double %load1078, double %load1079)
+  %load1080 = load ptr, ptr %"\D0\9C", align 8
+  %inst15 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1080, double %inst14)
   store ptr %inst15, ptr %return1, align 8
   br label %return
   br label %return
@@ -1750,19 +1750,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1080 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1080, null
+  %load1082 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1082, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1079 = load ptr, ptr %return1, align 8
-  ret ptr %load1079
+  %load1081 = load ptr, ptr %return1, align 8
+  ret ptr %load1081
 
 if_body:                                          ; preds = %entry
-  %load1081 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1081, ptr null)
-  %load1082 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1082, ptr @79)
+  %load1083 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1083, ptr null)
+  %load1084 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1084, ptr @79)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1771,20 +1771,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1083 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1083, i32 0, i32 2
-  %load1084 = load ptr, ptr %inst3, align 8
-  %load1085 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1085, i32 0, i32 27
-  %load1086 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1084, %load1086
+  %load1085 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1085, i32 0, i32 2
+  %load1086 = load ptr, ptr %inst3, align 8
+  %load1087 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1087, i32 0, i32 27
+  %load1088 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1086, %load1088
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1087 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1087, ptr null)
-  %load1088 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1088, ptr @80)
+  %load1089 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1089, ptr null)
+  %load1090 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1090, ptr @80)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1793,20 +1793,20 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1089 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1089, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1090 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1090, i32 0, i32 3
-  %load1091 = load double, ptr %inst10, align 8
-  %inst11 = fptosi double %load1091 to i32
-  %load1092 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1092, i32 0, i32 3
-  %load1093 = load double, ptr %inst12, align 8
-  %inst13 = fptosi double %load1093 to i32
+  %load1091 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1091, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1092 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1092, i32 0, i32 3
+  %load1093 = load double, ptr %inst10, align 8
+  %inst11 = fptosi double %load1093 to i32
+  %load1094 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1094, i32 0, i32 3
+  %load1095 = load double, ptr %inst12, align 8
+  %inst13 = fptosi double %load1095 to i32
   %inst14 = shl i32 %inst11, %inst13
   %inst15 = sitofp i32 %inst14 to double
-  %load1094 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1094, double %inst15)
+  %load1096 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1096, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -1849,19 +1849,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1096 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1096, null
+  %load1098 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1098, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1095 = load ptr, ptr %return1, align 8
-  ret ptr %load1095
+  %load1097 = load ptr, ptr %return1, align 8
+  ret ptr %load1097
 
 if_body:                                          ; preds = %entry
-  %load1097 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1097, ptr null)
-  %load1098 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1098, ptr @81)
+  %load1099 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1099, ptr null)
+  %load1100 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1100, ptr @81)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1870,20 +1870,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1099 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1099, i32 0, i32 2
-  %load1100 = load ptr, ptr %inst3, align 8
-  %load1101 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1101, i32 0, i32 27
-  %load1102 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1100, %load1102
+  %load1101 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1101, i32 0, i32 2
+  %load1102 = load ptr, ptr %inst3, align 8
+  %load1103 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1103, i32 0, i32 27
+  %load1104 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1102, %load1104
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1103 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1103, ptr null)
-  %load1104 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1104, ptr @82)
+  %load1105 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1105, ptr null)
+  %load1106 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1106, ptr @82)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1892,20 +1892,20 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1105 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1105, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1106 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1106, i32 0, i32 3
-  %load1107 = load double, ptr %inst10, align 8
-  %inst11 = fptosi double %load1107 to i32
-  %load1108 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1108, i32 0, i32 3
-  %load1109 = load double, ptr %inst12, align 8
-  %inst13 = fptosi double %load1109 to i32
+  %load1107 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1107, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1108 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1108, i32 0, i32 3
+  %load1109 = load double, ptr %inst10, align 8
+  %inst11 = fptosi double %load1109 to i32
+  %load1110 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1110, i32 0, i32 3
+  %load1111 = load double, ptr %inst12, align 8
+  %inst13 = fptosi double %load1111 to i32
   %inst14 = ashr i32 %inst11, %inst13
   %inst15 = sitofp i32 %inst14 to double
-  %load1110 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1110, double %inst15)
+  %load1112 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1112, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -1948,19 +1948,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1112 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1112, null
+  %load1114 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1114, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1111 = load ptr, ptr %return1, align 8
-  ret ptr %load1111
+  %load1113 = load ptr, ptr %return1, align 8
+  ret ptr %load1113
 
 if_body:                                          ; preds = %entry
-  %load1113 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1113, ptr null)
-  %load1114 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1114, ptr @83)
+  %load1115 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1115, ptr null)
+  %load1116 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1116, ptr @83)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -1969,20 +1969,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1115 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1115, i32 0, i32 2
-  %load1116 = load ptr, ptr %inst3, align 8
-  %load1117 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1117, i32 0, i32 27
-  %load1118 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1116, %load1118
+  %load1117 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1117, i32 0, i32 2
+  %load1118 = load ptr, ptr %inst3, align 8
+  %load1119 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1119, i32 0, i32 27
+  %load1120 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1118, %load1120
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1119 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1119, ptr null)
-  %load1120 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1120, ptr @84)
+  %load1121 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1121, ptr null)
+  %load1122 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1122, ptr @84)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -1991,20 +1991,20 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1121 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1121, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1122 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1122, i32 0, i32 3
-  %load1123 = load double, ptr %inst10, align 8
-  %inst11 = fptosi double %load1123 to i32
-  %load1124 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1124, i32 0, i32 3
-  %load1125 = load double, ptr %inst12, align 8
-  %inst13 = fptosi double %load1125 to i32
+  %load1123 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1123, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1124 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1124, i32 0, i32 3
+  %load1125 = load double, ptr %inst10, align 8
+  %inst11 = fptosi double %load1125 to i32
+  %load1126 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1126, i32 0, i32 3
+  %load1127 = load double, ptr %inst12, align 8
+  %inst13 = fptosi double %load1127 to i32
   %inst14 = lshr i32 %inst11, %inst13
   %inst15 = sitofp i32 %inst14 to double
-  %load1126 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1126, double %inst15)
+  %load1128 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1128, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -2047,19 +2047,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1128 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1128, null
+  %load1130 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1130, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1127 = load ptr, ptr %return1, align 8
-  ret ptr %load1127
+  %load1129 = load ptr, ptr %return1, align 8
+  ret ptr %load1129
 
 if_body:                                          ; preds = %entry
-  %load1129 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1129, ptr null)
-  %load1130 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1130, ptr @85)
+  %load1131 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1131, ptr null)
+  %load1132 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1132, ptr @85)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -2068,20 +2068,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1131 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1131, i32 0, i32 2
-  %load1132 = load ptr, ptr %inst3, align 8
-  %load1133 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1133, i32 0, i32 27
-  %load1134 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1132, %load1134
+  %load1133 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1133, i32 0, i32 2
+  %load1134 = load ptr, ptr %inst3, align 8
+  %load1135 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1135, i32 0, i32 27
+  %load1136 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1134, %load1136
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1135 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1135, ptr null)
-  %load1136 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1136, ptr @86)
+  %load1137 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1137, ptr null)
+  %load1138 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1138, ptr @86)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -2090,20 +2090,20 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1137 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1137, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1138 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1138, i32 0, i32 3
-  %load1139 = load double, ptr %inst10, align 8
-  %inst11 = fptosi double %load1139 to i32
-  %load1140 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1140, i32 0, i32 3
-  %load1141 = load double, ptr %inst12, align 8
-  %inst13 = fptosi double %load1141 to i32
+  %load1139 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1139, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1140 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1140, i32 0, i32 3
+  %load1141 = load double, ptr %inst10, align 8
+  %inst11 = fptosi double %load1141 to i32
+  %load1142 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1142, i32 0, i32 3
+  %load1143 = load double, ptr %inst12, align 8
+  %inst13 = fptosi double %load1143 to i32
   %inst14 = and i32 %inst11, %inst13
   %inst15 = sitofp i32 %inst14 to double
-  %load1142 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1142, double %inst15)
+  %load1144 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1144, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -2146,19 +2146,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1144 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1144, null
+  %load1146 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1146, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1143 = load ptr, ptr %return1, align 8
-  ret ptr %load1143
+  %load1145 = load ptr, ptr %return1, align 8
+  ret ptr %load1145
 
 if_body:                                          ; preds = %entry
-  %load1145 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1145, ptr null)
-  %load1146 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1146, ptr @87)
+  %load1147 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1147, ptr null)
+  %load1148 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1148, ptr @87)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -2167,20 +2167,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1147 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1147, i32 0, i32 2
-  %load1148 = load ptr, ptr %inst3, align 8
-  %load1149 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1149, i32 0, i32 27
-  %load1150 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1148, %load1150
+  %load1149 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1149, i32 0, i32 2
+  %load1150 = load ptr, ptr %inst3, align 8
+  %load1151 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1151, i32 0, i32 27
+  %load1152 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1150, %load1152
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1151 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1151, ptr null)
-  %load1152 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1152, ptr @88)
+  %load1153 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1153, ptr null)
+  %load1154 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1154, ptr @88)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -2189,20 +2189,20 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1153 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1153, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1154 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1154, i32 0, i32 3
-  %load1155 = load double, ptr %inst10, align 8
-  %inst11 = fptosi double %load1155 to i32
-  %load1156 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1156, i32 0, i32 3
-  %load1157 = load double, ptr %inst12, align 8
-  %inst13 = fptosi double %load1157 to i32
+  %load1155 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1155, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1156 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1156, i32 0, i32 3
+  %load1157 = load double, ptr %inst10, align 8
+  %inst11 = fptosi double %load1157 to i32
+  %load1158 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1158, i32 0, i32 3
+  %load1159 = load double, ptr %inst12, align 8
+  %inst13 = fptosi double %load1159 to i32
   %inst14 = or i32 %inst11, %inst13
   %inst15 = sitofp i32 %inst14 to double
-  %load1158 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1158, double %inst15)
+  %load1160 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1160, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -2245,19 +2245,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1160 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1160, null
+  %load1162 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1162, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load1159 = load ptr, ptr %return1, align 8
-  ret ptr %load1159
+  %load1161 = load ptr, ptr %return1, align 8
+  ret ptr %load1161
 
 if_body:                                          ; preds = %entry
-  %load1161 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1161, ptr null)
-  %load1162 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1162, ptr @89)
+  %load1163 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1163, ptr null)
+  %load1164 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1164, ptr @89)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -2266,20 +2266,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1163 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1163, i32 0, i32 2
-  %load1164 = load ptr, ptr %inst3, align 8
-  %load1165 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1165, i32 0, i32 27
-  %load1166 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1164, %load1166
+  %load1165 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1165, i32 0, i32 2
+  %load1166 = load ptr, ptr %inst3, align 8
+  %load1167 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1167, i32 0, i32 27
+  %load1168 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1166, %load1168
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1167 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1167, ptr null)
-  %load1168 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1168, ptr @90)
+  %load1169 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1169, ptr null)
+  %load1170 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1170, ptr @90)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -2288,20 +2288,20 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1169 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1169, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1170 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1170, i32 0, i32 3
-  %load1171 = load double, ptr %inst10, align 8
-  %inst11 = fptosi double %load1171 to i32
-  %load1172 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1172, i32 0, i32 3
-  %load1173 = load double, ptr %inst12, align 8
-  %inst13 = fptosi double %load1173 to i32
+  %load1171 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1171, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1172 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1172, i32 0, i32 3
+  %load1173 = load double, ptr %inst10, align 8
+  %inst11 = fptosi double %load1173 to i32
+  %load1174 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1174, i32 0, i32 3
+  %load1175 = load double, ptr %inst12, align 8
+  %inst13 = fptosi double %load1175 to i32
   %inst14 = xor i32 %inst11, %inst13
   %inst15 = sitofp i32 %inst14 to double
-  %load1174 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1174, double %inst15)
+  %load1176 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1176, double %inst15)
   store ptr %inst16, ptr %return1, align 8
   br label %return
   br label %return
@@ -2341,24 +2341,24 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load1176 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1176, i32 0, i32 1
+  %load1178 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1178, i32 0, i32 1
   %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 9
-  %load1177 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1177, i32 0, i32 3
-  %load1178 = load double, ptr %inst3, align 8
-  %load1179 = load ptr, ptr %inst2, align 8
-  %load1180 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = call double %load1179(ptr %load1180, double %load1178)
-  %load1181 = load ptr, ptr %"\D0\9C", align 8
-  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1181, double %inst4)
+  %load1179 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1179, i32 0, i32 3
+  %load1180 = load double, ptr %inst3, align 8
+  %load1181 = load ptr, ptr %inst2, align 8
+  %load1182 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call double %load1181(ptr %load1182, double %load1180)
+  %load1183 = load ptr, ptr %"\D0\9C", align 8
+  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1183, double %inst4)
   store ptr %inst5, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load1175 = load ptr, ptr %return1, align 8
-  ret ptr %load1175
+  %load1177 = load ptr, ptr %return1, align 8
+  ret ptr %load1177
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5"(ptr, ptr)
@@ -2398,19 +2398,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1183 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1183, null
+  %load1185 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1185, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit15, %if_body_exit15, %if_body13, %if_body6, %if_body
-  %load1182 = load ptr, ptr %return1, align 8
-  ret ptr %load1182
+  %load1184 = load ptr, ptr %return1, align 8
+  ret ptr %load1184
 
 if_body:                                          ; preds = %entry
-  %load1184 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1184, ptr null)
-  %load1185 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1185, ptr @91)
+  %load1186 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1186, ptr null)
+  %load1187 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1187, ptr @91)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -2419,20 +2419,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1186 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1186, i32 0, i32 2
-  %load1187 = load ptr, ptr %inst3, align 8
-  %load1188 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1188, i32 0, i32 27
-  %load1189 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1187, %load1189
+  %load1188 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1188, i32 0, i32 2
+  %load1189 = load ptr, ptr %inst3, align 8
+  %load1190 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1190, i32 0, i32 27
+  %load1191 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1189, %load1191
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1190 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1190, ptr null)
-  %load1191 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1191, ptr @92)
+  %load1192 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1192, ptr null)
+  %load1193 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1193, ptr @92)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -2441,22 +2441,22 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1192 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1192, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1193 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1193, i32 0, i32 3
-  %load1194 = load double, ptr %inst10, align 8
-  %load1195 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1195, i32 0, i32 3
-  %load1196 = load double, ptr %inst11, align 8
-  %inst12 = fcmp ugt double %load1194, %load1196
+  %load1194 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1194, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1195 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1195, i32 0, i32 3
+  %load1196 = load double, ptr %inst10, align 8
+  %load1197 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1197, i32 0, i32 3
+  %load1198 = load double, ptr %inst11, align 8
+  %inst12 = fcmp ugt double %load1196, %load1198
   br i1 %inst12, label %if_body13, label %if_body_else14
 
 if_body13:                                        ; preds = %if_body_exit8
-  %load1197 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1197, i32 0, i32 35
-  %load1198 = load ptr, ptr %inst16, align 8
-  store ptr %load1198, ptr %return1, align 8
+  %load1199 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1199, i32 0, i32 35
+  %load1200 = load ptr, ptr %inst16, align 8
+  store ptr %load1200, ptr %return1, align 8
   br label %return
   br label %if_body_exit15
 
@@ -2464,10 +2464,10 @@ if_body_else14:                                   ; preds = %if_body_exit8
   br label %if_body_exit15
 
 if_body_exit15:                                   ; preds = %if_body_else14, %if_body13
-  %load1199 = load ptr, ptr %"\D0\9C", align 8
-  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1199, i32 0, i32 36
-  %load1200 = load ptr, ptr %inst17, align 8
-  store ptr %load1200, ptr %return1, align 8
+  %load1201 = load ptr, ptr %"\D0\9C", align 8
+  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1201, i32 0, i32 36
+  %load1202 = load ptr, ptr %inst17, align 8
+  store ptr %load1202, ptr %return1, align 8
   br label %return
   br label %return
 }
@@ -2509,19 +2509,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1202 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1202, null
+  %load1204 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1204, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit15, %if_body_exit15, %if_body13, %if_body6, %if_body
-  %load1201 = load ptr, ptr %return1, align 8
-  ret ptr %load1201
+  %load1203 = load ptr, ptr %return1, align 8
+  ret ptr %load1203
 
 if_body:                                          ; preds = %entry
-  %load1203 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1203, ptr null)
-  %load1204 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1204, ptr @93)
+  %load1205 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1205, ptr null)
+  %load1206 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1206, ptr @93)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -2530,20 +2530,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1205 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1205, i32 0, i32 2
-  %load1206 = load ptr, ptr %inst3, align 8
-  %load1207 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1207, i32 0, i32 27
-  %load1208 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1206, %load1208
+  %load1207 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1207, i32 0, i32 2
+  %load1208 = load ptr, ptr %inst3, align 8
+  %load1209 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1209, i32 0, i32 27
+  %load1210 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1208, %load1210
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1209 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1209, ptr null)
-  %load1210 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1210, ptr @94)
+  %load1211 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1211, ptr null)
+  %load1212 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1212, ptr @94)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -2552,22 +2552,22 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1211 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1211, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1212 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1212, i32 0, i32 3
-  %load1213 = load double, ptr %inst10, align 8
-  %load1214 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1214, i32 0, i32 3
-  %load1215 = load double, ptr %inst11, align 8
-  %inst12 = fcmp ult double %load1213, %load1215
+  %load1213 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1213, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1214 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1214, i32 0, i32 3
+  %load1215 = load double, ptr %inst10, align 8
+  %load1216 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1216, i32 0, i32 3
+  %load1217 = load double, ptr %inst11, align 8
+  %inst12 = fcmp ult double %load1215, %load1217
   br i1 %inst12, label %if_body13, label %if_body_else14
 
 if_body13:                                        ; preds = %if_body_exit8
-  %load1216 = load ptr, ptr %"\D0\9C", align 8
-  %inst16 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1216, i32 0, i32 35
-  %load1217 = load ptr, ptr %inst16, align 8
-  store ptr %load1217, ptr %return1, align 8
+  %load1218 = load ptr, ptr %"\D0\9C", align 8
+  %inst16 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1218, i32 0, i32 35
+  %load1219 = load ptr, ptr %inst16, align 8
+  store ptr %load1219, ptr %return1, align 8
   br label %return
   br label %if_body_exit15
 
@@ -2575,10 +2575,10 @@ if_body_else14:                                   ; preds = %if_body_exit8
   br label %if_body_exit15
 
 if_body_exit15:                                   ; preds = %if_body_else14, %if_body13
-  %load1218 = load ptr, ptr %"\D0\9C", align 8
-  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1218, i32 0, i32 36
-  %load1219 = load ptr, ptr %inst17, align 8
-  store ptr %load1219, ptr %return1, align 8
+  %load1220 = load ptr, ptr %"\D0\9C", align 8
+  %inst17 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1220, i32 0, i32 36
+  %load1221 = load ptr, ptr %inst17, align 8
+  store ptr %load1221, ptr %return1, align 8
   br label %return
   br label %return
 }
@@ -2619,21 +2619,21 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1221 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load1222 = load ptr, ptr %"\D0\9C", align 8
-  %load1223 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr %load1221, ptr %load1222, ptr %load1223)
+  %load1223 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load1224 = load ptr, ptr %"\D0\9C", align 8
+  %load1225 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\80\D1\96\D0\B2\D0\BD\D0\BE"(ptr %load1223, ptr %load1224, ptr %load1225)
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
-  %load1220 = load ptr, ptr %return1, align 8
-  ret ptr %load1220
+  %load1222 = load ptr, ptr %return1, align 8
+  ret ptr %load1222
 
 if_body:                                          ; preds = %entry
-  %load1224 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1224, i32 0, i32 35
-  %load1225 = load ptr, ptr %inst2, align 8
-  store ptr %load1225, ptr %return1, align 8
+  %load1226 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1226, i32 0, i32 35
+  %load1227 = load ptr, ptr %inst2, align 8
+  store ptr %load1227, ptr %return1, align 8
   br label %return
   br label %if_body_exit
 
@@ -2641,10 +2641,10 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1226 = load ptr, ptr %"\D0\9C", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1226, i32 0, i32 36
-  %load1227 = load ptr, ptr %inst3, align 8
-  store ptr %load1227, ptr %return1, align 8
+  %load1228 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1228, i32 0, i32 36
+  %load1229 = load ptr, ptr %inst3, align 8
+  store ptr %load1229, ptr %return1, align 8
   br label %return
   br label %return
 }
@@ -2685,17 +2685,17 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1229 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1229, ptr null)
-  %load1230 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1230, ptr @95)
+  %load1231 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1231, ptr null)
+  %load1232 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1232, ptr @95)
   store ptr %inst, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load1228 = load ptr, ptr %return1, align 8
-  ret ptr %load1228
+  %load1230 = load ptr, ptr %return1, align 8
+  ret ptr %load1230
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BC\D1\96\D1\81\D1\82\D0\B8\D1\82\D1\8C"(ptr, ptr, ptr)
@@ -2734,19 +2734,19 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1232 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1232, null
+  %load1234 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1234, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit13, %if_body_exit13, %if_body11, %if_body6, %if_body
-  %load1231 = load ptr, ptr %return1, align 8
-  ret ptr %load1231
+  %load1233 = load ptr, ptr %return1, align 8
+  ret ptr %load1233
 
 if_body:                                          ; preds = %entry
-  %load1233 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1233, i32 0, i32 36
-  %load1234 = load ptr, ptr %inst2, align 8
-  store ptr %load1234, ptr %return1, align 8
+  %load1235 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1235, i32 0, i32 36
+  %load1236 = load ptr, ptr %inst2, align 8
+  store ptr %load1236, ptr %return1, align 8
   br label %return
   br label %if_body_exit
 
@@ -2754,20 +2754,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1235 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1235, i32 0, i32 2
-  %load1236 = load ptr, ptr %inst3, align 8
-  %load1237 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1237, i32 0, i32 24
-  %load1238 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load1236, %load1238
+  %load1237 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1237, i32 0, i32 2
+  %load1238 = load ptr, ptr %inst3, align 8
+  %load1239 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1239, i32 0, i32 24
+  %load1240 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load1238, %load1240
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load1239 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1239, i32 0, i32 36
-  %load1240 = load ptr, ptr %inst9, align 8
-  store ptr %load1240, ptr %return1, align 8
+  %load1241 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1241, i32 0, i32 36
+  %load1242 = load ptr, ptr %inst9, align 8
+  store ptr %load1242, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
 
@@ -2775,17 +2775,17 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load1241 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1242 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load1243 = load ptr, ptr %"\D0\9C", align 8
-  %inst10 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\94"(ptr %load1242, ptr %load1243, ptr %load1241)
+  %load1243 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %load1244 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load1245 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = call i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\94"(ptr %load1244, ptr %load1245, ptr %load1243)
   br i1 %inst10, label %if_body11, label %if_body_else12
 
 if_body11:                                        ; preds = %if_body_exit8
-  %load1244 = load ptr, ptr %"\D0\9C", align 8
-  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1244, i32 0, i32 35
-  %load1245 = load ptr, ptr %inst14, align 8
-  store ptr %load1245, ptr %return1, align 8
+  %load1246 = load ptr, ptr %"\D0\9C", align 8
+  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1246, i32 0, i32 35
+  %load1247 = load ptr, ptr %inst14, align 8
+  store ptr %load1247, ptr %return1, align 8
   br label %return
   br label %if_body_exit13
 
@@ -2793,10 +2793,10 @@ if_body_else12:                                   ; preds = %if_body_exit8
   br label %if_body_exit13
 
 if_body_exit13:                                   ; preds = %if_body_else12, %if_body11
-  %load1246 = load ptr, ptr %"\D0\9C", align 8
-  %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1246, i32 0, i32 36
-  %load1247 = load ptr, ptr %inst15, align 8
-  store ptr %load1247, ptr %return1, align 8
+  %load1248 = load ptr, ptr %"\D0\9C", align 8
+  %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1248, i32 0, i32 36
+  %load1249 = load ptr, ptr %inst15, align 8
+  store ptr %load1249, ptr %return1, align 8
   br label %return
   br label %return
 }
@@ -2835,24 +2835,24 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load1249 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1249, i32 0, i32 1
+  %load1251 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1251, i32 0, i32 1
   %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 8
-  %load1250 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1250, i32 0, i32 3
-  %load1251 = load ptr, ptr %inst2, align 8
-  %load1252 = load ptr, ptr %"\D0\9C", align 8
-  %load1253 = load double, ptr %inst3, align 8
-  %inst4 = call double %load1251(ptr %load1252, double %load1253)
+  %load1252 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1252, i32 0, i32 3
+  %load1253 = load ptr, ptr %inst2, align 8
   %load1254 = load ptr, ptr %"\D0\9C", align 8
-  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1254, double %inst4)
+  %load1255 = load double, ptr %inst3, align 8
+  %inst4 = call double %load1253(ptr %load1254, double %load1255)
+  %load1256 = load ptr, ptr %"\D0\9C", align 8
+  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1256, double %inst4)
   store ptr %inst5, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load1248 = load ptr, ptr %return1, align 8
-  ret ptr %load1248
+  %load1250 = load ptr, ptr %return1, align 8
+  ret ptr %load1250
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5"(ptr, ptr)
@@ -2889,14 +2889,14 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load1256 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  store ptr %load1256, ptr %return1, align 8
+  %load1258 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  store ptr %load1258, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load1255 = load ptr, ptr %return1, align 8
-  ret ptr %load1255
+  %load1257 = load ptr, ptr %return1, align 8
+  ret ptr %load1257
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\BE\D0\B2\D0\B5"(ptr, ptr)
@@ -2933,21 +2933,21 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load1258 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1258, i32 0, i32 3
-  %load1259 = load double, ptr %inst, align 8
-  %inst2 = fcmp ueq double %load1259, 0.000000e+00
+  %load1260 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1260, i32 0, i32 3
+  %load1261 = load double, ptr %inst, align 8
+  %inst2 = fcmp ueq double %load1261, 0.000000e+00
   br i1 %inst2, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
-  %load1257 = load ptr, ptr %return1, align 8
-  ret ptr %load1257
+  %load1259 = load ptr, ptr %return1, align 8
+  ret ptr %load1259
 
 if_body:                                          ; preds = %entry
-  %load1260 = load ptr, ptr %"\D0\9C", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1260, i32 0, i32 35
-  %load1261 = load ptr, ptr %inst3, align 8
-  store ptr %load1261, ptr %return1, align 8
+  %load1262 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1262, i32 0, i32 35
+  %load1263 = load ptr, ptr %inst3, align 8
+  store ptr %load1263, ptr %return1, align 8
   br label %return
   br label %if_body_exit
 
@@ -2955,10 +2955,10 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1262 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1262, i32 0, i32 36
-  %load1263 = load ptr, ptr %inst4, align 8
-  store ptr %load1263, ptr %return1, align 8
+  %load1264 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1264, i32 0, i32 36
+  %load1265 = load ptr, ptr %inst4, align 8
+  store ptr %load1265, ptr %return1, align 8
   br label %return
   br label %return
 }
@@ -2997,19 +2997,19 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load1265 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1265, i32 0, i32 3
-  %load1266 = load double, ptr %inst, align 8
-  %inst2 = fadd double %load1266, 1.000000e+00
-  %load1267 = load ptr, ptr %"\D0\9C", align 8
-  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1267, double %inst2)
+  %load1267 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1267, i32 0, i32 3
+  %load1268 = load double, ptr %inst, align 8
+  %inst2 = fadd double %load1268, 1.000000e+00
+  %load1269 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1269, double %inst2)
   store ptr %inst3, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load1264 = load ptr, ptr %return1, align 8
-  ret ptr %load1264
+  %load1266 = load ptr, ptr %return1, align 8
+  ret ptr %load1266
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
@@ -3046,19 +3046,19 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load1269 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1269, i32 0, i32 3
-  %load1270 = load double, ptr %inst, align 8
-  %inst2 = fsub double %load1270, 1.000000e+00
-  %load1271 = load ptr, ptr %"\D0\9C", align 8
-  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1271, double %inst2)
+  %load1271 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1271, i32 0, i32 3
+  %load1272 = load double, ptr %inst, align 8
+  %inst2 = fsub double %load1272, 1.000000e+00
+  %load1273 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1273, double %inst2)
   store ptr %inst3, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load1268 = load ptr, ptr %return1, align 8
-  ret ptr %load1268
+  %load1270 = load ptr, ptr %return1, align 8
+  ret ptr %load1270
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr, ptr)
@@ -3099,16 +3099,16 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %load1355 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  store ptr %load1355, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  %load1356 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  %load1357 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst = icmp eq ptr %load1356, %load1357
+  %load1357 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  store ptr %load1357, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1358 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load1359 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst = icmp eq ptr %load1358, %load1359
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit17, %if_body_exit17, %if_body15, %if_body9, %if_body3, %if_body
-  %load1354 = load i1, ptr %return1, align 1
-  ret i1 %load1354
+  %load1356 = load i1, ptr %return1, align 1
+  ret i1 %load1356
 
 if_body:                                          ; preds = %entry
   store i1 true, ptr %return1, align 1
@@ -3119,8 +3119,8 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1358 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst2 = icmp eq ptr %load1358, null
+  %load1360 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst2 = icmp eq ptr %load1360, null
   br i1 %inst2, label %if_body3, label %if_body_else4
 
 if_body3:                                         ; preds = %if_body_exit
@@ -3132,13 +3132,13 @@ if_body_else4:                                    ; preds = %if_body_exit
   br label %if_body_exit5
 
 if_body_exit5:                                    ; preds = %if_body_else4, %if_body3
-  %load1359 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1359, i32 0, i32 2
-  %load1360 = load ptr, ptr %inst6, align 8
-  %load1361 = load ptr, ptr %"\D0\9C", align 8
-  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1361, i32 0, i32 27
-  %load1362 = load ptr, ptr %inst7, align 8
-  %inst8 = icmp ne ptr %load1360, %load1362
+  %load1361 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load1361, i32 0, i32 2
+  %load1362 = load ptr, ptr %inst6, align 8
+  %load1363 = load ptr, ptr %"\D0\9C", align 8
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1363, i32 0, i32 27
+  %load1364 = load ptr, ptr %inst7, align 8
+  %inst8 = icmp ne ptr %load1362, %load1364
   br i1 %inst8, label %if_body9, label %if_body_else10
 
 if_body9:                                         ; preds = %if_body_exit5
@@ -3150,15 +3150,15 @@ if_body_else10:                                   ; preds = %if_body_exit5
   br label %if_body_exit11
 
 if_body_exit11:                                   ; preds = %if_body_else10, %if_body9
-  %load1363 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
-  store ptr %load1363, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %load1364 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1364, i32 0, i32 3
-  %load1365 = load double, ptr %inst12, align 8
-  %load1366 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
-  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1366, i32 0, i32 3
-  %load1367 = load double, ptr %inst13, align 8
-  %inst14 = fcmp ueq double %load1365, %load1367
+  %load1365 = load ptr, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82", align 8
+  store ptr %load1365, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %load1366 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1366, i32 0, i32 3
+  %load1367 = load double, ptr %inst12, align 8
+  %load1368 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B0", align 8
+  %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1368, i32 0, i32 3
+  %load1369 = load double, ptr %inst13, align 8
+  %inst14 = fcmp ueq double %load1367, %load1369
   br i1 %inst14, label %if_body15, label %if_body_else16
 
 if_body15:                                        ; preds = %if_body_exit11
@@ -3211,16 +3211,16 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %load1369 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %load1370 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1370, i32 0, i32 27
-  %load1371 = load ptr, ptr %inst, align 8
-  %inst2 = icmp eq ptr %load1369, %load1371
+  %load1371 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %load1372 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load1372, i32 0, i32 27
+  %load1373 = load ptr, ptr %inst, align 8
+  %inst2 = icmp eq ptr %load1371, %load1373
   br i1 %inst2, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
-  %load1368 = load i1, ptr %return1, align 1
-  ret i1 %load1368
+  %load1370 = load i1, ptr %return1, align 1
+  ret i1 %load1370
 
 if_body:                                          ; preds = %entry
   store i1 true, ptr %return1, align 1
@@ -3319,11 +3319,11 @@ entry:                                            ; preds = %alloca
   store ptr %2, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8", align 8
   store i64 %3, ptr %"\D0\B3\D0\BB\D0\B8\D0\B1\D0\B8\D0\BD\D0\B0", align 4
   store ptr null, ptr %"\D0\B464\D1\8E8", align 8
-  %load1372 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1372, i32 0, i32 3
-  %load1373 = load ptr, ptr %"\D0\9C", align 8
-  %load1374 = load double, ptr %inst, align 8
-  %inst1 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\B464_\D0\B2_\D0\AE8"(ptr %load1373, double %load1374, ptr %"\D0\B464\D1\8E8")
+  %load1374 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load1374, i32 0, i32 3
+  %load1375 = load ptr, ptr %"\D0\9C", align 8
+  %load1376 = load double, ptr %inst, align 8
+  %inst1 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\B464_\D0\B2_\D0\AE8"(ptr %load1375, double %load1376, ptr %"\D0\B464\D1\8E8")
   %inst2 = icmp eq i64 %inst1, 0
   br i1 %inst2, label %if_body, label %if_body_else
 
@@ -3331,21 +3331,21 @@ return:                                           ; preds = %if_body_exit
   ret void
 
 if_body:                                          ; preds = %entry
-  %load1375 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load1375, ptr @99)
+  %load1377 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9F\D0\9E\D0\9C\D0\95\D0\A0\D0\A2\D0\98"(ptr %load1377, ptr @99)
   br label %if_body_exit
 
 if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load1376 = load ptr, ptr %"\D0\9C", align 8
-  %load1377 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8", align 8
-  %load1378 = load ptr, ptr %"\D0\B464\D1\8E8", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load1376, ptr %load1377, ptr %load1378)
-  %load1379 = load ptr, ptr %"\D0\B464\D1\8E8", align 8
-  %load1380 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1380, ptr %load1379)
+  %load1378 = load ptr, ptr %"\D0\9C", align 8
+  %load1379 = load ptr, ptr %"\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8", align 8
+  %load1380 = load ptr, ptr %"\D0\B464\D1\8E8", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D0\BA\D0\BB\D0\B0\D1\81\D1\82\D0\B8_\D0\B2_\D0\BD\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87_\D1\8E8"(ptr %load1378, ptr %load1379, ptr %load1380)
+  %load1381 = load ptr, ptr %"\D0\B464\D1\8E8", align 8
+  %load1382 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load1382, ptr %load1381)
   br label %return
 }
 
@@ -3383,32 +3383,32 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
   store ptr %1, ptr %"\D0\9C", align 8
   store ptr null, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\AE8", align 8
-  %load1273 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", ptr %load1273, i32 0, i32 4
-  %load1274 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", ptr %load1274, i32 0, i32 3
-  %load1275 = load ptr, ptr %"\D0\9C", align 8
-  %load1276 = load ptr, ptr %inst, align 8
-  %load1277 = load i64, ptr %inst2, align 4
-  %inst3 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE32_\D0\B2_\D0\AE8"(ptr %load1275, ptr %load1276, i64 %load1277, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\AE8")
+  %load1275 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", ptr %load1275, i32 0, i32 4
+  %load1276 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\AE\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83", ptr %load1276, i32 0, i32 3
+  %load1277 = load ptr, ptr %"\D0\9C", align 8
+  %load1278 = load ptr, ptr %inst, align 8
+  %load1279 = load i64, ptr %inst2, align 4
+  %inst3 = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\BA\D0\BE\D0\B4\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D0\AE32_\D0\B2_\D0\AE8"(ptr %load1277, ptr %load1278, i64 %load1279, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\AE8")
   store i64 %inst3, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\AE8", align 4
-  %load1348 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\AE8", align 8
-  %inst4 = call %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D0\B4\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B7_\D1\8E8\D1\81\D1\96"(ptr %load1348)
+  %load1350 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F_\D0\AE8", align 8
+  %inst4 = call %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D0\B4\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B7_\D1\8E8\D1\81\D1\96"(ptr %load1350)
   store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %inst4, ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", i32 0, i32 1
-  %load1349 = load ptr, ptr %inst5, align 8
-  %inst6 = icmp ne ptr %load1349, null
+  %load1351 = load ptr, ptr %inst5, align 8
+  %inst6 = icmp ne ptr %load1351, null
   br i1 %inst6, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit, %if_body_exit, %if_body
-  %load1272 = load ptr, ptr %return1, align 8
-  ret ptr %load1272
+  %load1274 = load ptr, ptr %return1, align 8
+  ret ptr %load1274
 
 if_body:                                          ; preds = %entry
-  %load1350 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1350, ptr null)
-  %load1351 = load ptr, ptr %"\D0\9C", align 8
-  %inst7 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1351, ptr @98)
+  %load1352 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load1352, ptr null)
+  %load1353 = load ptr, ptr %"\D0\9C", align 8
+  %inst7 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load1353, ptr @98)
   store ptr %inst7, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -3418,13 +3418,15 @@ if_body_else:                                     ; preds = %entry
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
   %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %"\D1\80\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82_\D1\80\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", i32 0, i32 0
-  %load1352 = load ptr, ptr %"\D0\9C", align 8
-  %load1353 = load double, ptr %inst8, align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1352, double %load1353)
+  %load1354 = load ptr, ptr %"\D0\9C", align 8
+  %load1355 = load double, ptr %inst8, align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load1354, double %load1355)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %return
 }
+
+declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\B7_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr, ptr)
 
 declare dso_local void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D1\83\D0\B2\D0\B0\D1\82\D0\B8"(ptr)
 
@@ -3477,421 +3479,421 @@ alloca:
 
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\9C", align 8
-  %load675 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load675, i32 0, i32 0
+  %load677 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load677, i32 0, i32 0
   %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst, i32 0, i32 1
   %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst2, i32 0, i32 36
-  %load676 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load676, i32 0, i32 23
-  %load677 = load ptr, ptr %"\D0\9C", align 8
-  %load678 = load ptr, ptr %inst3, align 8
-  %load679 = load ptr, ptr %inst4, align 8
-  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8"(ptr %load677, ptr %load678, ptr %load679)
+  %load678 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load678, i32 0, i32 23
+  %load679 = load ptr, ptr %"\D0\9C", align 8
+  %load680 = load ptr, ptr %inst3, align 8
+  %load681 = load ptr, ptr %inst4, align 8
+  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8"(ptr %load679, ptr %load680, ptr %load681)
   store ptr %inst5, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %load680 = load ptr, ptr %"\D0\9C", align 8
-  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load680, i32 0, i32 0
+  %load682 = load ptr, ptr %"\D0\9C", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load682, i32 0, i32 0
   %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst6, i32 0, i32 1
   %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst7, i32 0, i32 5
-  %load681 = load ptr, ptr %"\D0\9C", align 8
-  %load682 = load ptr, ptr %inst8, align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load681, ptr %load682, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8", ptr null, ptr null)
+  %load683 = load ptr, ptr %"\D0\9C", align 8
+  %load684 = load ptr, ptr %inst8, align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load683, ptr %load684, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8", ptr null, ptr null)
   store ptr %inst9, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8", align 8
-  %load711 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load711, i32 0, i32 7
-  %load712 = load ptr, ptr %"\D0\9C", align 8
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load712, i32 0, i32 0
+  %load713 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load713, i32 0, i32 7
+  %load714 = load ptr, ptr %"\D0\9C", align 8
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load714, i32 0, i32 0
   %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst11, i32 0, i32 1
   %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst12, i32 0, i32 5
-  %load713 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8", align 8
-  %load714 = load ptr, ptr %"\D0\9C", align 8
-  %load715 = load ptr, ptr %inst13, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load714, ptr %inst10, ptr %load715, ptr %load713)
+  %load715 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\BE\D0\B4\D0\B0\D1\82\D0\B8", align 8
   %load716 = load ptr, ptr %"\D0\9C", align 8
-  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load716, i32 0, i32 0
+  %load717 = load ptr, ptr %inst13, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load716, ptr %inst10, ptr %load717, ptr %load715)
+  %load718 = load ptr, ptr %"\D0\9C", align 8
+  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load718, i32 0, i32 0
   %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst14, i32 0, i32 1
   %inst16 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst15, i32 0, i32 6
-  %load717 = load ptr, ptr %"\D0\9C", align 8
-  %load718 = load ptr, ptr %inst16, align 8
-  %inst17 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load717, ptr %load718, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8", ptr null, ptr null)
+  %load719 = load ptr, ptr %"\D0\9C", align 8
+  %load720 = load ptr, ptr %inst16, align 8
+  %inst17 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load719, ptr %load720, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8", ptr null, ptr null)
   store ptr %inst17, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8", align 8
-  %load719 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst18 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load719, i32 0, i32 7
-  %load720 = load ptr, ptr %"\D0\9C", align 8
-  %inst19 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load720, i32 0, i32 0
+  %load721 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst18 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load721, i32 0, i32 7
+  %load722 = load ptr, ptr %"\D0\9C", align 8
+  %inst19 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load722, i32 0, i32 0
   %inst20 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst19, i32 0, i32 1
   %inst21 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst20, i32 0, i32 6
-  %load721 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8", align 8
-  %load722 = load ptr, ptr %"\D0\9C", align 8
-  %load723 = load ptr, ptr %inst21, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load722, ptr %inst18, ptr %load723, ptr %load721)
+  %load723 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\D0\BD\D1\8F\D1\82\D0\B8", align 8
   %load724 = load ptr, ptr %"\D0\9C", align 8
-  %inst22 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load724, i32 0, i32 0
+  %load725 = load ptr, ptr %inst21, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load724, ptr %inst18, ptr %load725, ptr %load723)
+  %load726 = load ptr, ptr %"\D0\9C", align 8
+  %inst22 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load726, i32 0, i32 0
   %inst23 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst22, i32 0, i32 1
   %inst24 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst23, i32 0, i32 7
-  %load725 = load ptr, ptr %"\D0\9C", align 8
-  %load726 = load ptr, ptr %inst24, align 8
-  %inst25 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load725, ptr %load726, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8", ptr null, ptr null)
+  %load727 = load ptr, ptr %"\D0\9C", align 8
+  %load728 = load ptr, ptr %inst24, align 8
+  %inst25 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load727, ptr %load728, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8", ptr null, ptr null)
   store ptr %inst25, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8", align 8
-  %load727 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst26 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load727, i32 0, i32 7
-  %load728 = load ptr, ptr %"\D0\9C", align 8
-  %inst27 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load728, i32 0, i32 0
+  %load729 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst26 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load729, i32 0, i32 7
+  %load730 = load ptr, ptr %"\D0\9C", align 8
+  %inst27 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load730, i32 0, i32 0
   %inst28 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst27, i32 0, i32 1
   %inst29 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst28, i32 0, i32 7
-  %load729 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8", align 8
-  %load730 = load ptr, ptr %"\D0\9C", align 8
-  %load731 = load ptr, ptr %inst29, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load730, ptr %inst26, ptr %load731, ptr %load729)
+  %load731 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\BC\D0\BD\D0\BE\D0\B6\D0\B8\D1\82\D0\B8", align 8
   %load732 = load ptr, ptr %"\D0\9C", align 8
-  %inst30 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load732, i32 0, i32 0
+  %load733 = load ptr, ptr %inst29, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load732, ptr %inst26, ptr %load733, ptr %load731)
+  %load734 = load ptr, ptr %"\D0\9C", align 8
+  %inst30 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load734, i32 0, i32 0
   %inst31 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst30, i32 0, i32 1
   %inst32 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst31, i32 0, i32 8
-  %load733 = load ptr, ptr %"\D0\9C", align 8
-  %load734 = load ptr, ptr %inst32, align 8
-  %inst33 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load733, ptr %load734, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8", ptr null, ptr null)
+  %load735 = load ptr, ptr %"\D0\9C", align 8
+  %load736 = load ptr, ptr %inst32, align 8
+  %inst33 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load735, ptr %load736, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8", ptr null, ptr null)
   store ptr %inst33, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8", align 8
-  %load735 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst34 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load735, i32 0, i32 7
-  %load736 = load ptr, ptr %"\D0\9C", align 8
-  %inst35 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load736, i32 0, i32 0
+  %load737 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst34 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load737, i32 0, i32 7
+  %load738 = load ptr, ptr %"\D0\9C", align 8
+  %inst35 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load738, i32 0, i32 0
   %inst36 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst35, i32 0, i32 1
   %inst37 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst36, i32 0, i32 8
-  %load737 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8", align 8
-  %load738 = load ptr, ptr %"\D0\9C", align 8
-  %load739 = load ptr, ptr %inst37, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load738, ptr %inst34, ptr %load739, ptr %load737)
+  %load739 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BF\D0\BE\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8", align 8
   %load740 = load ptr, ptr %"\D0\9C", align 8
-  %inst38 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load740, i32 0, i32 0
+  %load741 = load ptr, ptr %inst37, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load740, ptr %inst34, ptr %load741, ptr %load739)
+  %load742 = load ptr, ptr %"\D0\9C", align 8
+  %inst38 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load742, i32 0, i32 0
   %inst39 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst38, i32 0, i32 1
   %inst40 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst39, i32 0, i32 9
-  %load741 = load ptr, ptr %"\D0\9C", align 8
-  %load742 = load ptr, ptr %inst40, align 8
-  %inst41 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load741, ptr %load742, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D0\B0", ptr null, ptr null)
+  %load743 = load ptr, ptr %"\D0\9C", align 8
+  %load744 = load ptr, ptr %inst40, align 8
+  %inst41 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load743, ptr %load744, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D0\B0", ptr null, ptr null)
   store ptr %inst41, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D0\B0", align 8
-  %load743 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst42 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load743, i32 0, i32 7
-  %load744 = load ptr, ptr %"\D0\9C", align 8
-  %inst43 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load744, i32 0, i32 0
+  %load745 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst42 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load745, i32 0, i32 7
+  %load746 = load ptr, ptr %"\D0\9C", align 8
+  %inst43 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load746, i32 0, i32 0
   %inst44 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst43, i32 0, i32 1
   %inst45 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst44, i32 0, i32 9
-  %load745 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D0\B0", align 8
-  %load746 = load ptr, ptr %"\D0\9C", align 8
-  %load747 = load ptr, ptr %inst45, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load746, ptr %inst42, ptr %load747, ptr %load745)
+  %load747 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BE\D1\81\D1\82\D0\B0\D1\87\D0\B0", align 8
   %load748 = load ptr, ptr %"\D0\9C", align 8
-  %inst46 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load748, i32 0, i32 0
+  %load749 = load ptr, ptr %inst45, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load748, ptr %inst42, ptr %load749, ptr %load747)
+  %load750 = load ptr, ptr %"\D0\9C", align 8
+  %inst46 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load750, i32 0, i32 0
   %inst47 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst46, i32 0, i32 1
   %inst48 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst47, i32 0, i32 10
-  %load749 = load ptr, ptr %"\D0\9C", align 8
-  %load750 = load ptr, ptr %inst48, align 8
-  %inst49 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load749, ptr %load750, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B0", ptr null, ptr null)
+  %load751 = load ptr, ptr %"\D0\9C", align 8
+  %load752 = load ptr, ptr %inst48, align 8
+  %inst49 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load751, ptr %load752, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B0", ptr null, ptr null)
   store ptr %inst49, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B0", align 8
-  %load751 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst50 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load751, i32 0, i32 7
-  %load752 = load ptr, ptr %"\D0\9C", align 8
-  %inst51 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load752, i32 0, i32 0
+  %load753 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst50 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load753, i32 0, i32 7
+  %load754 = load ptr, ptr %"\D0\9C", align 8
+  %inst51 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load754, i32 0, i32 0
   %inst52 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst51, i32 0, i32 1
   %inst53 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst52, i32 0, i32 10
-  %load753 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B0", align 8
-  %load754 = load ptr, ptr %"\D0\9C", align 8
-  %load755 = load ptr, ptr %inst53, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load754, ptr %inst50, ptr %load755, ptr %load753)
+  %load755 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BD\D0\B5\D0\BF\D0\BE\D0\B2\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\BA\D0\B0", align 8
   %load756 = load ptr, ptr %"\D0\9C", align 8
-  %inst54 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load756, i32 0, i32 0
+  %load757 = load ptr, ptr %inst53, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load756, ptr %inst50, ptr %load757, ptr %load755)
+  %load758 = load ptr, ptr %"\D0\9C", align 8
+  %inst54 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load758, i32 0, i32 0
   %inst55 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst54, i32 0, i32 1
   %inst56 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst55, i32 0, i32 11
-  %load757 = load ptr, ptr %"\D0\9C", align 8
-  %load758 = load ptr, ptr %inst56, align 8
-  %inst57 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load757, ptr %load758, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\81\D1\82\D0\B5\D0\BF\D1\96\D0\BD\D1\8C", ptr null, ptr null)
+  %load759 = load ptr, ptr %"\D0\9C", align 8
+  %load760 = load ptr, ptr %inst56, align 8
+  %inst57 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load759, ptr %load760, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\81\D1\82\D0\B5\D0\BF\D1\96\D0\BD\D1\8C", ptr null, ptr null)
   store ptr %inst57, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\81\D1\82\D0\B5\D0\BF\D1\96\D0\BD\D1\8C", align 8
-  %load759 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst58 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load759, i32 0, i32 7
-  %load760 = load ptr, ptr %"\D0\9C", align 8
-  %inst59 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load760, i32 0, i32 0
+  %load761 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst58 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load761, i32 0, i32 7
+  %load762 = load ptr, ptr %"\D0\9C", align 8
+  %inst59 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load762, i32 0, i32 0
   %inst60 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst59, i32 0, i32 1
   %inst61 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst60, i32 0, i32 11
-  %load761 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\81\D1\82\D0\B5\D0\BF\D1\96\D0\BD\D1\8C", align 8
-  %load762 = load ptr, ptr %"\D0\9C", align 8
-  %load763 = load ptr, ptr %inst61, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load762, ptr %inst58, ptr %load763, ptr %load761)
+  %load763 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\81\D1\82\D0\B5\D0\BF\D1\96\D0\BD\D1\8C", align 8
   %load764 = load ptr, ptr %"\D0\9C", align 8
-  %inst62 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load764, i32 0, i32 0
+  %load765 = load ptr, ptr %inst61, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load764, ptr %inst58, ptr %load765, ptr %load763)
+  %load766 = load ptr, ptr %"\D0\9C", align 8
+  %inst62 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load766, i32 0, i32 0
   %inst63 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst62, i32 0, i32 1
   %inst64 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst63, i32 0, i32 12
-  %load765 = load ptr, ptr %"\D0\9C", align 8
-  %load766 = load ptr, ptr %inst64, align 8
-  %inst65 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load765, ptr %load766, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", ptr null, ptr null)
+  %load767 = load ptr, ptr %"\D0\9C", align 8
+  %load768 = load ptr, ptr %inst64, align 8
+  %inst65 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load767, ptr %load768, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", ptr null, ptr null)
   store ptr %inst65, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", align 8
-  %load767 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst66 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load767, i32 0, i32 7
-  %load768 = load ptr, ptr %"\D0\9C", align 8
-  %inst67 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load768, i32 0, i32 0
+  %load769 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst66 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load769, i32 0, i32 7
+  %load770 = load ptr, ptr %"\D0\9C", align 8
+  %inst67 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load770, i32 0, i32 0
   %inst68 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst67, i32 0, i32 1
   %inst69 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst68, i32 0, i32 12
-  %load769 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", align 8
-  %load770 = load ptr, ptr %"\D0\9C", align 8
-  %load771 = load ptr, ptr %inst69, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load770, ptr %inst66, ptr %load771, ptr %load769)
+  %load771 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BB\D1\96\D0\B2\D0\BE", align 8
   %load772 = load ptr, ptr %"\D0\9C", align 8
-  %inst70 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load772, i32 0, i32 0
+  %load773 = load ptr, ptr %inst69, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load772, ptr %inst66, ptr %load773, ptr %load771)
+  %load774 = load ptr, ptr %"\D0\9C", align 8
+  %inst70 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load774, i32 0, i32 0
   %inst71 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst70, i32 0, i32 1
   %inst72 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst71, i32 0, i32 13
-  %load773 = load ptr, ptr %"\D0\9C", align 8
-  %load774 = load ptr, ptr %inst72, align 8
-  %inst73 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load773, ptr %load774, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", ptr null, ptr null)
+  %load775 = load ptr, ptr %"\D0\9C", align 8
+  %load776 = load ptr, ptr %inst72, align 8
+  %inst73 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load775, ptr %load776, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", ptr null, ptr null)
   store ptr %inst73, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", align 8
-  %load775 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst74 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load775, i32 0, i32 7
-  %load776 = load ptr, ptr %"\D0\9C", align 8
-  %inst75 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load776, i32 0, i32 0
+  %load777 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst74 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load777, i32 0, i32 7
+  %load778 = load ptr, ptr %"\D0\9C", align 8
+  %inst75 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load778, i32 0, i32 0
   %inst76 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst75, i32 0, i32 1
   %inst77 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst76, i32 0, i32 13
-  %load777 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", align 8
-  %load778 = load ptr, ptr %"\D0\9C", align 8
-  %load779 = load ptr, ptr %inst77, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load778, ptr %inst74, ptr %load779, ptr %load777)
+  %load779 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE", align 8
   %load780 = load ptr, ptr %"\D0\9C", align 8
-  %inst78 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load780, i32 0, i32 0
+  %load781 = load ptr, ptr %inst77, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load780, ptr %inst74, ptr %load781, ptr %load779)
+  %load782 = load ptr, ptr %"\D0\9C", align 8
+  %inst78 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load782, i32 0, i32 0
   %inst79 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst78, i32 0, i32 1
   %inst80 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst79, i32 0, i32 14
-  %load781 = load ptr, ptr %"\D0\9C", align 8
-  %load782 = load ptr, ptr %inst80, align 8
-  %inst81 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load781, ptr %load782, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", ptr null, ptr null)
+  %load783 = load ptr, ptr %"\D0\9C", align 8
+  %load784 = load ptr, ptr %inst80, align 8
+  %inst81 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load783, ptr %load784, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", ptr null, ptr null)
   store ptr %inst81, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", align 8
-  %load783 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst82 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load783, i32 0, i32 7
-  %load784 = load ptr, ptr %"\D0\9C", align 8
-  %inst83 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load784, i32 0, i32 0
+  %load785 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst82 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load785, i32 0, i32 7
+  %load786 = load ptr, ptr %"\D0\9C", align 8
+  %inst83 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load786, i32 0, i32 0
   %inst84 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst83, i32 0, i32 1
   %inst85 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst84, i32 0, i32 14
-  %load785 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", align 8
-  %load786 = load ptr, ptr %"\D0\9C", align 8
-  %load787 = load ptr, ptr %inst85, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load786, ptr %inst82, ptr %load787, ptr %load785)
+  %load787 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D0\BF\D1\80\D0\B0\D0\B2\D0\BE_\D0\B7\D1\96_\D0\B7\D0\B0\D0\BF\D0\BE\D0\B2\D0\BD\D0\B5\D0\BD\D0\BD\D1\8F\D0\BC", align 8
   %load788 = load ptr, ptr %"\D0\9C", align 8
-  %inst86 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load788, i32 0, i32 0
+  %load789 = load ptr, ptr %inst85, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load788, ptr %inst82, ptr %load789, ptr %load787)
+  %load790 = load ptr, ptr %"\D0\9C", align 8
+  %inst86 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load790, i32 0, i32 0
   %inst87 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst86, i32 0, i32 1
   %inst88 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst87, i32 0, i32 15
-  %load789 = load ptr, ptr %"\D0\9C", align 8
-  %load790 = load ptr, ptr %inst88, align 8
-  %inst89 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load789, ptr %load790, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96", ptr null, ptr null)
+  %load791 = load ptr, ptr %"\D0\9C", align 8
+  %load792 = load ptr, ptr %inst88, align 8
+  %inst89 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load791, ptr %load792, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96", ptr null, ptr null)
   store ptr %inst89, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96", align 8
-  %load791 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst90 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load791, i32 0, i32 7
-  %load792 = load ptr, ptr %"\D0\9C", align 8
-  %inst91 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load792, i32 0, i32 0
+  %load793 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst90 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load793, i32 0, i32 7
+  %load794 = load ptr, ptr %"\D0\9C", align 8
+  %inst91 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load794, i32 0, i32 0
   %inst92 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst91, i32 0, i32 1
   %inst93 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst92, i32 0, i32 15
-  %load793 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96", align 8
-  %load794 = load ptr, ptr %"\D0\9C", align 8
-  %load795 = load ptr, ptr %inst93, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load794, ptr %inst90, ptr %load795, ptr %load793)
+  %load795 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D1\96", align 8
   %load796 = load ptr, ptr %"\D0\9C", align 8
-  %inst94 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load796, i32 0, i32 0
+  %load797 = load ptr, ptr %inst93, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load796, ptr %inst90, ptr %load797, ptr %load795)
+  %load798 = load ptr, ptr %"\D0\9C", align 8
+  %inst94 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load798, i32 0, i32 0
   %inst95 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst94, i32 0, i32 1
   %inst96 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst95, i32 0, i32 16
-  %load797 = load ptr, ptr %"\D0\9C", align 8
-  %load798 = load ptr, ptr %inst96, align 8
-  %inst97 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load797, ptr %load798, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE", ptr null, ptr null)
+  %load799 = load ptr, ptr %"\D0\9C", align 8
+  %load800 = load ptr, ptr %inst96, align 8
+  %inst97 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load799, ptr %load800, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE", ptr null, ptr null)
   store ptr %inst97, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE", align 8
-  %load799 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst98 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load799, i32 0, i32 7
-  %load800 = load ptr, ptr %"\D0\9C", align 8
-  %inst99 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load800, i32 0, i32 0
+  %load801 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst98 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load801, i32 0, i32 7
+  %load802 = load ptr, ptr %"\D0\9C", align 8
+  %inst99 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load802, i32 0, i32 0
   %inst100 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst99, i32 0, i32 1
   %inst101 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst100, i32 0, i32 16
-  %load801 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE", align 8
-  %load802 = load ptr, ptr %"\D0\9C", align 8
-  %load803 = load ptr, ptr %inst101, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load802, ptr %inst98, ptr %load803, ptr %load801)
+  %load803 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B0\D0\B1\D0\BE", align 8
   %load804 = load ptr, ptr %"\D0\9C", align 8
-  %inst102 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load804, i32 0, i32 0
+  %load805 = load ptr, ptr %inst101, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load804, ptr %inst98, ptr %load805, ptr %load803)
+  %load806 = load ptr, ptr %"\D0\9C", align 8
+  %inst102 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load806, i32 0, i32 0
   %inst103 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst102, i32 0, i32 1
   %inst104 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst103, i32 0, i32 17
-  %load805 = load ptr, ptr %"\D0\9C", align 8
-  %load806 = load ptr, ptr %inst104, align 8
-  %inst105 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load805, ptr %load806, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE", ptr null, ptr null)
+  %load807 = load ptr, ptr %"\D0\9C", align 8
+  %load808 = load ptr, ptr %inst104, align 8
+  %inst105 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load807, ptr %load808, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE", ptr null, ptr null)
   store ptr %inst105, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE", align 8
-  %load807 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst106 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load807, i32 0, i32 7
-  %load808 = load ptr, ptr %"\D0\9C", align 8
-  %inst107 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load808, i32 0, i32 0
+  %load809 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst106 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load809, i32 0, i32 7
+  %load810 = load ptr, ptr %"\D0\9C", align 8
+  %inst107 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load810, i32 0, i32 0
   %inst108 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst107, i32 0, i32 1
   %inst109 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst108, i32 0, i32 17
-  %load809 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE", align 8
-  %load810 = load ptr, ptr %"\D0\9C", align 8
-  %load811 = load ptr, ptr %inst109, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load810, ptr %inst106, ptr %load811, ptr %load809)
+  %load811 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B2\D0\B8\D0\BA\D0\BB\D1\8E\D1\87\D0\BD\D0\B5_\D0\B0\D0\B1\D0\BE", align 8
   %load812 = load ptr, ptr %"\D0\9C", align 8
-  %inst110 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load812, i32 0, i32 0
+  %load813 = load ptr, ptr %inst109, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load812, ptr %inst106, ptr %load813, ptr %load811)
+  %load814 = load ptr, ptr %"\D0\9C", align 8
+  %inst110 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load814, i32 0, i32 0
   %inst111 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst110, i32 0, i32 1
   %inst112 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst111, i32 0, i32 18
-  %load813 = load ptr, ptr %"\D0\9C", align 8
-  %load814 = load ptr, ptr %inst112, align 8
-  %inst113 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load813, ptr %load814, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5", ptr null, ptr null)
+  %load815 = load ptr, ptr %"\D0\9C", align 8
+  %load816 = load ptr, ptr %inst112, align 8
+  %inst113 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load815, ptr %load816, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5", ptr null, ptr null)
   store ptr %inst113, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5", align 8
-  %load815 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst114 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load815, i32 0, i32 7
-  %load816 = load ptr, ptr %"\D0\9C", align 8
-  %inst115 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load816, i32 0, i32 0
+  %load817 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst114 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load817, i32 0, i32 7
+  %load818 = load ptr, ptr %"\D0\9C", align 8
+  %inst115 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load818, i32 0, i32 0
   %inst116 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst115, i32 0, i32 1
   %inst117 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst116, i32 0, i32 18
-  %load817 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5", align 8
-  %load818 = load ptr, ptr %"\D0\9C", align 8
-  %load819 = load ptr, ptr %inst117, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load818, ptr %inst114, ptr %load819, ptr %load817)
+  %load819 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B4\D0\B2\D1\96\D0\B9\D0\BA\D0\BE\D0\B2\D0\B5_\D0\BD\D0\B5", align 8
   %load820 = load ptr, ptr %"\D0\9C", align 8
-  %inst118 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load820, i32 0, i32 0
+  %load821 = load ptr, ptr %inst117, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load820, ptr %inst114, ptr %load821, ptr %load819)
+  %load822 = load ptr, ptr %"\D0\9C", align 8
+  %inst118 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load822, i32 0, i32 0
   %inst119 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst118, i32 0, i32 1
   %inst120 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst119, i32 0, i32 19
-  %load821 = load ptr, ptr %"\D0\9C", align 8
-  %load822 = load ptr, ptr %inst120, align 8
-  %inst121 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load821, ptr %load822, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", ptr null, ptr null)
+  %load823 = load ptr, ptr %"\D0\9C", align 8
+  %load824 = load ptr, ptr %inst120, align 8
+  %inst121 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load823, ptr %load824, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", ptr null, ptr null)
   store ptr %inst121, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", align 8
-  %load823 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst122 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load823, i32 0, i32 7
-  %load824 = load ptr, ptr %"\D0\9C", align 8
-  %inst123 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load824, i32 0, i32 0
+  %load825 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst122 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load825, i32 0, i32 7
+  %load826 = load ptr, ptr %"\D0\9C", align 8
+  %inst123 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load826, i32 0, i32 0
   %inst124 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst123, i32 0, i32 1
   %inst125 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst124, i32 0, i32 19
-  %load825 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", align 8
-  %load826 = load ptr, ptr %"\D0\9C", align 8
-  %load827 = load ptr, ptr %inst125, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load826, ptr %inst122, ptr %load827, ptr %load825)
+  %load827 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B5", align 8
   %load828 = load ptr, ptr %"\D0\9C", align 8
-  %inst126 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load828, i32 0, i32 0
+  %load829 = load ptr, ptr %inst125, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load828, ptr %inst122, ptr %load829, ptr %load827)
+  %load830 = load ptr, ptr %"\D0\9C", align 8
+  %inst126 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load830, i32 0, i32 0
   %inst127 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst126, i32 0, i32 1
   %inst128 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst127, i32 0, i32 20
-  %load829 = load ptr, ptr %"\D0\9C", align 8
-  %load830 = load ptr, ptr %inst128, align 8
-  %inst129 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load829, ptr %load830, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", ptr null, ptr null)
+  %load831 = load ptr, ptr %"\D0\9C", align 8
+  %load832 = load ptr, ptr %inst128, align 8
+  %inst129 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load831, ptr %load832, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", ptr null, ptr null)
   store ptr %inst129, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", align 8
-  %load831 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst130 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load831, i32 0, i32 7
-  %load832 = load ptr, ptr %"\D0\9C", align 8
-  %inst131 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load832, i32 0, i32 0
+  %load833 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst130 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load833, i32 0, i32 7
+  %load834 = load ptr, ptr %"\D0\9C", align 8
+  %inst131 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load834, i32 0, i32 0
   %inst132 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst131, i32 0, i32 1
   %inst133 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst132, i32 0, i32 20
-  %load833 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", align 8
-  %load834 = load ptr, ptr %"\D0\9C", align 8
-  %load835 = load ptr, ptr %inst133, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load834, ptr %inst130, ptr %load835, ptr %load833)
+  %load835 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\BC\D0\B5\D0\BD\D1\88\D0\B5", align 8
   %load836 = load ptr, ptr %"\D0\9C", align 8
-  %inst134 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load836, i32 0, i32 0
+  %load837 = load ptr, ptr %inst133, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load836, ptr %inst130, ptr %load837, ptr %load835)
+  %load838 = load ptr, ptr %"\D0\9C", align 8
+  %inst134 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load838, i32 0, i32 0
   %inst135 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst134, i32 0, i32 1
   %inst136 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst135, i32 0, i32 22
-  %load837 = load ptr, ptr %"\D0\9C", align 8
-  %load838 = load ptr, ptr %inst136, align 8
-  %inst137 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load837, ptr %load838, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", ptr null, ptr null)
+  %load839 = load ptr, ptr %"\D0\9C", align 8
+  %load840 = load ptr, ptr %inst136, align 8
+  %inst137 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load839, ptr %load840, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", ptr null, ptr null)
   store ptr %inst137, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", align 8
-  %load839 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst138 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load839, i32 0, i32 7
-  %load840 = load ptr, ptr %"\D0\9C", align 8
-  %inst139 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load840, i32 0, i32 0
+  %load841 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst138 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load841, i32 0, i32 7
+  %load842 = load ptr, ptr %"\D0\9C", align 8
+  %inst139 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load842, i32 0, i32 0
   %inst140 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst139, i32 0, i32 1
   %inst141 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst140, i32 0, i32 22
-  %load841 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", align 8
-  %load842 = load ptr, ptr %"\D0\9C", align 8
-  %load843 = load ptr, ptr %inst141, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load842, ptr %inst138, ptr %load843, ptr %load841)
+  %load843 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B2\D1\96\D0\B4\CA\BC\D1\94\D0\BC\D0\BD\D0\B5", align 8
   %load844 = load ptr, ptr %"\D0\9C", align 8
-  %inst142 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load844, i32 0, i32 0
+  %load845 = load ptr, ptr %inst141, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load844, ptr %inst138, ptr %load845, ptr %load843)
+  %load846 = load ptr, ptr %"\D0\9C", align 8
+  %inst142 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load846, i32 0, i32 0
   %inst143 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst142, i32 0, i32 1
   %inst144 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst143, i32 0, i32 23
-  %load845 = load ptr, ptr %"\D0\9C", align 8
-  %load846 = load ptr, ptr %inst144, align 8
-  %inst145 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load845, ptr %load846, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\BE", ptr null, ptr null)
+  %load847 = load ptr, ptr %"\D0\9C", align 8
+  %load848 = load ptr, ptr %inst144, align 8
+  %inst145 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load847, ptr %load848, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\BE", ptr null, ptr null)
   store ptr %inst145, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %load847 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst146 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load847, i32 0, i32 7
-  %load848 = load ptr, ptr %"\D0\9C", align 8
-  %inst147 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load848, i32 0, i32 0
+  %load849 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst146 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load849, i32 0, i32 7
+  %load850 = load ptr, ptr %"\D0\9C", align 8
+  %inst147 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load850, i32 0, i32 0
   %inst148 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst147, i32 0, i32 1
   %inst149 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst148, i32 0, i32 23
-  %load849 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %load850 = load ptr, ptr %"\D0\9C", align 8
-  %load851 = load ptr, ptr %inst149, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load850, ptr %inst146, ptr %load851, ptr %load849)
+  %load851 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   %load852 = load ptr, ptr %"\D0\9C", align 8
-  %inst150 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load852, i32 0, i32 0
+  %load853 = load ptr, ptr %inst149, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load852, ptr %inst146, ptr %load853, ptr %load851)
+  %load854 = load ptr, ptr %"\D0\9C", align 8
+  %inst150 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load854, i32 0, i32 0
   %inst151 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst150, i32 0, i32 1
   %inst152 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst151, i32 0, i32 24
-  %load853 = load ptr, ptr %"\D0\9C", align 8
-  %load854 = load ptr, ptr %inst152, align 8
-  %inst153 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load853, ptr %load854, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr null, ptr null)
+  %load855 = load ptr, ptr %"\D0\9C", align 8
+  %load856 = load ptr, ptr %inst152, align 8
+  %inst153 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load855, ptr %load856, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr null, ptr null)
   store ptr %inst153, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\82\D0\B5\D0\BA\D1\81\D1\82", align 8
-  %load855 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst154 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load855, i32 0, i32 7
-  %load856 = load ptr, ptr %"\D0\9C", align 8
-  %inst155 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load856, i32 0, i32 0
+  %load857 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst154 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load857, i32 0, i32 7
+  %load858 = load ptr, ptr %"\D0\9C", align 8
+  %inst155 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load858, i32 0, i32 0
   %inst156 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst155, i32 0, i32 1
   %inst157 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst156, i32 0, i32 24
-  %load857 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\82\D0\B5\D0\BA\D1\81\D1\82", align 8
-  %load858 = load ptr, ptr %"\D0\9C", align 8
-  %load859 = load ptr, ptr %inst157, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load858, ptr %inst154, ptr %load859, ptr %load857)
+  %load859 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\82\D0\B5\D0\BA\D1\81\D1\82", align 8
   %load860 = load ptr, ptr %"\D0\9C", align 8
-  %inst158 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load860, i32 0, i32 0
+  %load861 = load ptr, ptr %inst157, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load860, ptr %inst154, ptr %load861, ptr %load859)
+  %load862 = load ptr, ptr %"\D0\9C", align 8
+  %inst158 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load862, i32 0, i32 0
   %inst159 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst158, i32 0, i32 1
   %inst160 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst159, i32 0, i32 25
-  %load861 = load ptr, ptr %"\D0\9C", align 8
-  %load862 = load ptr, ptr %inst160, align 8
-  %inst161 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load861, ptr %load862, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4", ptr null, ptr null)
+  %load863 = load ptr, ptr %"\D0\9C", align 8
+  %load864 = load ptr, ptr %inst160, align 8
+  %inst161 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load863, ptr %load864, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4", ptr null, ptr null)
   store ptr %inst161, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4", align 8
-  %load863 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst162 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load863, i32 0, i32 7
-  %load864 = load ptr, ptr %"\D0\9C", align 8
-  %inst163 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load864, i32 0, i32 0
+  %load865 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst162 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load865, i32 0, i32 7
+  %load866 = load ptr, ptr %"\D0\9C", align 8
+  %inst163 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load866, i32 0, i32 0
   %inst164 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst163, i32 0, i32 1
   %inst165 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst164, i32 0, i32 25
-  %load865 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4", align 8
-  %load866 = load ptr, ptr %"\D0\9C", align 8
-  %load867 = load ptr, ptr %inst165, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load866, ptr %inst162, ptr %load867, ptr %load865)
+  %load867 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4", align 8
   %load868 = load ptr, ptr %"\D0\9C", align 8
-  %inst166 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load868, i32 0, i32 0
+  %load869 = load ptr, ptr %inst165, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load868, ptr %inst162, ptr %load869, ptr %load867)
+  %load870 = load ptr, ptr %"\D0\9C", align 8
+  %inst166 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load870, i32 0, i32 0
   %inst167 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst166, i32 0, i32 1
   %inst168 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst167, i32 0, i32 28
-  %load869 = load ptr, ptr %"\D0\9C", align 8
-  %load870 = load ptr, ptr %inst168, align 8
-  %inst169 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load869, ptr %load870, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8", ptr null, ptr null)
+  %load871 = load ptr, ptr %"\D0\9C", align 8
+  %load872 = load ptr, ptr %inst168, align 8
+  %inst169 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load871, ptr %load872, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8", ptr null, ptr null)
   store ptr %inst169, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8", align 8
-  %load871 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst170 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load871, i32 0, i32 7
-  %load872 = load ptr, ptr %"\D0\9C", align 8
-  %inst171 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load872, i32 0, i32 0
+  %load873 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst170 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load873, i32 0, i32 7
+  %load874 = load ptr, ptr %"\D0\9C", align 8
+  %inst171 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load874, i32 0, i32 0
   %inst172 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst171, i32 0, i32 1
   %inst173 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst172, i32 0, i32 28
-  %load873 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8", align 8
-  %load874 = load ptr, ptr %"\D0\9C", align 8
-  %load875 = load ptr, ptr %inst173, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load874, ptr %inst170, ptr %load875, ptr %load873)
+  %load875 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8", align 8
   %load876 = load ptr, ptr %"\D0\9C", align 8
-  %inst174 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load876, i32 0, i32 0
+  %load877 = load ptr, ptr %inst173, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load876, ptr %inst170, ptr %load877, ptr %load875)
+  %load878 = load ptr, ptr %"\D0\9C", align 8
+  %inst174 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load878, i32 0, i32 0
   %inst175 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst174, i32 0, i32 1
   %inst176 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst175, i32 0, i32 29
-  %load877 = load ptr, ptr %"\D0\9C", align 8
-  %load878 = load ptr, ptr %inst176, align 8
-  %inst177 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load877, ptr %load878, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8", ptr null, ptr null)
+  %load879 = load ptr, ptr %"\D0\9C", align 8
+  %load880 = load ptr, ptr %inst176, align 8
+  %inst177 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97"(ptr %load879, ptr %load880, ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\B0_\D0\B4\D1\96\D1\8F_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8", ptr null, ptr null)
   store ptr %inst177, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8", align 8
-  %load879 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  %inst178 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load879, i32 0, i32 7
-  %load880 = load ptr, ptr %"\D0\9C", align 8
-  %inst179 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load880, i32 0, i32 0
+  %load881 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  %inst178 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A1\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", ptr %load881, i32 0, i32 7
+  %load882 = load ptr, ptr %"\D0\9C", align 8
+  %inst179 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load882, i32 0, i32 0
   %inst180 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\91\D0\B0\D0\B7\D0\B0\D0\9D\D0\B0\D0\B7\D0\B2", ptr %inst179, i32 0, i32 1
   %inst181 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D1\82\D0\B0\D1\82\D0\B8\D1\87\D0\BD\D1\96\D0\9D\D0\B0\D0\B7\D0\B2\D0\B8", ptr %inst180, i32 0, i32 29
-  %load881 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8", align 8
-  %load882 = load ptr, ptr %"\D0\9C", align 8
-  %load883 = load ptr, ptr %inst181, align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load882, ptr %inst178, ptr %load883, ptr %load881)
-  %load884 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
-  store ptr %load884, ptr %return1, align 8
+  %load883 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D0\BD\D0\B0\D1\82\D0\B8\D0\B2\D0\BD\D0\BE\D1\97_\D0\B4\D1\96\D1\97_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8F_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8", align 8
+  %load884 = load ptr, ptr %"\D0\9C", align 8
+  %load885 = load ptr, ptr %inst181, align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\BC\D1\96\D0\BD\D0\B8\D1\82\D0\B8_\D0\B2_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\96"(ptr %load884, ptr %inst178, ptr %load885, ptr %load883)
+  %load886 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D0\B8", align 8
+  store ptr %load886, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load674 = load ptr, ptr %return1, align 8
-  ret ptr %load674
+  %load676 = load ptr, ptr %return1, align 8
+  ret ptr %load676
 }
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D1\81\D1\82\D1\80\D1\83\D0\BA\D1\82\D1\83\D1\80\D1\83_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr)
@@ -3963,9 +3965,9 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
   store ptr %1, ptr %"\D0\9C", align 8
-  %load916 = load ptr, ptr %"\D0\9C", align 8
-  %load917 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load916, ptr %load917)
+  %load918 = load ptr, ptr %"\D0\9C", align 8
+  %load919 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B7\D0\B2\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D1\82\D0\B8"(ptr %load918, ptr %load919)
   br label %return
 
 return:                                           ; preds = %entry
@@ -7408,7 +7410,10 @@ if_body_else7:                                    ; preds = %if_body_exit
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
   %load647 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
   store ptr %load647, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  store ptr null, ptr %return1, align 8
+  %load648 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load649 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8E\D0\BD\D1\96\D0\BA\D0\BE\D0\B4\D1\83_\D1\81\D1\82\D0\B2\D0\BE\D1\80\D0\B8\D1\82\D0\B8_\D0\B7_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0_\D1\87\D0\B8\D1\81\D0\BB\D0\B0"(ptr %load648, ptr %load649)
+  store ptr %inst10, ptr %return1, align 8
   br label %return
   br label %return
 }
@@ -7430,19 +7435,19 @@ entry:                                            ; preds = %alloca
   store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
   store ptr %3, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
   store ptr %4, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
-  %load649 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
-  %inst = icmp eq ptr %load649, null
+  %load651 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  %inst = icmp eq ptr %load651, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load648 = load ptr, ptr %return1, align 8
-  ret ptr %load648
+  %load650 = load ptr, ptr %return1, align 8
+  ret ptr %load650
 
 if_body:                                          ; preds = %entry
-  %load650 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load650, ptr null)
-  %load651 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load651, ptr @56)
+  %load652 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load652, ptr null)
+  %load653 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load653, ptr @56)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -7451,20 +7456,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load652 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load652, i32 0, i32 2
-  %load653 = load ptr, ptr %inst3, align 8
-  %load654 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load654, i32 0, i32 27
-  %load655 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load653, %load655
+  %load654 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load654, i32 0, i32 2
+  %load655 = load ptr, ptr %inst3, align 8
+  %load656 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load656, i32 0, i32 27
+  %load657 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load655, %load657
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load656 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load656, ptr null)
-  %load657 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load657, ptr @57)
+  %load658 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load658, ptr null)
+  %load659 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load659, ptr @57)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -7473,11 +7478,11 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load658 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
-  store ptr %load658, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load659 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load660 = load ptr, ptr %"\D0\9C", align 8
-  %inst10 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr %load659, ptr %load660)
+  %load660 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  store ptr %load660, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load661 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load662 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\B1\D1\96\D0\BB\D1\8C\D1\88\D0\B8\D1\82\D0\B8"(ptr %load661, ptr %load662)
   store ptr %inst10, ptr %return1, align 8
   br label %return
   br label %return
@@ -7500,19 +7505,19 @@ entry:                                            ; preds = %alloca
   store ptr %2, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
   store ptr %3, ptr %"\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
   store ptr %4, ptr %"\D1\96\D0\BC\D0\B5\D0\BD\D0\BE\D0\B2\D0\B0\D0\BD\D1\96_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82\D0\B8", align 8
-  %load662 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
-  %inst = icmp eq ptr %load662, null
+  %load664 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  %inst = icmp eq ptr %load664, null
   br i1 %inst, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit8, %if_body_exit8, %if_body6, %if_body
-  %load661 = load ptr, ptr %return1, align 8
-  ret ptr %load661
+  %load663 = load ptr, ptr %return1, align 8
+  ret ptr %load663
 
 if_body:                                          ; preds = %entry
-  %load663 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load663, ptr null)
-  %load664 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load664, ptr @58)
+  %load665 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load665, ptr null)
+  %load666 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load666, ptr @58)
   store ptr %inst2, ptr %return1, align 8
   br label %return
   br label %if_body_exit
@@ -7521,20 +7526,20 @@ if_body_else:                                     ; preds = %entry
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
-  %load665 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load665, i32 0, i32 2
-  %load666 = load ptr, ptr %inst3, align 8
-  %load667 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load667, i32 0, i32 27
-  %load668 = load ptr, ptr %inst4, align 8
-  %inst5 = icmp ne ptr %load666, %load668
+  %load667 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82", ptr %load667, i32 0, i32 2
+  %load668 = load ptr, ptr %inst3, align 8
+  %load669 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load669, i32 0, i32 27
+  %load670 = load ptr, ptr %inst4, align 8
+  %inst5 = icmp ne ptr %load668, %load670
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body6:                                         ; preds = %if_body_exit
-  %load669 = load ptr, ptr %"\D0\9C", align 8
-  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load669, ptr null)
-  %load670 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load670, ptr @59)
+  %load671 = load ptr, ptr %"\D0\9C", align 8
+  call void @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\83\D0\B2\D1\96\D0\BC\D0\BA\D0\BD\D1\83\D1\82\D0\B8_\D1\81\D1\82\D0\B0\D0\BD_\D0\BF\D0\B0\D0\B4\D1\96\D0\BD\D0\BD\D1\8F"(ptr %load671, ptr null)
+  %load672 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\B7_\D1\8E8"(ptr %load672, ptr @59)
   store ptr %inst9, ptr %return1, align 8
   br label %return
   br label %if_body_exit8
@@ -7543,11 +7548,11 @@ if_body_else7:                                    ; preds = %if_body_exit
   br label %if_body_exit8
 
 if_body_exit8:                                    ; preds = %if_body_else7, %if_body6
-  %load671 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
-  store ptr %load671, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load672 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
-  %load673 = load ptr, ptr %"\D0\9C", align 8
-  %inst10 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr %load672, ptr %load673)
+  %load673 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\8F", align 8
+  store ptr %load673, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load674 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0", align 8
+  %load675 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\87\D0\B8\D1\81\D0\BB\D0\B0_\D0\B7\D0\BC\D0\B5\D0\BD\D1\88\D0\B8\D1\82\D0\B8"(ptr %load674, ptr %load675)
   store ptr %inst10, ptr %return1, align 8
   br label %return
   br label %return
@@ -7568,60 +7573,60 @@ entry:                                            ; preds = %alloca
   store ptr %1, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
   store ptr %2, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
   store ptr %3, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  %load683 = load ptr, ptr %"\D0\9C", align 8
-  %load684 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %load685 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %load683, ptr %load684, ptr %load685)
+  %load685 = load ptr, ptr %"\D0\9C", align 8
+  %load686 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %load687 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BE\D1\82\D1\80\D0\B8\D0\BC\D0\B0\D1\82\D0\B8_\D0\B7_\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83"(ptr %load685, ptr %load686, ptr %load687)
   store ptr %inst, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
-  %load686 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
-  %inst1 = icmp eq ptr %load686, null
+  %load688 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
+  %inst1 = icmp eq ptr %load688, null
   br i1 %inst1, label %if_body, label %if_body_else
 
 return:                                           ; preds = %if_body_exit
   ret void
 
 if_body:                                          ; preds = %entry
-  %load693 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load693, i32 0, i32 1
-  %load694 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load694, i32 0, i32 0
-  %load695 = load i64, ptr %inst3, align 4
-  %inst4 = add i64 %load695, 1
-  %load696 = load ptr, ptr %"\D0\9C", align 8
-  %load697 = load ptr, ptr %inst2, align 8
-  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.2"(ptr %load696, ptr %load697, i64 %inst4)
-  %load698 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load698, i32 0, i32 1
-  store ptr %inst5, ptr %inst6, align 8
-  %load699 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load699, i32 0, i32 1
+  %load695 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load695, i32 0, i32 1
+  %load696 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load696, i32 0, i32 0
+  %load697 = load i64, ptr %inst3, align 4
+  %inst4 = add i64 %load697, 1
+  %load698 = load ptr, ptr %"\D0\9C", align 8
+  %load699 = load ptr, ptr %inst2, align 8
+  %inst5 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.2"(ptr %load698, ptr %load699, i64 %inst4)
   %load700 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load700, i32 0, i32 0
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load700, i32 0, i32 1
+  store ptr %inst5, ptr %inst6, align 8
+  %load701 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load701, i32 0, i32 1
+  %load702 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load702, i32 0, i32 0
   %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, i32 0, i32 0
-  %load701 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
-  store ptr %load701, ptr %inst9, align 8
+  %load703 = load ptr, ptr %"\D0\BA\D0\BB\D1\8E\D1\87", align 8
+  store ptr %load703, ptr %inst9, align 8
   %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, i32 0, i32 1
-  %load702 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  store ptr %load702, ptr %inst10, align 8
-  %load703 = load ptr, ptr %inst7, align 8
-  %load704 = load i64, ptr %inst8, align 4
-  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load703, i64 %load704
-  %load705 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, align 8
-  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83" %load705, ptr %inst11, align 8
-  %load706 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load706, i32 0, i32 0
-  %load707 = load i64, ptr %inst12, align 4
-  %inst13 = add i64 %load707, 1
+  %load704 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load704, ptr %inst10, align 8
+  %load705 = load ptr, ptr %inst7, align 8
+  %load706 = load i64, ptr %inst8, align 4
+  %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load705, i64 %load706
+  %load707 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %construct, align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83" %load707, ptr %inst11, align 8
   %load708 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
-  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load708, i32 0, i32 0
+  %inst12 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load708, i32 0, i32 0
+  %load709 = load i64, ptr %inst12, align 4
+  %inst13 = add i64 %load709, 1
+  %load710 = load ptr, ptr %"\D1\80\D0\B5\D1\94\D1\81\D1\82\D1\80", align 8
+  %inst14 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80", ptr %load710, i32 0, i32 0
   store i64 %inst13, ptr %inst14, align 4
   br label %if_body_exit
 
 if_body_else:                                     ; preds = %entry
-  %load709 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
-  %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load709, i32 0, i32 1
-  %load710 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  store ptr %load710, ptr %inst15, align 8
+  %load711 = load ptr, ptr %"\D0\B5\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82_\D0\BA\D0\B0\D1\80\D1\82\D0\B8", align 8
+  %inst15 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\95\D0\BB\D0\B5\D0\BC\D0\B5\D0\BD\D1\82\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80\D1\83", ptr %load711, i32 0, i32 1
+  %load712 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %load712, ptr %inst15, align 8
   br label %if_body_exit
 
 if_body_exit:                                     ; preds = %if_body_else, %if_body
@@ -7640,22 +7645,22 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\9C", align 8
   store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
   store i64 %2, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
-  %load688 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load688, i32 0, i32 1
+  %load690 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load690, i32 0, i32 1
   %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 1
-  %load689 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  %load690 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
-  %inst3 = mul i64 %load690, 16
-  %load691 = load ptr, ptr %inst2, align 8
-  %load692 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = call ptr %load691(ptr %load692, ptr %load689, i64 %inst3)
+  %load691 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load692 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load692, 16
+  %load693 = load ptr, ptr %inst2, align 8
+  %load694 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load693(ptr %load694, ptr %load691, i64 %inst3)
   store ptr %inst4, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load687 = load ptr, ptr %return1, align 8
-  ret ptr %load687
+  %load689 = load ptr, ptr %return1, align 8
+  ret ptr %load689
 }
 
 define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82"(ptr %0, ptr %1) {
@@ -7669,46 +7674,46 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\9C", align 8
   store ptr %1, ptr %"\D1\82\D0\B8\D0\BF", align 8
-  %load896 = load ptr, ptr %"\D0\9C", align 8
-  %load897 = load ptr, ptr %"\D0\9C", align 8
-  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.3"(ptr %load897)
-  store ptr %inst, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
   %load898 = load ptr, ptr %"\D0\9C", align 8
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load898, i32 0, i32 2
+  %load899 = load ptr, ptr %"\D0\9C", align 8
+  %inst = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.3"(ptr %load899)
+  store ptr %inst, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %load900 = load ptr, ptr %"\D0\9C", align 8
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load900, i32 0, i32 2
   %inst3 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80", ptr %inst2, i32 0, i32 0
-  %load899 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load899, i32 0, i32 0
-  %load900 = load ptr, ptr %inst3, align 8
-  store ptr %load900, ptr %inst4, align 8
   %load901 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load901, i32 0, i32 1
+  %inst4 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load901, i32 0, i32 0
+  %load902 = load ptr, ptr %inst3, align 8
+  store ptr %load902, ptr %inst4, align 8
+  %load903 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %inst5 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load903, i32 0, i32 1
   store i64 0, ptr %inst5, align 4
-  %load902 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load902, i32 0, i32 2
-  %load903 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
-  store ptr %load903, ptr %inst6, align 8
-  %load904 = load ptr, ptr %"\D0\9C", align 8
-  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load904, i32 0, i32 2
-  %load905 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80", ptr %inst7, i32 0, i32 0
-  store ptr %load905, ptr %inst8, align 8
+  %load904 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %inst6 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9E\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %load904, i32 0, i32 2
+  %load905 = load ptr, ptr %"\D1\82\D0\B8\D0\BF", align 8
+  store ptr %load905, ptr %inst6, align 8
   %load906 = load ptr, ptr %"\D0\9C", align 8
-  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load906, i32 0, i32 2
-  %load907 = load ptr, ptr %"\D0\9C", align 8
-  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load907, i32 0, i32 2
+  %inst7 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load906, i32 0, i32 2
+  %load907 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  %inst8 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80", ptr %inst7, i32 0, i32 0
+  store ptr %load907, ptr %inst8, align 8
+  %load908 = load ptr, ptr %"\D0\9C", align 8
+  %inst9 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load908, i32 0, i32 2
+  %load909 = load ptr, ptr %"\D0\9C", align 8
+  %inst10 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load909, i32 0, i32 2
   %inst11 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80", ptr %inst10, i32 0, i32 1
-  %load908 = load i64, ptr %inst11, align 4
-  %inst12 = add i64 %load908, 1
+  %load910 = load i64, ptr %inst11, align 4
+  %inst12 = add i64 %load910, 1
   %inst13 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A3\D1\82\D0\B8\D0\BB\D1\96\D0\B7\D0\B0\D1\82\D0\BE\D1\80", ptr %inst9, i32 0, i32 1
   store i64 %inst12, ptr %inst13, align 4
-  %load909 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
-  store ptr %load909, ptr %return1, align 8
+  %load911 = load ptr, ptr %"\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82", align 8
+  store ptr %load911, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load886 = load ptr, ptr %return1, align 8
-  ret ptr %load886
+  %load888 = load ptr, ptr %return1, align 8
+  ret ptr %load888
 }
 
 define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.3"(ptr %0) {
@@ -7719,19 +7724,19 @@ alloca:
 
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\9C", align 8
-  %load888 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load888, i32 0, i32 1
-  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
-  %load889 = load ptr, ptr %inst2, align 8
   %load890 = load ptr, ptr %"\D0\9C", align 8
-  %inst3 = call ptr %load889(ptr %load890, i64 32)
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load890, i32 0, i32 1
+  %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
+  %load891 = load ptr, ptr %inst2, align 8
+  %load892 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr %load891(ptr %load892, i64 32)
   store ptr %inst3, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load887 = load ptr, ptr %return1, align 8
-  ret ptr %load887
+  %load889 = load ptr, ptr %return1, align 8
+  ret ptr %load889
 }
 
 define internal ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.4"(ptr %0, i64 %1) {
@@ -7744,21 +7749,21 @@ alloca:
 entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\9C", align 8
   store i64 %1, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
-  %load892 = load ptr, ptr %"\D0\9C", align 8
-  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load892, i32 0, i32 1
+  %load894 = load ptr, ptr %"\D0\9C", align 8
+  %inst = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9C\D0\B0\D1\88\D0\B8\D0\BD\D0\B0", ptr %load894, i32 0, i32 1
   %inst2 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A1\D0\B8\D1\81\D1\82\D0\B5\D0\BC\D0\B0", ptr %inst, i32 0, i32 0
-  %load893 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
-  %inst3 = mul i64 %load893, 32
-  %load894 = load ptr, ptr %inst2, align 8
-  %load895 = load ptr, ptr %"\D0\9C", align 8
-  %inst4 = call ptr %load894(ptr %load895, i64 %inst3)
+  %load895 = load i64, ptr %"\D0\BA\D1\96\D0\BB\D1\8C\D0\BA\D1\96\D1\81\D1\82\D1\8C", align 4
+  %inst3 = mul i64 %load895, 32
+  %load896 = load ptr, ptr %inst2, align 8
+  %load897 = load ptr, ptr %"\D0\9C", align 8
+  %inst4 = call ptr %load896(ptr %load897, i64 %inst3)
   store ptr %inst4, ptr %return1, align 8
   br label %return
   br label %return
 
 return:                                           ; preds = %entry, %entry
-  %load891 = load ptr, ptr %return1, align 8
-  ret ptr %load891
+  %load893 = load ptr, ptr %return1, align 8
+  ret ptr %load893
 }
 
 define internal %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" @"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D1\80\D0\BE\D0\B7\D1\96\D0\B1\D1\80\D0\B0\D1\82\D0\B8_\D0\B4\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\B5_\D0\B7_\D1\8E8\D1\81\D1\96"(ptr %0) {
@@ -7780,189 +7785,189 @@ entry:                                            ; preds = %alloca
   store ptr %0, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
   store double 0.000000e+00, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   store i64 0, ptr %"\D0\BF\D1\85", align 4
-  %load1279 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
-  %inst = getelementptr i8, ptr %load1279, i32 0
-  %load1280 = load i8, ptr %inst, align 1
-  store i8 %load1280, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %load1281 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst = getelementptr i8, ptr %load1281, i32 0
+  %load1282 = load i8, ptr %inst, align 1
+  store i8 %load1282, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
   br label %while_cond
 
 return:                                           ; preds = %while_body_exit, %while_body_exit, %if_body_else65, %while_body_exit72, %if_body_else134
-  %load1278 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %return1, align 8
-  ret %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1278
+  %load1280 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %return1, align 8
+  ret %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1280
 
 while_cond:                                       ; preds = %if_body_exit, %entry
-  %load1281 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst2 = icmp ne i8 %load1281, 0
+  %load1283 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst2 = icmp ne i8 %load1283, 0
   br i1 %inst2, label %while_body, label %while_body_exit
 
 while_body:                                       ; preds = %while_cond
-  %load1282 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst3 = icmp eq i8 %load1282, 48
+  %load1284 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst3 = icmp eq i8 %load1284, 48
   br i1 %inst3, label %if_body, label %if_body_else
 
 while_body_exit:                                  ; preds = %while_cond
   %inst150 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct149, i32 0, i32 0
-  %load1346 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  store double %load1346, ptr %inst150, align 8
+  %load1348 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  store double %load1348, ptr %inst150, align 8
   %inst151 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct149, i32 0, i32 1
   store ptr null, ptr %inst151, align 8
-  %load1347 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct149, align 8
-  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1347, ptr %return1, align 8
+  %load1349 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct149, align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1349, ptr %return1, align 8
   br label %return
   br label %return
 
 if_body:                                          ; preds = %while_body
-  %load1283 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst4 = fmul double %load1283, 1.000000e+01
+  %load1285 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst4 = fmul double %load1285, 1.000000e+01
   store double %inst4, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit
 
 if_body_else:                                     ; preds = %while_body
-  %load1284 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst5 = icmp eq i8 %load1284, 49
+  %load1286 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst5 = icmp eq i8 %load1286, 49
   br i1 %inst5, label %if_body6, label %if_body_else7
 
 if_body_exit:                                     ; preds = %if_body_exit8, %if_body
-  %load1342 = load i64, ptr %"\D0\BF\D1\85", align 4
-  %inst147 = add i64 %load1342, 1
-  store i64 %inst147, ptr %"\D0\BF\D1\85", align 4
-  %load1343 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
   %load1344 = load i64, ptr %"\D0\BF\D1\85", align 4
-  %inst148 = getelementptr i8, ptr %load1343, i64 %load1344
-  %load1345 = load i8, ptr %inst148, align 1
-  store i8 %load1345, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst147 = add i64 %load1344, 1
+  store i64 %inst147, ptr %"\D0\BF\D1\85", align 4
+  %load1345 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1346 = load i64, ptr %"\D0\BF\D1\85", align 4
+  %inst148 = getelementptr i8, ptr %load1345, i64 %load1346
+  %load1347 = load i8, ptr %inst148, align 1
+  store i8 %load1347, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
   br label %while_cond
 
 if_body6:                                         ; preds = %if_body_else
-  %load1285 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst9 = fmul double %load1285, 1.000000e+01
+  %load1287 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst9 = fmul double %load1287, 1.000000e+01
   %inst10 = fadd double %inst9, 1.000000e+00
   store double %inst10, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit8
 
 if_body_else7:                                    ; preds = %if_body_else
-  %load1286 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst11 = icmp eq i8 %load1286, 50
+  %load1288 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst11 = icmp eq i8 %load1288, 50
   br i1 %inst11, label %if_body12, label %if_body_else13
 
 if_body_exit8:                                    ; preds = %if_body_exit14, %if_body6
   br label %if_body_exit
 
 if_body12:                                        ; preds = %if_body_else7
-  %load1287 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst15 = fmul double %load1287, 1.000000e+01
+  %load1289 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst15 = fmul double %load1289, 1.000000e+01
   %inst16 = fadd double %inst15, 2.000000e+00
   store double %inst16, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit14
 
 if_body_else13:                                   ; preds = %if_body_else7
-  %load1288 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst17 = icmp eq i8 %load1288, 51
+  %load1290 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst17 = icmp eq i8 %load1290, 51
   br i1 %inst17, label %if_body18, label %if_body_else19
 
 if_body_exit14:                                   ; preds = %if_body_exit20, %if_body12
   br label %if_body_exit8
 
 if_body18:                                        ; preds = %if_body_else13
-  %load1289 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst21 = fmul double %load1289, 1.000000e+01
+  %load1291 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst21 = fmul double %load1291, 1.000000e+01
   %inst22 = fadd double %inst21, 3.000000e+00
   store double %inst22, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit20
 
 if_body_else19:                                   ; preds = %if_body_else13
-  %load1290 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst23 = icmp eq i8 %load1290, 52
+  %load1292 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst23 = icmp eq i8 %load1292, 52
   br i1 %inst23, label %if_body24, label %if_body_else25
 
 if_body_exit20:                                   ; preds = %if_body_exit26, %if_body18
   br label %if_body_exit14
 
 if_body24:                                        ; preds = %if_body_else19
-  %load1291 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst27 = fmul double %load1291, 1.000000e+01
+  %load1293 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst27 = fmul double %load1293, 1.000000e+01
   %inst28 = fadd double %inst27, 4.000000e+00
   store double %inst28, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit26
 
 if_body_else25:                                   ; preds = %if_body_else19
-  %load1292 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst29 = icmp eq i8 %load1292, 53
+  %load1294 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst29 = icmp eq i8 %load1294, 53
   br i1 %inst29, label %if_body30, label %if_body_else31
 
 if_body_exit26:                                   ; preds = %if_body_exit32, %if_body24
   br label %if_body_exit20
 
 if_body30:                                        ; preds = %if_body_else25
-  %load1293 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst33 = fmul double %load1293, 1.000000e+01
+  %load1295 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst33 = fmul double %load1295, 1.000000e+01
   %inst34 = fadd double %inst33, 5.000000e+00
   store double %inst34, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit32
 
 if_body_else31:                                   ; preds = %if_body_else25
-  %load1294 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst35 = icmp eq i8 %load1294, 54
+  %load1296 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst35 = icmp eq i8 %load1296, 54
   br i1 %inst35, label %if_body36, label %if_body_else37
 
 if_body_exit32:                                   ; preds = %if_body_exit38, %if_body30
   br label %if_body_exit26
 
 if_body36:                                        ; preds = %if_body_else31
-  %load1295 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst39 = fmul double %load1295, 1.000000e+01
+  %load1297 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst39 = fmul double %load1297, 1.000000e+01
   %inst40 = fadd double %inst39, 6.000000e+00
   store double %inst40, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit38
 
 if_body_else37:                                   ; preds = %if_body_else31
-  %load1296 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst41 = icmp eq i8 %load1296, 55
+  %load1298 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst41 = icmp eq i8 %load1298, 55
   br i1 %inst41, label %if_body42, label %if_body_else43
 
 if_body_exit38:                                   ; preds = %if_body_exit44, %if_body36
   br label %if_body_exit32
 
 if_body42:                                        ; preds = %if_body_else37
-  %load1297 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst45 = fmul double %load1297, 1.000000e+01
+  %load1299 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst45 = fmul double %load1299, 1.000000e+01
   %inst46 = fadd double %inst45, 7.000000e+00
   store double %inst46, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit44
 
 if_body_else43:                                   ; preds = %if_body_else37
-  %load1298 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst47 = icmp eq i8 %load1298, 56
+  %load1300 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst47 = icmp eq i8 %load1300, 56
   br i1 %inst47, label %if_body48, label %if_body_else49
 
 if_body_exit44:                                   ; preds = %if_body_exit50, %if_body42
   br label %if_body_exit38
 
 if_body48:                                        ; preds = %if_body_else43
-  %load1299 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst51 = fmul double %load1299, 1.000000e+01
+  %load1301 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst51 = fmul double %load1301, 1.000000e+01
   %inst52 = fadd double %inst51, 8.000000e+00
   store double %inst52, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit50
 
 if_body_else49:                                   ; preds = %if_body_else43
-  %load1300 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst53 = icmp eq i8 %load1300, 57
+  %load1302 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst53 = icmp eq i8 %load1302, 57
   br i1 %inst53, label %if_body54, label %if_body_else55
 
 if_body_exit50:                                   ; preds = %if_body_exit56, %if_body48
   br label %if_body_exit44
 
 if_body54:                                        ; preds = %if_body_else49
-  %load1301 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %inst57 = fmul double %load1301, 1.000000e+01
+  %load1303 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %inst57 = fmul double %load1303, 1.000000e+01
   %inst58 = fadd double %inst57, 9.000000e+00
   store double %inst58, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   br label %if_body_exit56
 
 if_body_else55:                                   ; preds = %if_body_else49
-  %load1302 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst59 = icmp eq i8 %load1302, 95
+  %load1304 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst59 = icmp eq i8 %load1304, 95
   br i1 %inst59, label %if_body60, label %if_body_else61
 
 if_body_exit56:                                   ; preds = %if_body_exit62, %if_body54
@@ -7972,22 +7977,22 @@ if_body60:                                        ; preds = %if_body_else55
   br label %if_body_exit62
 
 if_body_else61:                                   ; preds = %if_body_else55
-  %load1303 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst63 = icmp eq i8 %load1303, 46
+  %load1305 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst63 = icmp eq i8 %load1305, 46
   br i1 %inst63, label %if_body64, label %if_body_else65
 
 if_body_exit62:                                   ; preds = %if_body_exit66, %if_body60
   br label %if_body_exit56
 
 if_body64:                                        ; preds = %if_body_else61
-  %load1304 = load i64, ptr %"\D0\BF\D1\85", align 4
-  %inst67 = add i64 %load1304, 1
-  store i64 %inst67, ptr %"\D0\BF\D1\85", align 4
-  %load1305 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
   %load1306 = load i64, ptr %"\D0\BF\D1\85", align 4
-  %inst68 = getelementptr i8, ptr %load1305, i64 %load1306
-  %load1307 = load i8, ptr %inst68, align 1
-  store i8 %load1307, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst67 = add i64 %load1306, 1
+  store i64 %inst67, ptr %"\D0\BF\D1\85", align 4
+  %load1307 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1308 = load i64, ptr %"\D0\BF\D1\85", align 4
+  %inst68 = getelementptr i8, ptr %load1307, i64 %load1308
+  %load1309 = load i8, ptr %inst68, align 1
+  store i8 %load1309, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
   store double 0.000000e+00, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   store double 1.000000e+00, ptr %"\D0\B4\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D0\BA", align 8
   br label %while_cond69
@@ -7995,8 +8000,8 @@ if_body64:                                        ; preds = %if_body_else61
 if_body_else65:                                   ; preds = %if_body_else61
   %inst146 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct145, i32 0, i32 1
   store ptr @97, ptr %inst146, align 8
-  %load1341 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct145, align 8
-  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1341, ptr %return1, align 8
+  %load1343 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct145, align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1343, ptr %return1, align 8
   br label %return
   br label %if_body_exit66
 
@@ -8004,187 +8009,187 @@ if_body_exit66:                                   ; preds = %if_body_else65, %wh
   br label %if_body_exit62
 
 while_cond69:                                     ; preds = %if_body_exit76, %if_body64
-  %load1308 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst70 = icmp ne i8 %load1308, 0
+  %load1310 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst70 = icmp ne i8 %load1310, 0
   br i1 %inst70, label %while_body71, label %while_body_exit72
 
 while_body71:                                     ; preds = %while_cond69
-  %load1309 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst73 = icmp eq i8 %load1309, 48
+  %load1311 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst73 = icmp eq i8 %load1311, 48
   br i1 %inst73, label %if_body74, label %if_body_else75
 
 while_body_exit72:                                ; preds = %while_cond69
-  %load1336 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  %load1337 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %load1338 = load double, ptr %"\D0\B4\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D0\BA", align 8
-  %inst140 = fdiv double %load1337, %load1338
-  %inst141 = fadd double %load1336, %inst140
+  %load1338 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  %load1339 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %load1340 = load double, ptr %"\D0\B4\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D0\BA", align 8
+  %inst140 = fdiv double %load1339, %load1340
+  %inst141 = fadd double %load1338, %inst140
   store double %inst141, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
   %inst143 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct142, i32 0, i32 0
-  %load1339 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
-  store double %load1339, ptr %inst143, align 8
+  %load1341 = load double, ptr %"\D1\87\D0\B8\D1\81\D0\BB\D0\BE", align 8
+  store double %load1341, ptr %inst143, align 8
   %inst144 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct142, i32 0, i32 1
   store ptr null, ptr %inst144, align 8
-  %load1340 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct142, align 8
-  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1340, ptr %return1, align 8
+  %load1342 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct142, align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1342, ptr %return1, align 8
   br label %return
   br label %if_body_exit66
 
 if_body74:                                        ; preds = %while_body71
-  %load1310 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst77 = fmul double %load1310, 1.000000e+01
+  %load1312 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst77 = fmul double %load1312, 1.000000e+01
   store double %inst77, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit76
 
 if_body_else75:                                   ; preds = %while_body71
-  %load1311 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst78 = icmp eq i8 %load1311, 49
+  %load1313 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst78 = icmp eq i8 %load1313, 49
   br i1 %inst78, label %if_body79, label %if_body_else80
 
 if_body_exit76:                                   ; preds = %if_body_exit81, %if_body74
-  %load1331 = load i64, ptr %"\D0\BF\D1\85", align 4
-  %inst137 = add i64 %load1331, 1
-  store i64 %inst137, ptr %"\D0\BF\D1\85", align 4
-  %load1332 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
   %load1333 = load i64, ptr %"\D0\BF\D1\85", align 4
-  %inst138 = getelementptr i8, ptr %load1332, i64 %load1333
-  %load1334 = load i8, ptr %inst138, align 1
-  store i8 %load1334, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %load1335 = load double, ptr %"\D0\B4\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D0\BA", align 8
-  %inst139 = fmul double %load1335, 1.000000e+01
+  %inst137 = add i64 %load1333, 1
+  store i64 %inst137, ptr %"\D0\BF\D1\85", align 4
+  %load1334 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load1335 = load i64, ptr %"\D0\BF\D1\85", align 4
+  %inst138 = getelementptr i8, ptr %load1334, i64 %load1335
+  %load1336 = load i8, ptr %inst138, align 1
+  store i8 %load1336, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %load1337 = load double, ptr %"\D0\B4\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D0\BA", align 8
+  %inst139 = fmul double %load1337, 1.000000e+01
   store double %inst139, ptr %"\D0\B4\D1\96\D0\BB\D1\8C\D0\BD\D0\B8\D0\BA", align 8
   br label %while_cond69
 
 if_body79:                                        ; preds = %if_body_else75
-  %load1312 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst82 = fmul double %load1312, 1.000000e+01
+  %load1314 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst82 = fmul double %load1314, 1.000000e+01
   %inst83 = fadd double %inst82, 1.000000e+00
   store double %inst83, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit81
 
 if_body_else80:                                   ; preds = %if_body_else75
-  %load1313 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst84 = icmp eq i8 %load1313, 50
+  %load1315 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst84 = icmp eq i8 %load1315, 50
   br i1 %inst84, label %if_body85, label %if_body_else86
 
 if_body_exit81:                                   ; preds = %if_body_exit87, %if_body79
   br label %if_body_exit76
 
 if_body85:                                        ; preds = %if_body_else80
-  %load1314 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst88 = fmul double %load1314, 1.000000e+01
+  %load1316 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst88 = fmul double %load1316, 1.000000e+01
   %inst89 = fadd double %inst88, 2.000000e+00
   store double %inst89, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit87
 
 if_body_else86:                                   ; preds = %if_body_else80
-  %load1315 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst90 = icmp eq i8 %load1315, 51
+  %load1317 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst90 = icmp eq i8 %load1317, 51
   br i1 %inst90, label %if_body91, label %if_body_else92
 
 if_body_exit87:                                   ; preds = %if_body_exit93, %if_body85
   br label %if_body_exit81
 
 if_body91:                                        ; preds = %if_body_else86
-  %load1316 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst94 = fmul double %load1316, 1.000000e+01
+  %load1318 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst94 = fmul double %load1318, 1.000000e+01
   %inst95 = fadd double %inst94, 3.000000e+00
   store double %inst95, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit93
 
 if_body_else92:                                   ; preds = %if_body_else86
-  %load1317 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst96 = icmp eq i8 %load1317, 52
+  %load1319 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst96 = icmp eq i8 %load1319, 52
   br i1 %inst96, label %if_body97, label %if_body_else98
 
 if_body_exit93:                                   ; preds = %if_body_exit99, %if_body91
   br label %if_body_exit87
 
 if_body97:                                        ; preds = %if_body_else92
-  %load1318 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst100 = fmul double %load1318, 1.000000e+01
+  %load1320 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst100 = fmul double %load1320, 1.000000e+01
   %inst101 = fadd double %inst100, 4.000000e+00
   store double %inst101, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit99
 
 if_body_else98:                                   ; preds = %if_body_else92
-  %load1319 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst102 = icmp eq i8 %load1319, 53
+  %load1321 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst102 = icmp eq i8 %load1321, 53
   br i1 %inst102, label %if_body103, label %if_body_else104
 
 if_body_exit99:                                   ; preds = %if_body_exit105, %if_body97
   br label %if_body_exit93
 
 if_body103:                                       ; preds = %if_body_else98
-  %load1320 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst106 = fmul double %load1320, 1.000000e+01
+  %load1322 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst106 = fmul double %load1322, 1.000000e+01
   %inst107 = fadd double %inst106, 5.000000e+00
   store double %inst107, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit105
 
 if_body_else104:                                  ; preds = %if_body_else98
-  %load1321 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst108 = icmp eq i8 %load1321, 54
+  %load1323 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst108 = icmp eq i8 %load1323, 54
   br i1 %inst108, label %if_body109, label %if_body_else110
 
 if_body_exit105:                                  ; preds = %if_body_exit111, %if_body103
   br label %if_body_exit99
 
 if_body109:                                       ; preds = %if_body_else104
-  %load1322 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst112 = fmul double %load1322, 1.000000e+01
+  %load1324 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst112 = fmul double %load1324, 1.000000e+01
   %inst113 = fadd double %inst112, 6.000000e+00
   store double %inst113, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit111
 
 if_body_else110:                                  ; preds = %if_body_else104
-  %load1323 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst114 = icmp eq i8 %load1323, 55
+  %load1325 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst114 = icmp eq i8 %load1325, 55
   br i1 %inst114, label %if_body115, label %if_body_else116
 
 if_body_exit111:                                  ; preds = %if_body_exit117, %if_body109
   br label %if_body_exit105
 
 if_body115:                                       ; preds = %if_body_else110
-  %load1324 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst118 = fmul double %load1324, 1.000000e+01
+  %load1326 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst118 = fmul double %load1326, 1.000000e+01
   %inst119 = fadd double %inst118, 7.000000e+00
   store double %inst119, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit117
 
 if_body_else116:                                  ; preds = %if_body_else110
-  %load1325 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst120 = icmp eq i8 %load1325, 56
+  %load1327 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst120 = icmp eq i8 %load1327, 56
   br i1 %inst120, label %if_body121, label %if_body_else122
 
 if_body_exit117:                                  ; preds = %if_body_exit123, %if_body115
   br label %if_body_exit111
 
 if_body121:                                       ; preds = %if_body_else116
-  %load1326 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst124 = fmul double %load1326, 1.000000e+01
+  %load1328 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst124 = fmul double %load1328, 1.000000e+01
   %inst125 = fadd double %inst124, 8.000000e+00
   store double %inst125, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit123
 
 if_body_else122:                                  ; preds = %if_body_else116
-  %load1327 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst126 = icmp eq i8 %load1327, 57
+  %load1329 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst126 = icmp eq i8 %load1329, 57
   br i1 %inst126, label %if_body127, label %if_body_else128
 
 if_body_exit123:                                  ; preds = %if_body_exit129, %if_body121
   br label %if_body_exit117
 
 if_body127:                                       ; preds = %if_body_else122
-  %load1328 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
-  %inst130 = fmul double %load1328, 1.000000e+01
+  %load1330 = load double, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
+  %inst130 = fmul double %load1330, 1.000000e+01
   %inst131 = fadd double %inst130, 9.000000e+00
   store double %inst131, ptr %"\D0\B4\D1\80\D0\BE\D0\B1\D0\BD\D0\B0_\D1\87\D0\B0\D1\81\D1\82\D0\B8\D0\BD\D0\B0", align 8
   br label %if_body_exit129
 
 if_body_else128:                                  ; preds = %if_body_else122
-  %load1329 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
-  %inst132 = icmp eq i8 %load1329, 95
+  %load1331 = load i8, ptr %"\D1\81\D0\B8\D0\BC\D0\B2\D0\BE\D0\BB_", align 1
+  %inst132 = icmp eq i8 %load1331, 95
   br i1 %inst132, label %if_body133, label %if_body_else134
 
 if_body_exit129:                                  ; preds = %if_body_exit135, %if_body127
@@ -8196,8 +8201,8 @@ if_body133:                                       ; preds = %if_body_else128
 if_body_else134:                                  ; preds = %if_body_else128
   %inst136 = getelementptr %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct, i32 0, i32 1
   store ptr @96, ptr %inst136, align 8
-  %load1330 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct, align 8
-  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1330, ptr %return1, align 8
+  %load1332 = load %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0", ptr %construct, align 8
+  store %"\D0\9C\D0\B0\D0\9C\D0\B0::\D1\80\D1\96\D0\B7\D0\BD\D0\B5::\D1\87\D0\B8\D1\81\D0\BB\D0\B0::\D0\A0\D0\B5\D0\B7\D1\83\D0\BB\D1\8C\D1\82\D0\B0\D1\82\D0\A0\D0\BE\D0\B7\D0\B1\D0\BE\D1\80\D1\83\D0\94\D0\B5\D1\81\D1\8F\D1\82\D0\BA\D0\BE\D0\B2\D0\BE\D0\B3\D0\BE\D0\A7\D0\B8\D1\81\D0\BB\D0\B0" %load1332, ptr %return1, align 8
   br label %return
   br label %if_body_exit135
 
