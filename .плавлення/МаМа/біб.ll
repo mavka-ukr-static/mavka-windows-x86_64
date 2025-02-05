@@ -1499,7 +1499,7 @@ while_body_exit:                                  ; preds = %while_cond
   %inst70 = getelementptr ptr, ptr %load322, i32 0
   %load323 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
   store ptr %load323, ptr %inst70, align 8
-  %load324 = load i64, ptr %"\D0\BF", align 4
+  %load324 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B2\D0\B8\D1\85\D0\BE\D0\B4\D1\83", align 4
   store i64 %load324, ptr %return1, align 4
   br label %return
   br label %return
