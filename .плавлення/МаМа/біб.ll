@@ -15,6 +15,8 @@ source_filename = "/home/runner/work/mavka/mavka/\D0\9C\D0\B0\D0\9C\D0\B0/\D0\B1
 %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.0" = type { i64, ptr }
 %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\A0\D0\B5\D1\94\D1\81\D1\82\D1\80.11" = type { i64, ptr, ptr }
 %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87.3" = type { i64, ptr }
+%"\D1\82\D0\B5\D0\BA\D1\81\D1\82" = type { ptr, i64 }
+%"\D1\8E8" = type { ptr, i64 }
 %"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\9D\D0\B0\D0\BA\D0\BE\D0\BF\D0\B8\D1\87\D1\83\D0\B2\D0\B0\D1\87" = type { i64, ptr }
 
 @0 = private constant [30 x i8] c"\D0\9F\D0\A0\D0\98\D0\A7\D0\98\D0\9D\D0\90 \D0\A1\D0\9C\D0\95\D0\A0\D0\A2\D0\86: \00"
@@ -3212,6 +3214,278 @@ declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BD\D0\B5\D0\BC\D0\BE\D0\B6\D0\BB\D0\B8\D0\B2\D0\BE_\D0\B2\D0\B8\D0\BA\D0\BE\D0\BD\D0\B0\D1\82\D0\B8_\D1\87\D0\B0\D1\80\D0\BE\D0\B4\D1\96\D1\8E_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B0"(ptr, ptr, ptr)
 
 declare dso_local ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D0\BF\D0\BE\D0\BC\D0\B8\D0\BB\D0\BA\D0\B8_\D0\BF\D1\80\D0\BE\D0\BF\D1\83\D1\89\D0\B5\D0\BD\D0\BE_\D0\B0\D1\80\D0\B3\D1\83\D0\BC\D0\B5\D0\BD\D1\82"(ptr, ptr)
+
+define dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83_\D1\86\D1\96\D0\BB\D1\96"(ptr %0, %"\D1\82\D0\B5\D0\BA\D1\81\D1\82" %1, ptr %2) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %construct = alloca %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", align 8
+  %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F" = alloca %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", align 8
+  %"\D0\BF" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store %"\D1\82\D0\B5\D0\BA\D1\81\D1\82" %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %construct, i32 0, i32 0
+  %inst2 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load514 = load ptr, ptr %"\D0\9C", align 8
+  %load515 = load i64, ptr %inst2, align 4
+  %load516 = load ptr, ptr %"\D0\9C", align 8
+  %load517 = load i64, ptr %inst2, align 4
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %load516, i64 %load517)
+  store ptr %inst3, ptr %inst, align 8
+  %inst4 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %construct, i32 0, i32 1
+  %inst5 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load518 = load i64, ptr %inst5, align 4
+  store i64 %load518, ptr %inst4, align 4
+  %load519 = load %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %construct, align 8
+  store %"\D1\82\D0\B5\D0\BA\D1\81\D1\82" %load519, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", align 8
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit, %while_body_exit
+  %load513 = load i1, ptr %return1, align 1
+  ret i1 %load513
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load520 = load i64, ptr %"\D0\BF", align 4
+  %inst6 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load521 = load i64, ptr %inst6, align 4
+  %inst7 = icmp ult i64 %load520, %load521
+  br i1 %inst7, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %inst8 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", i32 0, i32 0
+  %inst9 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 0
+  %load522 = load ptr, ptr %inst9, align 8
+  %load523 = load i64, ptr %"\D0\BF", align 4
+  %inst10 = getelementptr i8, ptr %load522, i64 %load523
+  %load524 = load ptr, ptr %inst8, align 8
+  %load525 = load i64, ptr %"\D0\BF", align 4
+  %inst11 = getelementptr i8, ptr %load524, i64 %load525
+  %load526 = load i8, ptr %inst10, align 1
+  store i8 %load526, ptr %inst11, align 1
+  %load527 = load i64, ptr %"\D0\BF", align 4
+  %inst12 = add i64 %load527, 1
+  store i64 %inst12, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load528 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst13 = getelementptr %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %load528, i32 0
+  %load529 = load %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", align 8
+  store %"\D1\82\D0\B5\D0\BA\D1\81\D1\82" %load529, ptr %inst13, align 8
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
+
+define dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D1\8E8_\D1\86\D1\96\D0\BB\D1\96"(ptr %0, %"\D1\8E8" %1, ptr %2) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca %"\D1\8E8", align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %construct = alloca %"\D1\8E8", align 8
+  %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F" = alloca %"\D1\8E8", align 8
+  %"\D0\BF" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store %"\D1\8E8" %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst = getelementptr %"\D1\8E8", ptr %construct, i32 0, i32 0
+  %inst2 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load531 = load ptr, ptr %"\D0\9C", align 8
+  %load532 = load i64, ptr %inst2, align 4
+  %load533 = load ptr, ptr %"\D0\9C", align 8
+  %load534 = load i64, ptr %inst2, align 4
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %load533, i64 %load534)
+  store ptr %inst3, ptr %inst, align 8
+  %inst4 = getelementptr %"\D1\8E8", ptr %construct, i32 0, i32 1
+  %inst5 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load535 = load i64, ptr %inst5, align 4
+  store i64 %load535, ptr %inst4, align 4
+  %load536 = load %"\D1\8E8", ptr %construct, align 8
+  store %"\D1\8E8" %load536, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", align 8
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit, %while_body_exit
+  %load530 = load i1, ptr %return1, align 1
+  ret i1 %load530
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load537 = load i64, ptr %"\D0\BF", align 4
+  %inst6 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load538 = load i64, ptr %inst6, align 4
+  %inst7 = icmp ult i64 %load537, %load538
+  br i1 %inst7, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %inst8 = getelementptr %"\D1\8E8", ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", i32 0, i32 0
+  %inst9 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 0
+  %load539 = load ptr, ptr %inst9, align 8
+  %load540 = load i64, ptr %"\D0\BF", align 4
+  %inst10 = getelementptr i8, ptr %load539, i64 %load540
+  %load541 = load ptr, ptr %inst8, align 8
+  %load542 = load i64, ptr %"\D0\BF", align 4
+  %inst11 = getelementptr i8, ptr %load541, i64 %load542
+  %load543 = load i8, ptr %inst10, align 1
+  store i8 %load543, ptr %inst11, align 1
+  %load544 = load i64, ptr %"\D0\BF", align 4
+  %inst12 = add i64 %load544, 1
+  store i64 %inst12, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load545 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst13 = getelementptr %"\D1\8E8", ptr %load545, i32 0
+  %load546 = load %"\D1\8E8", ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", align 8
+  store %"\D1\8E8" %load546, ptr %inst13, align 8
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
+
+define dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D1\8E8_\D1\86\D1\96\D0\BB\D1\96_\D0\B7_\D1\8E8\D1\81\D1\96"(ptr %0, ptr %1, ptr %2) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca ptr, align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca i64, align 8
+  %construct = alloca %"\D1\8E8", align 8
+  %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F" = alloca %"\D1\8E8", align 8
+  %"\D0\BF" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store ptr %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %load548 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %inst = call i64 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\BE\D1\80\D0\B0\D1\85\D1\83\D0\B2\D0\B0\D1\82\D0\B8_\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\AE8"(ptr %load548)
+  store i64 %inst, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  %inst2 = getelementptr %"\D1\8E8", ptr %construct, i32 0, i32 0
+  %load549 = load ptr, ptr %"\D0\9C", align 8
+  %load550 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  %load551 = load ptr, ptr %"\D0\9C", align 8
+  %load552 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %load551, i64 %load552)
+  store ptr %inst3, ptr %inst2, align 8
+  %inst4 = getelementptr %"\D1\8E8", ptr %construct, i32 0, i32 1
+  %load553 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  store i64 %load553, ptr %inst4, align 4
+  %load554 = load %"\D1\8E8", ptr %construct, align 8
+  store %"\D1\8E8" %load554, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", align 8
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit, %while_body_exit
+  %load547 = load i1, ptr %return1, align 1
+  ret i1 %load547
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load555 = load i64, ptr %"\D0\BF", align 4
+  %load556 = load i64, ptr %"\D1\80\D0\BE\D0\B7\D0\BC\D1\96\D1\80_\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 4
+  %inst5 = icmp ult i64 %load555, %load556
+  br i1 %inst5, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %inst6 = getelementptr %"\D1\8E8", ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", i32 0, i32 0
+  %load557 = load ptr, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  %load558 = load i64, ptr %"\D0\BF", align 4
+  %inst7 = getelementptr i8, ptr %load557, i64 %load558
+  %load559 = load ptr, ptr %inst6, align 8
+  %load560 = load i64, ptr %"\D0\BF", align 4
+  %inst8 = getelementptr i8, ptr %load559, i64 %load560
+  %load561 = load i8, ptr %inst7, align 1
+  store i8 %load561, ptr %inst8, align 1
+  %load562 = load i64, ptr %"\D0\BF", align 4
+  %inst9 = add i64 %load562, 1
+  store i64 %inst9, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %load563 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst10 = getelementptr %"\D1\8E8", ptr %load563, i32 0
+  %load564 = load %"\D1\8E8", ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F", align 8
+  store %"\D1\8E8" %load564, ptr %inst10, align 8
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
+
+define dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D1\8E8\D1\81\D1\96_\D1\86\D1\96\D0\BB\D1\96_\D0\B7_\D1\8E8"(ptr %0, %"\D1\8E8" %1, ptr %2) {
+alloca:
+  %return1 = alloca i1, align 1
+  %"\D0\9C" = alloca ptr, align 8
+  %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F" = alloca %"\D1\8E8", align 8
+  %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4" = alloca ptr, align 8
+  %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F_\D1\8E8\D1\81\D1\96" = alloca ptr, align 8
+  %"\D0\BF" = alloca i64, align 8
+  br label %entry
+
+entry:                                            ; preds = %alloca
+  store ptr %0, ptr %"\D0\9C", align 8
+  store %"\D1\8E8" %1, ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", align 8
+  store ptr %2, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load566 = load i64, ptr %inst, align 4
+  %inst2 = add i64 %load566, 1
+  %load567 = load ptr, ptr %"\D0\9C", align 8
+  %load568 = load ptr, ptr %"\D0\9C", align 8
+  %inst3 = call ptr @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8.1"(ptr %load568, i64 %inst2)
+  store ptr %inst3, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F_\D1\8E8\D1\81\D1\96", align 8
+  store i64 0, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+return:                                           ; preds = %while_body_exit, %while_body_exit
+  %load565 = load i1, ptr %return1, align 1
+  ret i1 %load565
+
+while_cond:                                       ; preds = %while_body, %entry
+  %load569 = load i64, ptr %"\D0\BF", align 4
+  %inst4 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load570 = load i64, ptr %inst4, align 4
+  %inst5 = icmp ult i64 %load569, %load570
+  br i1 %inst5, label %while_body, label %while_body_exit
+
+while_body:                                       ; preds = %while_cond
+  %inst6 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 0
+  %load571 = load ptr, ptr %inst6, align 8
+  %load572 = load i64, ptr %"\D0\BF", align 4
+  %inst7 = getelementptr i8, ptr %load571, i64 %load572
+  %load573 = load ptr, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F_\D1\8E8\D1\81\D1\96", align 8
+  %load574 = load i64, ptr %"\D0\BF", align 4
+  %inst8 = getelementptr i8, ptr %load573, i64 %load574
+  %load575 = load i8, ptr %inst7, align 1
+  store i8 %load575, ptr %inst8, align 1
+  %load576 = load i64, ptr %"\D0\BF", align 4
+  %inst9 = add i64 %load576, 1
+  store i64 %inst9, ptr %"\D0\BF", align 4
+  br label %while_cond
+
+while_body_exit:                                  ; preds = %while_cond
+  %inst10 = getelementptr %"\D1\8E8", ptr %"\D0\B7\D0\BD\D0\B0\D1\87\D0\B5\D0\BD\D0\BD\D1\8F", i32 0, i32 1
+  %load577 = load ptr, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F_\D1\8E8\D1\81\D1\96", align 8
+  %load578 = load i64, ptr %inst10, align 4
+  %inst11 = getelementptr i8, ptr %load577, i64 %load578
+  store i8 0, ptr %inst11, align 1
+  %load579 = load ptr, ptr %"\D0\B2\D0\B8\D1\85\D1\96\D0\B4", align 8
+  %inst12 = getelementptr ptr, ptr %load579, i32 0
+  %load580 = load ptr, ptr %"\D0\BA\D0\BE\D0\BF\D1\96\D1\8F_\D1\8E8\D1\81\D1\96", align 8
+  store ptr %load580, ptr %inst12, align 8
+  store i1 true, ptr %return1, align 1
+  br label %return
+  br label %return
+}
 
 define internal i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B8_\D1\80\D1\96\D0\B2\D0\BD\D1\96"(ptr %0, ptr %1, ptr %2) {
 alloca:
