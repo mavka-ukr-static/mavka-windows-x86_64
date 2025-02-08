@@ -3587,6 +3587,8 @@ declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\
 
 declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D1\8E8\D1\81\D1\96_\D1\86\D1\96\D0\BB\D1\96_\D0\B7_\D1\8E8"(ptr, %"\D1\8E8", ptr)
 
+declare dso_local i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\B2\D0\B8\D0\B4\D1\96\D0\BB\D0\B8\D1\82\D0\B8_\D0\BA\D0\BE\D0\BF\D1\96\D1\8E_\D1\8E8\D1\81\D1\96_\D1\86\D1\96\D0\BB\D1\96_\D0\B7_\D1\82\D0\B5\D0\BA\D1\81\D1\82\D1\83"(ptr, %"\D1\82\D0\B5\D0\BA\D1\81\D1\82", ptr)
+
 define internal i1 @"\D0\9C\D0\B0\D0\9C\D0\B0::\D0\BF\D0\B5\D1\80\D0\B5\D0\B2\D1\96\D1\80\D0\B8\D1\82\D0\B8_\D1\87\D0\B8_\D0\BE\D0\B1\CA\BC\D1\94\D0\BA\D1\82\D0\B8_\D1\80\D1\96\D0\B2\D0\BD\D1\96"(ptr %0, ptr %1, ptr %2) {
 alloca:
   %return1 = alloca i1, align 1
