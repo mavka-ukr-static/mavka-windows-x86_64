@@ -35,7 +35,7 @@ extern "C" char* mavka_read_file(char* шлях,
 extern "C" char* mavka_fix_path(char* шлях,
                                 size_t розмір_шляху,
                                 size_t* buffer_size) {
-  std::string path = (char*)шлях;
+  std::string path(шлях, розмір_шляху);
   std::filesystem::path p(path);
   char* fixed_path = strdup(absolute(weakly_canonical(p)).string().c_str());
   *buffer_size = strlen(fixed_path);
@@ -56,8 +56,10 @@ extern "C" void mavka_get_filename_without_extension(unsigned char* шлях,
   *вихід = (unsigned char*)strdup(p.stem().string().c_str());
 }
 
-extern "C" uint64_t mavka_read_from_stdin(char* prefix, char** output) {
-  std::cout << prefix;
+extern "C" uint64_t mavka_read_from_stdin(char* prefix,
+                                          size_t prefix_size,
+                                          char** output) {
+  std::cout << std::string(prefix, prefix_size);
   std::string line;
   if (std::cin.eof()) {
     return 0;
@@ -110,10 +112,11 @@ extern "C" size_t mavka_get_path_directory(unsigned char* path,
 }
 
 extern "C" void* mavka_load_shared_object_function_ptr_from_file(
-    unsigned char* path,
+    char* path,
+    size_t path_size,
     unsigned char* name) {
 #if defined(__linux__)
-  void* dobject = dlopen((char*)path, RTLD_LAZY);
+  void* dobject = dlopen(std::string(path, path_size).c_str(), RTLD_LAZY);
   if (dobject == nullptr) {
     if (auto err = dlerror()) {
       std::cout << err << std::endl;
