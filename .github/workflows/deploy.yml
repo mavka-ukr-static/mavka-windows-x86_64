@@ -27,7 +27,7 @@ jobs:
           export USE_SYSTEMD=no
           export TSIL="ціль"
           OUT="build-$PLATFORM/mavka.exe"
-          READLINE_AVAILABLE=0
+          mkdir -p build-w
           CXX_OPTIONS=(
             "-O3"
             "-municode"
